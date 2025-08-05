@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "HackODS"
+  navbar:
+    logo: ./imagenes/logo_color.png
+    left:
+      - text: Inicio
+        href: index.qmd
+      - text: "Objetivo"
+        href: index.qmd#Bases
+      - text: "Bases"
+        href: index.qmd#Bases
+      - text: "Fechas"
+        href: index.qmd#Fechas
+      - text: "Registro"
+        href: index.qmd#Registro
+      - text: "Premios"
+        href: index.qmd#Premios
+      - text: "Sede"
+        href: index.qmd#Sede
+      - text: "Jurado"
+        href: index.qmd#Jurado
+      - text: "Patrocinadores"
+        href: index.qmd#Patrocinadores
+      - text: "Organizadores"
+        href: index.qmd#Organizadores
+      - text: "Contacto"
+        href: index.qmd#Contacto
+        
+        
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    # toc: true
+
+
+
