@@ -1,19 +1,35 @@
 ---
-title: "HackODS"
+# title: ""
+# title-block-banner: ./imagenes/logo_completo_color.png
+listing:
+    type: grid
+    id: organizadores
+    contents:
+        - "comite/*.qmd"
 ---
+    
+![](imagenes/hackods_unam_logo_min.png){fig-align="center"}
 
 
+*HackODS 2026*: Las historias que cuentan los datos de los ODS en México
 
+Transformando datos abiertos en soluciones sostenibles
+¿Te apasionan los datos, las visualizaciones y el desarrollo sostenible?
+¿Te interesa poner tu talento al servicio de las grandes causas del país?
+¡Este hackatón es para ti!
+HackODS es una experiencia única de innovación y colaboración universitaria que busca convertir los desafíos de los Objetivos de Desarrollo Sostenible (ODS) en narrativas visuales accesibles, usando herramientas tecnológicas de código abierto y datos públicos.
+Durante varias etapas de formación, mentoría y creación, equipos multidisciplinarios diseñarán tableros interactivos que visibilicen el progreso (o retroceso) de México en el cumplimiento de los ODS.
 
 ##  Objetivo {#Objetivo}
 
+ 
 
 ##  Bases {#Bases}
 
 
 ## Fechas {#Fechas}
 
-## Registro {#Registro}
+## Registro {#Registro} 
 
 ## Premios {#Premios}
 
@@ -24,6 +40,9 @@ title: "HackODS"
 ## Patrocinadores {#Patrocinadores}
 
 ## Organizadores {#Organizadores}
+
+::: {#organizadores}
+:::
 
 
 ## Contacto {#Contacto}

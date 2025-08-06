@@ -1,3 +1,14 @@
-version: 5
-font-family-sans-serif: "Montserrat", sans-serif
-headings-font-family: "Kusanagi", sans-serif
+
+typography:
+  fonts:
+    - family: Montserrat
+      source: file
+      files:
+        - fonts/MontserratAlternates-Bold.ttf
+    - family: Kusanagi
+      source: file
+      files:
+        - fonts/Kusanagi.otf
+
+  base:      Montserrat   # body text :contentReference[oaicite:2]{index=2}
+  headings:  Kusanagi     # all heading levels

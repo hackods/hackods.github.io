@@ -4,10 +4,11 @@ project:
 
 website:
   title: "HackODS"
+  search: false
   navbar:
     logo: ./imagenes/logo_color.png
     left:
-      - text: Inicio
+      - text: ''
         href: index.qmd
       - text: "Objetivo"
         href: index.qmd#Bases
@@ -36,7 +37,7 @@ format:
   html:
     theme:
       - cosmo
-      - brand
+    #   - brand
     css: styles.css
     # toc: true
 

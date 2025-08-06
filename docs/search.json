@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "HackODS",
     "section": "",
-    "text": "Objetivo"
+    "text": "HackODS 2026: Las historias que cuentan los datos de los ODS en México\nTransformando datos abiertos en soluciones sostenibles ¿Te apasionan los datos, las visualizaciones y el desarrollo sostenible? ¿Te interesa poner tu talento al servicio de las grandes causas del país? ¡Este hackatón es para ti! HackODS es una experiencia única de innovación y colaboración universitaria que busca convertir los desafíos de los Objetivos de Desarrollo Sostenible (ODS) en narrativas visuales accesibles, usando herramientas tecnológicas de código abierto y datos públicos. Durante varias etapas de formación, mentoría y creación, equipos multidisciplinarios diseñarán tableros interactivos que visibilicen el progreso (o retroceso) de México en el cumplimiento de los ODS."
   },
   {
     "objectID": "about.html",
@@ -137,7 +137,7 @@
     "href": "index.html#Organizadores",
     "title": "HackODS",
     "section": "Organizadores",
-    "text": "Organizadores"
+    "text": "Organizadores\n\n\n\n\n\n\n\n\n\n\nMaricarmen Hernández Cervantes\n\n\nInstituto de Energías Renovables, UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaricarmen Hernández Cervantes\n\n\nInstituto de Energías Renovables, UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaricarmen Hernández Cervantes\n\n\nInstituto de Energías Renovables, UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaricarmen Hernández Cervantes\n\n\nInstituto de Energías Renovables, UNAM\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#Contacto",
@@ -145,5 +145,12 @@
     "title": "HackODS",
     "section": "Contacto",
     "text": "Contacto"
+  },
+  {
+    "objectID": "index.html#Objetivo",
+    "href": "index.html#Objetivo",
+    "title": "HackODS",
+    "section": "Objetivo",
+    "text": "Objetivo"
   }
 ]

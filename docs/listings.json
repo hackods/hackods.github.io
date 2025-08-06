@@ -1,0 +1,15 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/comite/daniela.html",
+      "/comite/guillermo.html",
+      "/comite/luismiguel.html",
+      "/comite/maricarmen.html"
+    ]
+  },
+  {
+    "listing": "/comite/daniela.html",
+    "items": []
+  }
+]

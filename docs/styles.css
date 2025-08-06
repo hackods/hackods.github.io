@@ -1,1 +1,104 @@
-/* css styles */
+/* -------------------------------
+   Fuentes locales (opcional)
+   ------------------------------- */
+@font-face {
+  font-family: 'Kusanagi';
+  src: url('fonts/Kusanagi.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/MontserratAlternates-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* -------------------------------
+   Tipografía de la navbar
+   ------------------------------- */
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-family: var(--bs-heading-font-family);
+}
+
+/* -------------------------------
+   Fondo y colores base
+   ------------------------------- */
+.navbar {
+  background-color: #ffffff !important;
+  transition: background-color .25s ease;
+}
+
+/* Anula cualquier fondo del tema en todos los estados */
+.navbar .nav-link,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link:active,
+.navbar .nav-link.show,
+.navbar .nav-link.active,
+.navbar .nav-item:hover > .nav-link {
+  background-color: transparent !important;
+}
+
+/* Color base del texto */
+.navbar .navbar-nav .nav-link {
+  color: #333 !important;
+  transition: color .25s ease;
+}
+
+/* -------------------------------
+   Contenedor del efecto
+   ------------------------------- */
+.navbar .navbar-nav .nav-link {
+  position: relative;     /* para posicionar ::after */
+  display: inline-block;  /* caja propia para la "pill" */
+  padding: .5rem 1rem;
+  overflow: hidden;
+  border-radius: 999px;   /* mantiene forma redondeada */
+  z-index: 0;             /* crea contexto de apilamiento */
+}
+
+/* Asegura que el texto quede encima de la pill */
+.navbar .navbar-nav .nav-link .menu-text {
+  position: relative;
+  z-index: 1;
+  transition: color .25s ease;
+}
+
+/* -------------------------------
+   La "pill" animada (detrás del texto)
+   ------------------------------- */
+.navbar .navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  inset: .15rem .35rem;     /* reduce un poco la pill dentro del link */
+  background-color: #5d5d5d;
+  border-radius: 999px;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform .25s ease;
+  z-index: -1;              /* detrás del texto pero dentro del link */
+}
+
+/* Hover/Focus: expandir pill + texto blanco */
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+  color: #fff !important;
+}
+.navbar .navbar-nav .nav-link:hover .menu-text,
+.navbar .navbar-nav .nav-link:focus .menu-text {
+  color: #fff !important;
+}
+.navbar .navbar-nav .nav-link:hover::after,
+.navbar .navbar-nav .nav-link:focus::after {
+  transform: scaleX(1);
+}
+
+/* (Opcional) Deja el activo con pill permanente */
+.navbar .navbar-nav .nav-link.active {
+  color: #fff !important;
+}
+.navbar .navbar-nav .nav-link.active::after {
+  transform: scaleX(1);
+}
