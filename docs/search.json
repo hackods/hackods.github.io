@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "HackODS",
-    "section": "",
-    "text": "HackODS 2026: Las historias que cuentan los datos de los ODS en México\nTransformando datos abiertos en soluciones sostenibles ¿Te apasionan los datos, las visualizaciones y el desarrollo sostenible? ¿Te interesa poner tu talento al servicio de las grandes causas del país? ¡Este hackatón es para ti! HackODS es una experiencia única de innovación y colaboración universitaria que busca convertir los desafíos de los Objetivos de Desarrollo Sostenible (ODS) en narrativas visuales accesibles, usando herramientas tecnológicas de código abierto y datos públicos. Durante varias etapas de formación, mentoría y creación, equipos multidisciplinarios diseñarán tableros interactivos que visibilicen el progreso (o retroceso) de México en el cumplimiento de los ODS."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -14,81 +7,25 @@
     "text": "About this site"
   },
   {
-    "objectID": "index.html#inscripciones",
-    "href": "index.html#inscripciones",
-    "title": "HackODS",
-    "section": "Inscripciones",
-    "text": "Inscripciones"
+    "objectID": "comite/daniela.html",
+    "href": "comite/daniela.html",
+    "title": "Maricarmen Hernández Cervantes",
+    "section": "",
+    "text": "No matching items"
   },
   {
-    "objectID": "index.html#bases",
-    "href": "index.html#bases",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "HackODS",
-    "section": "Bases",
-    "text": "Bases"
+    "section": "",
+    "text": "HackODS 2026: Las historias que cuentan los datos de los ODS en México\nTransformando datos abiertos en soluciones sostenibles ¿Te apasionan los datos, las visualizaciones y el desarrollo sostenible? ¿Te interesa poner tu talento al servicio de las grandes causas del país? ¡Este hackatón es para ti! HackODS es una experiencia única de innovación y colaboración universitaria que busca convertir los desafíos de los Objetivos de Desarrollo Sostenible (ODS) en narrativas visuales accesibles, usando herramientas tecnológicas de código abierto y datos públicos. Durante varias etapas de formación, mentoría y creación, equipos multidisciplinarios diseñarán tableros interactivos que visibilicen el progreso (o retroceso) de México en el cumplimiento de los ODS."
   },
   {
-    "objectID": "index.html#fechas",
-    "href": "index.html#fechas",
+    "objectID": "index.html#Objetivo",
+    "href": "index.html#Objetivo",
     "title": "HackODS",
-    "section": "Fechas",
-    "text": "Fechas"
-  },
-  {
-    "objectID": "index.html#registro",
-    "href": "index.html#registro",
-    "title": "HackODS",
-    "section": "Registro",
-    "text": "Registro"
-  },
-  {
-    "objectID": "index.html#premios",
-    "href": "index.html#premios",
-    "title": "HackODS",
-    "section": "Premios",
-    "text": "Premios"
-  },
-  {
-    "objectID": "index.html#sede",
-    "href": "index.html#sede",
-    "title": "HackODS",
-    "section": "Sede",
-    "text": "Sede"
-  },
-  {
-    "objectID": "index.html#jurado",
-    "href": "index.html#jurado",
-    "title": "HackODS",
-    "section": "Jurado",
-    "text": "Jurado"
-  },
-  {
-    "objectID": "index.html#patrocinadores",
-    "href": "index.html#patrocinadores",
-    "title": "HackODS",
-    "section": "Patrocinadores",
-    "text": "Patrocinadores"
-  },
-  {
-    "objectID": "index.html#organizadores",
-    "href": "index.html#organizadores",
-    "title": "HackODS",
-    "section": "Organizadores",
-    "text": "Organizadores"
-  },
-  {
-    "objectID": "index.html#contacto",
-    "href": "index.html#contacto",
-    "title": "HackODS",
-    "section": "Contacto",
-    "text": "Contacto"
-  },
-  {
-    "objectID": "index.html#Patrocinadores",
-    "href": "index.html#Patrocinadores",
-    "title": "HackODS",
-    "section": "Patrocinadores",
-    "text": "Patrocinadores"
+    "section": "Objetivo",
+    "text": "Objetivo"
   },
   {
     "objectID": "index.html#Bases",
@@ -133,6 +70,13 @@
     "text": "Jurado"
   },
   {
+    "objectID": "index.html#Patrocinadores",
+    "href": "index.html#Patrocinadores",
+    "title": "HackODS",
+    "section": "Patrocinadores",
+    "text": "Patrocinadores"
+  },
+  {
     "objectID": "index.html#Organizadores",
     "href": "index.html#Organizadores",
     "title": "HackODS",
@@ -145,12 +89,5 @@
     "title": "HackODS",
     "section": "Contacto",
     "text": "Contacto"
-  },
-  {
-    "objectID": "index.html#Objetivo",
-    "href": "index.html#Objetivo",
-    "title": "HackODS",
-    "section": "Objetivo",
-    "text": "Objetivo"
   }
 ]

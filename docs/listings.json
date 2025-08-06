@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/comite/daniela.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/comite/daniela.html",
@@ -7,9 +11,5 @@
       "/comite/luismiguel.html",
       "/comite/maricarmen.html"
     ]
-  },
-  {
-    "listing": "/comite/daniela.html",
-    "items": []
   }
 ]
