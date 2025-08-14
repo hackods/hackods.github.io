@@ -10,9 +10,9 @@ listing:
     
 ![](imagenes/hackods_unam_logo_min.png){fig-align="center"}
 
-
+ 
 # HackODS {#inicio}
-
+   
 
 **Transformando datos abiertos en soluciones sostenibles**
 
