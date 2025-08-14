@@ -9,8 +9,8 @@ website:
   navbar:
     logo: ./imagenes/logo_color.png
     left:
-      - text: "Inicio"
-        href: index.qmd#inicio
+      - text: "¿Qué es?"
+        href: index.qmd#hackods
       - text: "Convocatoria"
         href: index.qmd#convocatoria
       - text: "Cronograma"
