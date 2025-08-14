@@ -73,7 +73,7 @@
   content: "";
   position: absolute;
   inset: .15rem .35rem;     /* reduce un poco la pill dentro del link */
-  background-color: #5d5d5d;
+  background-color: #e9a201; /* color inspirado en logo_completo_color.png */
   border-radius: 999px;
   transform: scaleX(0);
   transform-origin: center;
