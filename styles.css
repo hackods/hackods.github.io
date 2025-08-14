@@ -73,13 +73,25 @@
   content: "";
   position: absolute;
   inset: .15rem .35rem;     /* reduce un poco la pill dentro del link */
-  background-color: #5d5d5d;
+  background-color: var(--pill-color, #e9a201); /* color por defecto inspirado en logo */
   border-radius: 999px;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform .25s ease;
   z-index: -1;              /* detrás del texto pero dentro del link */
 }
+
+/* Colores individuales por item */
+.navbar .navbar-nav:nth-of-type(1) .nav-item:nth-child(1) { --pill-color: #E5243B; }
+.navbar .navbar-nav:nth-of-type(1) .nav-item:nth-child(2) { --pill-color: #DDA63A; }
+.navbar .navbar-nav:nth-of-type(1) .nav-item:nth-child(3) { --pill-color: #4C9F38; }
+.navbar .navbar-nav:nth-of-type(1) .nav-item:nth-child(4) { --pill-color: #C5192D; }
+.navbar .navbar-nav:nth-of-type(1) .nav-item:nth-child(5) { --pill-color: #FF3A21; }
+.navbar .navbar-nav:nth-of-type(1) .nav-item:nth-child(6) { --pill-color: #26BDE2; }
+.navbar .navbar-nav:nth-of-type(1) .nav-item:nth-child(7) { --pill-color: #FCC30B; }
+.navbar .navbar-nav:nth-of-type(1) .nav-item:nth-child(8) { --pill-color: #A21942; }
+.navbar .navbar-nav:nth-of-type(1) .nav-item:nth-child(9) { --pill-color: #FD6925; }
+.navbar .navbar-nav:nth-of-type(2) .nav-item:nth-child(1) { --pill-color: #DD1367; }
 
 /* Hover/Focus: expandir pill + texto blanco */
 .navbar .navbar-nav .nav-link:hover,
