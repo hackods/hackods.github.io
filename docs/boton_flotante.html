@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>HackODS</title>
+<title>boton_flotante – HackODS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,8 +25,6 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -53,65 +51,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-organizadores .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-organizadores'] = new List('listing-organizadores', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -195,276 +135,6 @@ window.Quarto = {
 
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="imagenes/hackods_unam_logo_min.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<section id="inicio" class="level1">
-<h1>HackODS</h1>
-<p><strong>Transformando datos abiertos en soluciones sostenibles</strong></p>
-<p>¿Te apasionan los datos, las visualizaciones y el desarrollo sostenible?<br>
-¿Te interesa poner tu talento al servicio de las grandes causas del país?<br>
-<strong>¡Este hackatón es para ti!</strong></p>
-<p>HackODS es una experiencia única de innovación y colaboración universitaria que busca convertir los desafíos de los Objetivos de Desarrollo Sostenible (ODS) en narrativas visuales accesibles, usando herramientas tecnológicas de código abierto y datos públicos.</p>
-<p>Durante varias etapas de formación, mentoría y creación, equipos multidisciplinarios diseñarán tableros interactivos que visibilicen el progreso (o retroceso) de México en el cumplimiento de los ODS.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Tip:</strong> Usa el menú superior para saltar a cada sección.</p>
-</div>
-</div>
-<hr>
-<section id="convocatoria" class="level2">
-<h2 class="anchored" data-anchor-id="convocatoria">Convocatoria</h2>
-<section id="objetivo-general" class="level3">
-<h3 class="anchored" data-anchor-id="objetivo-general">Objetivo General</h3>
-<p>Impulsar la creación de tableros interactivos e historias visuales basadas en datos abiertos, que promuevan soluciones informadas e innovadoras para los retos del desarrollo sostenible en México.</p>
-</section>
-<section id="objetivos-específicos" class="level3">
-<h3 class="anchored" data-anchor-id="objetivos-específicos">Objetivos Específicos</h3>
-<ul>
-<li>Fomentar el pensamiento crítico y creativo a través del análisis y visualización de datos.</li>
-<li>Potenciar el uso de tecnologías abiertas para el bien común.</li>
-<li>Generar redes de colaboración entre estudiantes de distintas disciplinas.</li>
-<li>Visibilizar las brechas y avances en torno a los ODS a nivel nacional y regional.</li>
-</ul>
-</section>
-<section id="bases-de-participación" class="level3">
-<h3 class="anchored" data-anchor-id="bases-de-participación">Bases de Participación</h3>
-<section id="quiénes-pueden-participar" class="level4">
-<h4 class="anchored" data-anchor-id="quiénes-pueden-participar">1) ¿Quiénes pueden participar?</h4>
-<ul>
-<li>Estudiantes con inscripción vigente en licenciatura, maestría o doctorado de la UNAM.</li>
-<li>Equipos de tres integrantes como máximo, con al menos un <strong>hombre</strong> y una <strong>mujer</strong>.</li>
-<li>Se recomienda la integración de equipos multidisciplinarios (por ejemplo: ingeniería, ciencias sociales, diseño, matemáticas, comunicación).</li>
-</ul>
-</section>
-<section id="registro" class="level4">
-<h4 class="anchored" data-anchor-id="registro">2) Registro</h4>
-<ul>
-<li>Llena el formulario en: <strong>[Agregar enlace de inscripción]</strong></li>
-<li>Adjunta comprobante de inscripción vigente de cada integrante.</li>
-<li>Cuota de recuperación: <strong>$500 MXN por equipo</strong> (transferencia bancaria o plataforma indicada).</li>
-</ul>
-</section>
-<section id="categoría" class="level4">
-<h4 class="anchored" data-anchor-id="categoría">3) Categoría</h4>
-<ul>
-<li><strong>Categoría única:</strong> Todos los equipos competirán bajo los mismos criterios de evaluación.</li>
-</ul>
-<hr>
-</section>
-</section>
-</section>
-<section id="cronograma" class="level2">
-<h2 class="anchored" data-anchor-id="cronograma">Cronograma General</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 36%">
-<col style="width: 20%">
-<col style="width: 43%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Evento</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Detalles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Publicación de la convocatoria</td>
-<td style="text-align: left;">12 de enero de 2026</td>
-<td style="text-align: left;">Disponible en <strong>[Agregar sitio web oficial]</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Apertura del registro</td>
-<td style="text-align: left;">12 de enero de 2026</td>
-<td style="text-align: left;">Enlace activo en plataforma oficial</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Evento híbrido transmitido y formación de equipos</td>
-<td style="text-align: left;">5 de febrero de 2026</td>
-<td style="text-align: left;">Sede: <strong>[Agregar sede]</strong> – Horario: <strong>[Agregar hora]</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Cierre del registro</td>
-<td style="text-align: left;">13 de febrero de 2026</td>
-<td style="text-align: left;">Hora límite: <strong>18:00 hrs</strong></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Capacitación y mentorías</td>
-<td style="text-align: left;">16 de febrero – mayo</td>
-<td style="text-align: left;">Talleres en línea: ODS, datos abiertos, UX/UI</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Evento final y premiación</td>
-<td style="text-align: left;">25 y 26 de junio de 2026</td>
-<td style="text-align: left;">Presentación y evaluación de proyectos</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="criterios" class="level2">
-<h2 class="anchored" data-anchor-id="criterios">Criterios de Evaluación</h2>
-<p>Los proyectos serán evaluados por un jurado experto con base en los siguientes rubros:</p>
-<ul>
-<li><strong>Calidad técnica:</strong> uso correcto y eficaz de herramientas y datos.</li>
-<li><strong>Creatividad:</strong> originalidad en la visualización y narrativa.</li>
-<li><strong>Impacto:</strong> relevancia del tablero para visibilizar problemáticas reales.</li>
-<li><strong>Accesibilidad y diseño:</strong> claridad, inclusión y facilidad de interpretación.</li>
-</ul>
-<hr>
-</section>
-<section id="premios" class="level2">
-<h2 class="anchored" data-anchor-id="premios">Premios</h2>
-<ul>
-<li><strong>1er. lugar:</strong> Tres laptops Dell XPS 13 (valor aproximado $25,000 MXN c/u).</li>
-<li><strong>2do. lugar:</strong> Tres kits Raspberry Pi Modelo 5, 8GB RAM.</li>
-<li><strong>3er. lugar:</strong> Tres Chromebooks Acer Spin 311.</li>
-</ul>
-<p><strong>Además:</strong> - Publicación de proyectos destacados en los portales oficiales de la UNAM. - Constancias de participación para todos los equipos finalistas.</p>
-<hr>
-</section>
-<section id="jurado" class="level2">
-<h2 class="anchored" data-anchor-id="jurado">Jurado</h2>
-<p>El panel evaluador estará conformado por especialistas de alto nivel en: - Ciencia de datos - Desarrollo sostenible - Visualización y diseño de información</p>
-<p><strong>Ejemplos:</strong> - Dr.&nbsp;Juan Pérez, Instituto de Matemáticas, UNAM - Dra. Ana Gómez, Programa Universitario de Medio Ambiente, UNAM - Mtro. Luis Ramírez, Facultad de Artes y Diseño, UNAM</p>
-<blockquote class="blockquote">
-<p>El fallo del jurado será <strong>definitivo e inapelable</strong>.</p>
-</blockquote>
-<hr>
-</section>
-<section id="descalificacion" class="level2">
-<h2 class="anchored" data-anchor-id="descalificacion">Motivos de Descalificación</h2>
-<ul>
-<li>Incumplimiento de los requisitos establecidos en la convocatoria.</li>
-<li>Plagio o uso indebido de datos no verificados.</li>
-<li>Conductas contrarias a la ética (discriminación, fraude, etc.).</li>
-<li>Inasistencia injustificada al evento final.</li>
-</ul>
-<hr>
-</section>
-<section id="entrega" class="level2">
-<h2 class="anchored" data-anchor-id="entrega">Premiación</h2>
-<p><strong>20–21 de noviembre de 2025</strong><br>
-Sede: <strong>[Auditorio del Instituto de Geofísica, CU]</strong></p>
-<p><strong>Requisitos:</strong> - Presentar identificación oficial (INE, pasaporte o credencial UNAM). - Asistir personalmente o con representante designado.</p>
-<hr>
-</section>
-<section id="contacto" class="level2">
-<h2 class="anchored" data-anchor-id="contacto">Contacto</h2>
-<p>¿Tienes dudas o necesitas apoyo técnico?<br>
-Escríbenos a: <strong>hackods@ier.unam.mx</strong></p>
-<p>Síguenos en redes: <strong><span class="citation" data-cites="HackODS_UNAM">@HackODS_UNAM</span></strong> (Twitter, Instagram)</p>
-<hr>
-</section>
-<section id="cta" class="level2">
-<h2 class="anchored" data-anchor-id="cta">Llamado a la Acción</h2>
-<p><strong>¡Haz que los datos hablen!</strong><br>
-Transforma estadísticas en soluciones, conecta ideas y crea impacto real.<br>
-<strong>Inscríbete y sé parte del cambio.</strong> → <a href="#registro">Ir al registro</a></p>
-</section>
-<section id="Organizadores" class="level2">
-<h2 class="anchored" data-anchor-id="Organizadores">Organizadores</h2>
-<div id="listing-organizadores" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1755135392585" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./comite/daniela.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./comite/maricarmen.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Maricarmen Hernández Cervantes
-</h5>
-<div class="card-text listing-description delink">
-<p>Instituto de Energías Renovables, UNAM</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1755135392585" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./comite/guillermo.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./comite/maricarmen.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Maricarmen Hernández Cervantes
-</h5>
-<div class="card-text listing-description delink">
-<p>Instituto de Energías Renovables, UNAM</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1755135392586" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./comite/luismiguel.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./comite/maricarmen.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Maricarmen Hernández Cervantes
-</h5>
-<div class="card-text listing-description delink">
-<p>Instituto de Energías Renovables, UNAM</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1755135392586" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./comite/maricarmen.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./comite/maricarmen.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Maricarmen Hernández Cervantes
-</h5>
-<div class="card-text listing-description delink">
-<p>Instituto de Energías Renovables, UNAM</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
 <style>
 #btn-inscribete {
   position: fixed;
@@ -485,14 +155,8 @@ Maricarmen Hernández Cervantes
 }
 </style>
 <p><a id="btn-inscribete" href="#registro">📋 Inscríbete</a></p>
-</section>
-<section id="Contacto" class="level2">
-<h2 class="anchored" data-anchor-id="Contacto">Contacto</h2>
 
 
-
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

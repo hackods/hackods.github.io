@@ -143,5 +143,7 @@ Transforma estadísticas en soluciones, conecta ideas y crea impacto real.
 ::: {#organizadores}
 :::
 
+{{< include boton_flotante.qmd >}}
+
 
 ## Contacto {#Contacto}
