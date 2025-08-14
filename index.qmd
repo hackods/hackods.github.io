@@ -11,33 +11,132 @@ listing:
 ![](imagenes/hackods_unam_logo_min.png){fig-align="center"}
 
 
-*HackODS 2026*: Las historias que cuentan los datos de los ODS en México
+# HackODS {#inicio}
 
-Transformando datos abiertos en soluciones sostenibles
-¿Te apasionan los datos, las visualizaciones y el desarrollo sostenible?
-¿Te interesa poner tu talento al servicio de las grandes causas del país?
-¡Este hackatón es para ti!
+
+**Transformando datos abiertos en soluciones sostenibles**
+
+¿Te apasionan los datos, las visualizaciones y el desarrollo sostenible?  
+¿Te interesa poner tu talento al servicio de las grandes causas del país?  
+**¡Este hackatón es para ti!**
+
 HackODS es una experiencia única de innovación y colaboración universitaria que busca convertir los desafíos de los Objetivos de Desarrollo Sostenible (ODS) en narrativas visuales accesibles, usando herramientas tecnológicas de código abierto y datos públicos.
+
 Durante varias etapas de formación, mentoría y creación, equipos multidisciplinarios diseñarán tableros interactivos que visibilicen el progreso (o retroceso) de México en el cumplimiento de los ODS.
 
-##  Objetivo {#Objetivo}
+::: callout-note
+**Tip:** Usa el menú superior para saltar a cada sección.  
+:::
 
- 
+---
 
-##  Bases {#Bases}
+## Convocatoria {#convocatoria}
 
+### Objetivo General
+Impulsar la creación de tableros interactivos e historias visuales basadas en datos abiertos, que promuevan soluciones informadas e innovadoras para los retos del desarrollo sostenible en México.
 
-## Fechas {#Fechas}
+### Objetivos Específicos
+- Fomentar el pensamiento crítico y creativo a través del análisis y visualización de datos.
+- Potenciar el uso de tecnologías abiertas para el bien común.
+- Generar redes de colaboración entre estudiantes de distintas disciplinas.
+- Visibilizar las brechas y avances en torno a los ODS a nivel nacional y regional.
 
-## Registro {#Registro} 
+### Bases de Participación
 
-## Premios {#Premios}
+#### 1) ¿Quiénes pueden participar?
+- Estudiantes con inscripción vigente en licenciatura, maestría o doctorado de la UNAM.
+- Equipos de tres integrantes como máximo, con al menos un **hombre** y una **mujer**.
+- Se recomienda la integración de equipos multidisciplinarios (por ejemplo: ingeniería, ciencias sociales, diseño, matemáticas, comunicación).
 
-## Sede {#Sede}
+#### 2) Registro {#registro}
+- Llena el formulario en: **[Agregar enlace de inscripción]**
+- Adjunta comprobante de inscripción vigente de cada integrante.
+- Cuota de recuperación: **$500 MXN por equipo** (transferencia bancaria o plataforma indicada).
 
-## Jurado {#Jurado}
+#### 3) Categoría
+- **Categoría única:** Todos los equipos competirán bajo los mismos criterios de evaluación.
 
-## Patrocinadores {#Patrocinadores}
+---
+
+## Cronograma General {#cronograma}
+
+| Evento                                         | Fecha                    | Detalles                                               |
+|:-----------------------------------------------|:-------------------------|:-------------------------------------------------------|
+| Publicación de la convocatoria                 | 12 de enero de 2026      | Disponible en **[Agregar sitio web oficial]**          |
+| Apertura del registro                          | 12 de enero de 2026      | Enlace activo en plataforma oficial                    |
+| Evento híbrido transmitido y formación de equipos | 5 de febrero de 2026   | Sede: **[Agregar sede]** – Horario: **[Agregar hora]** |
+| Cierre del registro                            | 13 de febrero de 2026    | Hora límite: **18:00 hrs**                             |
+| Capacitación y mentorías                       | 16 de febrero -- mayo    | Talleres en línea: ODS, datos abiertos, UX/UI          |
+| Evento final y premiación                      | 25 y 26 de junio de 2026 | Presentación y evaluación de proyectos                 |
+
+---
+
+## Criterios de Evaluación {#criterios}
+Los proyectos serán evaluados por un jurado experto con base en los siguientes rubros:
+
+- **Calidad técnica:** uso correcto y eficaz de herramientas y datos.
+- **Creatividad:** originalidad en la visualización y narrativa.
+- **Impacto:** relevancia del tablero para visibilizar problemáticas reales.
+- **Accesibilidad y diseño:** claridad, inclusión y facilidad de interpretación.
+
+---
+
+## Premios {#premios}
+- **1er. lugar:** Tres laptops Dell XPS 13 (valor aproximado $25,000 MXN c/u).
+- **2do. lugar:** Tres kits Raspberry Pi Modelo 5, 8GB RAM.
+- **3er. lugar:** Tres Chromebooks Acer Spin 311.
+
+**Además:**
+- Publicación de proyectos destacados en los portales oficiales de la UNAM.
+- Constancias de participación para todos los equipos finalistas.
+
+---
+
+## Jurado {#jurado}
+El panel evaluador estará conformado por especialistas de alto nivel en:
+- Ciencia de datos
+- Desarrollo sostenible
+- Visualización y diseño de información
+
+**Ejemplos:**
+- Dr. Juan Pérez, Instituto de Matemáticas, UNAM
+- Dra. Ana Gómez, Programa Universitario de Medio Ambiente, UNAM
+- Mtro. Luis Ramírez, Facultad de Artes y Diseño, UNAM
+
+> El fallo del jurado será **definitivo e inapelable**.
+
+---
+
+## Motivos de Descalificación {#descalificacion}
+- Incumplimiento de los requisitos establecidos en la convocatoria.
+- Plagio o uso indebido de datos no verificados.
+- Conductas contrarias a la ética (discriminación, fraude, etc.).
+- Inasistencia injustificada al evento final.
+
+---
+
+## Premiación {#entrega}
+**20–21 de noviembre de 2025**  
+Sede: **[Auditorio del Instituto de Geofísica, CU]**
+
+**Requisitos:**
+- Presentar identificación oficial (INE, pasaporte o credencial UNAM).
+- Asistir personalmente o con representante designado.
+
+---
+
+## Contacto {#contacto}
+¿Tienes dudas o necesitas apoyo técnico?  
+Escríbenos a: **hackods@ier.unam.mx**
+
+Síguenos en redes: **@HackODS_UNAM** (Twitter, Instagram)
+
+---
+
+## Llamado a la Acción {#cta}
+**¡Haz que los datos hablen!**  
+Transforma estadísticas en soluciones, conecta ideas y crea impacto real.  
+**Inscríbete y sé parte del cambio.** → [Ir al registro](#registro)
 
 ## Organizadores {#Organizadores}
 

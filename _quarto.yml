@@ -8,28 +8,28 @@ website:
   navbar:
     logo: ./imagenes/logo_color.png
     left:
-      - text: ''
-        href: index.qmd
-      - text: "Objetivo"
-        href: index.qmd#Bases
-      - text: "Bases"
-        href: index.qmd#Bases
-      - text: "Fechas"
-        href: index.qmd#Fechas
-      - text: "Registro"
-        href: index.qmd#Registro
+      - text: "Inicio"
+        href: index.qmd#inicio
+      - text: "Convocatoria"
+        href: index.qmd#convocatoria
+      - text: "Cronograma"
+        href: index.qmd#cronograma
+      - text: "Criterios"
+        href: index.qmd#criterios
       - text: "Premios"
-        href: index.qmd#Premios
-      - text: "Sede"
-        href: index.qmd#Sede
+        href: index.qmd#premios
       - text: "Jurado"
-        href: index.qmd#Jurado
-      - text: "Patrocinadores"
-        href: index.qmd#Patrocinadores
-      - text: "Organizadores"
-        href: index.qmd#Organizadores
+        href: index.qmd#jurado
+      - text: "Descalificación"
+        href: index.qmd#descalificacion
+      - text: "Premiación"
+        href: index.qmd#entrega
       - text: "Contacto"
-        href: index.qmd#Contacto
+        href: index.qmd#contacto
+    right:
+      - text: "Inscríbete"
+        href: index.qmd#registro
+
         
         
 
