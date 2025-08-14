@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+lang: es
 
 website:
   title: "HackODS"

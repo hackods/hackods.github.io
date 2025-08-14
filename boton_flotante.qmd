@@ -1,5 +1,4 @@
 
-```{=html}
 <style>
 #btn-inscribete {
   position: fixed;
