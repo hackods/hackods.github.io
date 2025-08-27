@@ -1,11 +1,11 @@
 ---
 # title: ""
 # title-block-banner: ./imagenes/logo_completo_color.png
-listing:
-    type: grid
-    id: organizadores
-    contents:
-        - "comite/*.qmd"
+# listing:
+#     type: grid
+#     id: organizadores
+#     contents:
+#         - "comite/*.qmd"
 ---
     
 ![](imagenes/logo_completo_color.png){fig-align="center"}
@@ -138,8 +138,22 @@ Transforma estadísticas en soluciones, conecta ideas y crea impacto real.
 
 ## Organizadores {#Organizadores}
 
-::: {#organizadores}
-:::
+
+<!-- ::: {#organizadores}
+::: -->
+ 
+<div class="imagecarousel">
+
+  <img src="./comite/maricarmen.jpeg" alt="" />
+
+  <img src="./comite/maricarmen.jpeg" alt="" />
+  
+  <img src="./comite/maricarmen.jpeg" alt="" />
+  
+  <img src="./comite/maricarmen.jpeg" alt="" />
+
+
+</div>
 
 {{< include boton_flotante.qmd >}}
 

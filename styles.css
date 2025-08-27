@@ -14,6 +14,7 @@
   font-style: normal;
 }
 
+
 /* -------------------------------
    Tipografía de la navbar
    ------------------------------- */
@@ -113,4 +114,78 @@
 }
 .navbar .navbar-nav .nav-link.active::after {
   transform: scaleX(1);
+}
+
+
+/* .container{
+  width: 100%;
+} */
+
+/* @media (min-width: 1000px) {
+  .container {
+    width: 100%; 
+  }
+} */
+
+.container {
+  max-width: 1140px;        /* o 1320px, a tu gusto */
+  padding-inline: var(--bs-gutter-x, .75rem);
+  margin-inline: auto;
+}
+
+.divisor{
+  height:100px;
+  width: auto;
+}
+
+#btn-inscribete{
+      background-color: #2761e3;
+}
+
+#btn-inscribete:hover {
+    background-color: #5a96ff;
+}
+
+h2{
+  color:#5a96ff;
+}
+
+h3, h4 {
+  font-family: Montserrat;
+}
+
+p, li{
+  color: #666666;
+}
+
+.frases{
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.imagecarousel {
+  position: relative;
+  height: 250px !important;
+  margin-bottom: 30px;
+  display: flex;
+  width: fit-content;
+  gap: 20px;
+}
+
+.imagecarousel img {
+  margin: 0px 0px;
+  height: 250px;;
+}
+
+.imagecarousel {
+  animation: bannermove 30s linear infinite;
+}
+
+@keyframes bannermove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
