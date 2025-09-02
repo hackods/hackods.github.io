@@ -11,7 +11,7 @@
 ![](imagenes/logo_completo_color.png){fig-align="center"}
 
  
-# ¿Qué es HackODS? {#hackods}
+## ¿Qué es HackODS? {#hackods}
    
 
 Transformando datos abiertos en soluciones sostenibles

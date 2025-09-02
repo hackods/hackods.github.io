@@ -4,32 +4,32 @@ project:
 lang: es
 
 website:
-  title: "HackODS"
+  title: ""
   search: false
   navbar:
     logo: ./imagenes/logo_color.png
     left:
-      - text: "¿Qué es?"
-        href: index.qmd#hackods
+      # - text: "¿Qué es?"
+      #   href: index.qmd#hackods
       - text: "Convocatoria"
         href: index.qmd#convocatoria
       - text: "Cronograma"
         href: index.qmd#cronograma
-      - text: "Criterios"
-        href: index.qmd#criterios
+      # - text: "Criterios"
+      #   href: index.qmd#criterios
       - text: "Premios"
         href: index.qmd#premios
-      - text: "Jurado"
-        href: index.qmd#jurado
-      - text: "Descalificación"
-        href: index.qmd#descalificacion
-      - text: "Premiación"
-        href: index.qmd#entrega
+      # - text: "Jurado"
+      #   href: index.qmd#jurado
+      # - text: "Descalificación"
+      #   href: index.qmd#descalificacion
+      # - text: "Premiación"
+      #   href: index.qmd#entrega
       - text: "Contacto"
         href: index.qmd#contacto
-    right:
-      - text: "Inscríbete"
-        href: index.qmd#registro
+    # right:
+    #   - text: "Inscríbete"
+    #     href: index.qmd#registro
 
         
         
