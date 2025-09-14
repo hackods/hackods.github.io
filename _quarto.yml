@@ -39,7 +39,11 @@ website:
       - text: "Copyright 2025" 
     center:  
       - icon: instagram
-        href: https://instragram.com/HackODS_UNAM 
+        href: https://instagram.com/ierunam
+        aria-label: Instagram HackODS_UNAM
+      - icon: instagram
+        href: https://instagram.com/geofisica.unam
+        aria-label: Instagram Geofísica
       - icon: twitter
         href: https://twitter.com/HackODS_UNAM 
         
@@ -57,6 +61,5 @@ format:
     css: styles.css
 
     # toc: true
-
 
 
