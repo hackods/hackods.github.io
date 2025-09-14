@@ -7,7 +7,7 @@ website:
   title: ""
   search: false
   navbar:
-    logo: ./imagenes/logo_color.png
+    logo: ./imagenes/logo_completo_blanco.png
     left:
       # - text: "¿Qué es?"
       #   href: index.qmd#hackods
@@ -23,13 +23,27 @@ website:
       #   href: index.qmd#jurado
       # - text: "Descalificación"
       #   href: index.qmd#descalificacion
-      # - text: "Premiación"
-      #   href: index.qmd#entrega
+      - text: "Premiación"
+        href: index.qmd#entrega
       - text: "Contacto"
         href: index.qmd#contacto
     # right:
-    #   - text: "Inscríbete"
-    #     href: index.qmd#registro
+      # - text: "Inscríbete"
+      #   href: index.qmd#registro
+    
+
+
+  page-footer: 
+    background: gray
+    left: 
+      - text: "Copyright 2025" 
+    center:  
+      - icon: instagram
+        href: https://instragram.com/HackODS_UNAM 
+      - icon: twitter
+        href: https://twitter.com/HackODS_UNAM 
+        
+      
 
         
         

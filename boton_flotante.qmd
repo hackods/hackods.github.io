@@ -4,7 +4,7 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #28a745;
+  background-color: #2761e3;
   color: white;
   padding: 12px 20px;
   border-radius: 50px;
@@ -15,7 +15,7 @@
   transition: background-color 0.3s ease;
 }
 #btn-inscribete:hover {
-  background-color: #218838;
+  background-color: #5a96ff;
 }
 </style>
 

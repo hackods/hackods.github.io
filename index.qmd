@@ -1,25 +1,18 @@
----
-# title: ""
-# title-block-banner: ./imagenes/logo_completo_color.png
-# listing:
-#     type: grid
-#     id: organizadores
-#     contents:
-#         - "comite/*.qmd"
----
-    
-![](imagenes/logo_completo_color.png){fig-align="center"}
+::: {.parallax}    
 
- 
-## ¿Qué es HackODS? {#hackods}
+::: {.hero}
+:::
+
+::: {.principal}
+# ¿Qué es HackODS? {#hackods}
    
 
-Transformando datos abiertos en soluciones sostenibles
+#### Transformando datos abiertos en soluciones sostenibles {.frases}
 
 ¿Te apasionan los datos, las visualizaciones y el desarrollo sostenible?  
 ¿Te interesa poner tu talento al servicio de las grandes causas del país?  
 
-¡Este hackatón es para ti!
+#### ¡Este hackatón es para ti! {.frases2}
 
 HackODS es una experiencia única de innovación y colaboración universitaria que busca convertir los desafíos de los Objetivos de Desarrollo Sostenible (ODS) en narrativas visuales accesibles, usando herramientas tecnológicas de código abierto y datos públicos.
 
@@ -31,7 +24,7 @@ Durante varias etapas de formación, mentoría y creación, equipos multidiscipl
 ## Convocatoria {#convocatoria}
 
 ### Objetivo General
-Impulsar la creación de tableros interactivos e historias visuales basadas en datos abiertos, que promuevan soluciones informadas e innovadoras para los retos del desarrollo sostenible en México.
+Impulsar la creación de tableros interactivos e historias visuales basadas en datos abiertos, que promuevan soluciones informadas e innovadoras para los retos del desarrollo sostenible en México. 
 
 ### Objetivos Específicos
 - Fomentar el pensamiento crítico y creativo a través del análisis y visualización de datos.
@@ -65,7 +58,8 @@ Impulsar la creación de tableros interactivos e historias visuales basadas en d
 | Evento híbrido transmitido y formación de equipos | 5 de febrero de 2026   | Sede: [Agregar sede] – Horario: [Agregar hora] |
 | Cierre del registro                            | 13 de febrero de 2026    | Hora límite: 18:00 hrs                             |
 | Capacitación y mentorías                       | 16 de febrero -- mayo    | Talleres en línea: ODS, datos abiertos, UX/UI          |
-| Evento final y premiación                      | 25 y 26 de junio de 2026 | Presentación y evaluación de proyectos                 |
+| Evento final y premiación                      | 25 y 26 de junio de 2026 | Presentación y evaluación de proyectos        
+         |
 
 ---
 
@@ -85,6 +79,7 @@ Los proyectos serán evaluados por un jurado experto con base en los siguientes 
 - 3er. lugar: Tres Chromebooks Acer Spin 311.
 
 Además:
+
 - Publicación de proyectos destacados en los portales oficiales de la UNAM.
 - Constancias de participación para todos los equipos finalistas.
 
@@ -92,11 +87,13 @@ Además:
 
 ## Jurado {#jurado}
 El panel evaluador estará conformado por especialistas de alto nivel en:
+
 - Ciencia de datos
 - Desarrollo sostenible
 - Visualización y diseño de información
 
 **Ejemplos:**
+
 - Dr. Juan Pérez, Instituto de Matemáticas, UNAM
 - Dra. Ana Gómez, Programa Universitario de Medio Ambiente, UNAM
 - Mtro. Luis Ramírez, Facultad de Artes y Diseño, UNAM
@@ -115,24 +112,20 @@ El panel evaluador estará conformado por especialistas de alto nivel en:
 
 ## Premiación {#entrega}
 **20–21 de noviembre de 2025**  
-Sede: **[Auditorio del Instituto de Geofísica, CU]**
+Sede: Auditorio del Instituto de Geofísica, CU
+
+![](imagenes/auditorio.png){fig-align="center" width=50%}
+
 
 **Requisitos:**
+
 - Presentar identificación oficial (INE, pasaporte o credencial UNAM).
 - Asistir personalmente o con representante designado.
 
 ---
 
-## Contacto {#contacto}
-¿Tienes dudas o necesitas apoyo técnico?  
-Escríbenos a: **hackods@ier.unam.mx**
-
-Síguenos en redes: **@HackODS_UNAM** (Twitter, Instagram)
-
----
-
 ## Llamado a la Acción {#cta}
-**¡Haz que los datos hablen!**  
+#### ¡Haz que los datos hablen! {.frases} 
 Transforma estadísticas en soluciones, conecta ideas y crea impacto real.  
 **Inscríbete y sé parte del cambio.** → [Ir al registro](#registro)
 
@@ -158,4 +151,16 @@ Transforma estadísticas en soluciones, conecta ideas y crea impacto real.
 {{< include boton_flotante.qmd >}}
 
 
-## Contacto {#Contacto}
+## Contacto {#contacto}
+¿Tienes dudas o necesitas apoyo técnico?  
+👉 Escríbenos a [hackods@ier.unam.mx](mailto:hackods@ier.unam.mx)
+
+#### ¡Síguenos en redes! {.frases2}
+ **@HackODS_UNAM** en Twitter e Instagram.
+
+:::
+
+:::
+
+::: {.footer}
+:::

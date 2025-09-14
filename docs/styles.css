@@ -21,13 +21,14 @@
 .navbar-brand,
 .navbar-nav .nav-link {
   font-family: var(--bs-heading-font-family);
+  font-size: 11pt;
 }
 
 /* -------------------------------
    Fondo y colores base
    ------------------------------- */
 .navbar {
-  background-color: #ffffff !important;
+  background-color: #5a96ff !important;
   transition: background-color .25s ease;
 }
 
@@ -44,7 +45,7 @@
 
 /* Color base del texto */
 .navbar .navbar-nav .nav-link {
-  color: #333 !important;
+  color: #fff !important;
   transition: color .25s ease;
 }
 
@@ -116,35 +117,34 @@
   transform: scaleX(1);
 }
 
+.navbar-logo {
+    max-height: 55px;
+    width: auto;
+    padding-right: 4px;
+}
 
-/* .container{
-  width: 100%;
-} */
-
-/* @media (min-width: 1000px) {
-  .container {
-    width: 100%; 
-  }
-} */
 
 .container {
-  max-width: 1140px;        /* o 1320px, a tu gusto */
+  max-width: 1320px;         /*o 1320px, a tu gusto */
   padding-inline: var(--bs-gutter-x, .75rem);
   margin-inline: auto;
+  margin: auto;
 }
 
-.divisor{
-  height:100px;
-  width: auto;
+.principal {
+  margin: 0 100px;
 }
 
-#btn-inscribete{
-      background-color: #2761e3;
-}
+@media (min-width: 900px) {
+    body .page-columns {
+        display: grid;
+        gap: 0;
+        grid-template-columns: none;
+    }
+  }
 
-#btn-inscribete:hover {
-    background-color: #5a96ff;
-}
+
+
 
 h2{
   color:#5a96ff;
@@ -159,8 +159,13 @@ p, li{
 }
 
 .frases{
-  font-size: 19px;
   font-weight: bold;
+  color: #89d342;
+}
+
+.frases2{
+  font-weight: bold;
+  padding-bottom: 20px;
 }
 
 .imagecarousel {
@@ -188,4 +193,84 @@ p, li{
   100% {
     transform: translateX(-50%);
   }
+}
+
+#hackods{
+  margin-bottom: 120px;
+}
+
+#convocatoria{
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+}
+
+#cronograma{
+  margin-bottom: 100px;
+}
+
+#criterios{
+  margin-bottom: 120px;
+}
+
+#premios{
+  margin-bottom: 100px;
+}
+
+#jurado{
+  margin-bottom: 120px;
+}
+
+#descalificacion{
+  margin-bottom: 100px;
+}
+  
+#entrega{
+  margin-bottom: 100px;
+}
+
+#contacto{
+  margin-bottom: 10px;
+}
+
+#cta{
+  margin-bottom: 100px;
+}
+
+#Organizadores{
+  margin-bottom: 100px;
+}
+
+.hero {
+  background-image: url("imagenes/portada2.png");
+  background-size: cover;
+  height: 100vh;              /* ocupa toda la pantalla */
+  background-position: center;
+  padding: 0 0 100px 0px;
+  margin-bottom: 100px;
+}
+
+main {
+    margin-top: -2em;
+}
+
+.parallax {
+  /* Imagen de fondo */
+  background-image: url("imagenes/fondo.png");
+
+  /* Altura de la sección */
+  min-height: 500px;
+
+  /* Efecto parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.nav-footer {
+    min-height: 3.5em;
+    background-color: #242832;
+    color: #fff !important;
 }
