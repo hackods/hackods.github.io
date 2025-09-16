@@ -132,7 +132,9 @@
 }
 
 .principal {
-  margin: 0 100px;
+  margin: 0 auto;
+  max-width: 70rem;
+  padding-inline: clamp(1rem, 5vw, 6rem);
 }
 
 @media (min-width: 900px) {
@@ -170,29 +172,101 @@ p, li{
 
 .imagecarousel {
   position: relative;
-  height: 250px !important;
-  margin-bottom: 30px;
+  margin: 0 auto 48px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(240px, 1fr);
+  align-items: stretch;
+  justify-items: center;
+  gap: clamp(1.25rem, 4vw, 2.5rem);
+  width: min(1200px, 100%);
+  padding: clamp(1.25rem, 4vw, 3rem);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-snap-type: x mandatory;
+}
+
+.imagecarousel::before,
+.imagecarousel::after {
+  content: "";
+  position: sticky;
+  top: 0;
+  width: clamp(1.5rem, 5vw, 3rem);
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.imagecarousel::before {
+  left: 0;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+.imagecarousel::after {
+  right: 0;
+  background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+.imagecarousel::-webkit-scrollbar {
+  display: none;
+}
+
+.organizer-card {
+  width: min(100%, 280px);
+  background: rgba(255, 255, 255, 0.94);
+  border-radius: 22px;
+  box-shadow: 0 16px 36px rgba(36, 40, 50, 0.16);
+  overflow: hidden;
   display: flex;
-  width: fit-content;
-  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  scroll-snap-align: center;
 }
 
-.imagecarousel img {
-  margin: 0px 0px;
-  height: 250px;;
+.organizer-card img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
 }
 
-.imagecarousel {
-  animation: bannermove 30s linear infinite;
+.organizer-card figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.1rem 1.25rem 1.5rem;
 }
 
-@keyframes bannermove {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+.organizer-name {
+  font-weight: 700;
+  font-family: Montserrat, "Helvetica Neue", Arial, sans-serif;
+  color: #242832;
+}
+
+.organizer-role {
+  font-size: 0.95rem;
+  color: #5a96ff;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.organizer-institution {
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+.organizer-email {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1b64d1;
+  text-decoration: none;
+}
+
+.organizer-email:hover,
+.organizer-email:focus {
+  text-decoration: underline;
 }
 
 #hackods{
@@ -242,16 +316,31 @@ p, li{
 }
 
 .hero {
-  background-image: url("imagenes/portada2.png");
-  background-size: cover;
-  height: 100vh;              /* ocupa toda la pantalla */
-  background-position: center;
-  padding: 0 0 100px 0px;
-  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 clamp(2rem, 6vw, 4rem);
+  margin-bottom: clamp(2rem, 8vw, 5rem);
+}
+
+.hero-image {
+  width: min(100%, 90rem);
+  max-height: 85vh;
+  object-fit: contain;
+  aspect-ratio: 2190 / 1369;
+  border-radius: 12px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
 }
 
 main {
-    margin-top: -2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.principal section[id],
+.principal [id].level1,
+[id].level1 {
+  scroll-margin-top: 80px;
 }
 
 .parallax {
@@ -267,6 +356,49 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+
+@media (max-width: 992px) {
+  .principal {
+    padding-inline: clamp(1rem, 6vw, 3rem);
+  }
+
+  .imagecarousel {
+    grid-auto-columns: minmax(70%, 320px);
+    gap: 1.5rem;
+    padding: 1.5rem 1.5rem 2rem;
+  }
+
+  .organizer-card {
+    width: min(100%, 320px);
+  }
+
+  .hero {
+    padding: clamp(1rem, 6vw, 3rem) 0 clamp(1.5rem, 7vw, 3rem);
+  }
+
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 1200px) {
+  .imagecarousel {
+    overflow: visible;
+    padding-inline: 0;
+    grid-auto-columns: minmax(260px, 1fr);
+  }
+
+  .imagecarousel::before,
+  .imagecarousel::after {
+    display: none;
+  }
 }
 
 .nav-footer {
