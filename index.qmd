@@ -1,6 +1,8 @@
+
 ::: {.parallax}    
 
 ::: {.hero}
+![](imagenes/portada2.png){.hero-image alt="Portada HackODS"}
 :::
 
 ::: {.principal}
@@ -18,8 +20,8 @@ HackODS es una experiencia única de innovación y colaboración universitaria q
 
 Durante varias etapas de formación, mentoría y creación, equipos multidisciplinarios diseñarán tableros interactivos que visibilicen el progreso (o retroceso) de México en el cumplimiento de los ODS.
 
-
----
+ 
+---  
 
 ## Convocatoria {#convocatoria}
 
@@ -137,17 +139,48 @@ Transforma estadísticas en soluciones, conecta ideas y crea impacto real.
  
 <div class="imagecarousel">
 
-  <img src="./comite/maricarmen.jpeg" alt="" />
+  <figure class="organizer-card">
+    <img src="./comite/maricarmen.jpeg" alt="Maricarmen Pérez" />
+    <figcaption>
+      <span class="organizer-name">Maricarmen Hernández</span>
+      <span class="organizer-role">Coordinadora General</span>
+      <span class="organizer-institution">Instituto de Geofísica, UNAM</span>
+      <a class="organizer-email" href="mailto:maricarmen@unam.mx">maricarmen@unam.mx</a>
+    </figcaption>
+  </figure>
 
-  <img src="./comite/maricarmen.jpeg" alt="" />
-  
-  <img src="./comite/maricarmen.jpeg" alt="" />
-  
-  <img src="./comite/maricarmen.jpeg" alt="" />
+  <figure class="organizer-card">
+    <img src="./comite/maricarmen.jpeg" alt="Luis Ramírez" />
+    <figcaption>
+      <span class="organizer-name">Luis Migue de la Cruz </span>
+      <span class="organizer-role">Mentor de Datos</span>
+      <span class="organizer-institution">Instituto de Geofísica, UNAM</span>
+      <a class="organizer-email" href="mailto:luis.ramirez@unam.mx">luis.ramirez@unam.mx</a>
+    </figcaption>
+  </figure>
 
+  <figure class="organizer-card">
+    <img src="./comite/maricarmen.jpeg" alt="Ana Gómez" />
+    <figcaption>
+      <span class="organizer-name">Daniela Juárez</span>
+      <span class="organizer-role">Curadora de Contenidos</span>
+      <span class="organizer-institution">Instituto de Energías Renovables, UNAM</span>
+      <a class="organizer-email" href="mailto:ana.gomez@unam.mx">ana.gomez@unam.mx</a>
+    </figcaption>
+  </figure> 
+
+  <figure class="organizer-card">
+    <img src="./comite/maricarmen.jpeg" alt="José Martínez" />
+    <figcaption>
+      <span class="organizer-name">Guillermo Barrios</span>
+      <span class="organizer-role">Enlace Académico</span>
+      <span class="organizer-institution">Instituto de Energías Renovables, UNAM</span>
+      <a class="organizer-email" href="mailto:jose.martinez@unam.mx">jose.martinez@unam.mx</a>
+    </figcaption>
+  </figure>
 
 </div>
-
+ 
 {{< include boton_flotante.qmd >}}
 
 
