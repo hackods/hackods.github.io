@@ -343,21 +343,6 @@ main {
   scroll-margin-top: 80px;
 }
 
-.parallax {
-  /* Imagen de fondo */
-  background-image: url("imagenes/fondo.png");
-
-  /* Altura de la sección */
-  min-height: 500px;
-
-  /* Efecto parallax */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
 @media (max-width: 992px) {
   .principal {
     padding-inline: clamp(1rem, 6vw, 3rem);
@@ -377,15 +362,6 @@ main {
     padding: clamp(1rem, 6vw, 3rem) 0 clamp(1.5rem, 7vw, 3rem);
   }
 
-  .parallax {
-    background-attachment: scroll;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .parallax {
-    background-attachment: scroll;
-  }
 }
 
 @media (min-width: 1200px) {
