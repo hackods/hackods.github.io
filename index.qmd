@@ -135,7 +135,7 @@ Transforma estadísticas en soluciones, conecta ideas y crea impacto real.
       <span class="organizer-name">Maricarmen Hernández</span>
       <span class="organizer-role">Logística</span>
       <span class="organizer-institution">Instituto de Geofísica, UNAM</span>
-      <a class="organizer-email" href="mailto:planeacion@igeofisica.unam.mx ">planeacion@igeofisica.unam.mx </a>
+      <a class="organizer-email" href="mailto:mhernandezc@igeofisica.unam.mx">mhernandezc@igeofisica.unam.mx</a>
     </figcaption>
   </figure>
 
