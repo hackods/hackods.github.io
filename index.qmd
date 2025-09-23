@@ -132,7 +132,7 @@ Transforma estadísticas en soluciones, conecta ideas y crea impacto real.
     <img src="./comite/Maricarmen.jpeg" alt="Maricarmen Hernández" />
     <figcaption>
       <span class="organizer-name">Maricarmen Hernández</span>
-      <span class="organizer-role">Coordinadora General</span>
+      <span class="organizer-role">Logística</span>
       <span class="organizer-institution">Instituto de Geofísica, UNAM</span>
       <a class="organizer-email" href="mailto:planeacion@igeofisica.unam.mx ">planeacion@igeofisica.unam.mx </a>
     </figcaption>
@@ -152,7 +152,7 @@ Transforma estadísticas en soluciones, conecta ideas y crea impacto real.
     <img src="./comite/Dany.jpeg" alt="Daniela Juárez" />
     <figcaption>
       <span class="organizer-name">Daniela Juárez</span>
-      <span class="organizer-role">Curadora de Contenidos</span>
+      <span class="organizer-role">Patrocinios</span>
       <span class="organizer-institution">Instituto de Energías Renovables, UNAM</span>
       <a class="organizer-email" href="mailto:djb@ier.unam.mx ">djb@ier.unam.mx </a>
     </figcaption>
