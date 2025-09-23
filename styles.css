@@ -14,7 +14,6 @@
   font-style: normal;
 }
 
-
 /* -------------------------------
    Tipografía de la navbar
    ------------------------------- */
@@ -53,12 +52,12 @@
    Contenedor del efecto
    ------------------------------- */
 .navbar .navbar-nav .nav-link {
-  position: relative;     /* para posicionar ::after */
-  display: inline-block;  /* caja propia para la "pill" */
+  position: relative;
+  display: inline-block;
   padding: .5rem 1rem;
   overflow: hidden;
-  border-radius: 999px;   /* mantiene forma redondeada */
-  z-index: 0;             /* crea contexto de apilamiento */
+  border-radius: 999px;
+  z-index: 0;
 }
 
 /* Asegura que el texto quede encima de la pill */
@@ -74,13 +73,13 @@
 .navbar .navbar-nav .nav-link::after {
   content: "";
   position: absolute;
-  inset: .15rem .35rem;     /* reduce un poco la pill dentro del link */
-  background-color: var(--pill-color, #e9a201); /* color por defecto inspirado en logo */
+  inset: .15rem .35rem;
+  background-color: var(--pill-color, #e9a201);
   border-radius: 999px;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform .25s ease;
-  z-index: -1;              /* detrás del texto pero dentro del link */
+  z-index: -1;
 }
 
 /* Colores individuales por item */
@@ -95,37 +94,26 @@
 .navbar .navbar-nav:nth-of-type(1) .nav-item:nth-child(9) { --pill-color: #FD6925; }
 .navbar .navbar-nav:nth-of-type(2) .nav-item:nth-child(1) { --pill-color: #DD1367; }
 
-/* Hover/Focus: expandir pill + texto blanco */
+/* Hover/Focus */
 .navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link:focus {
-  color: #fff !important;
-}
+.navbar .navbar-nav .nav-link:focus { color: #fff !important; }
 .navbar .navbar-nav .nav-link:hover .menu-text,
-.navbar .navbar-nav .nav-link:focus .menu-text {
-  color: #fff !important;
-}
+.navbar .navbar-nav .nav-link:focus .menu-text { color: #fff !important; }
 .navbar .navbar-nav .nav-link:hover::after,
-.navbar .navbar-nav .nav-link:focus::after {
-  transform: scaleX(1);
-}
+.navbar .navbar-nav .nav-link:focus::after { transform: scaleX(1); }
 
-/* (Opcional) Deja el activo con pill permanente */
-.navbar .navbar-nav .nav-link.active {
-  color: #fff !important;
-}
-.navbar .navbar-nav .nav-link.active::after {
-  transform: scaleX(1);
-}
+/* Activo con pill permanente */
+.navbar .navbar-nav .nav-link.active { color: #fff !important; }
+.navbar .navbar-nav .nav-link.active::after { transform: scaleX(1); }
 
 .navbar-logo {
-    max-height: 55px;
-    width: auto;
-    padding-right: 4px;
+  max-height: 55px;
+  width: auto;
+  padding-right: 4px;
 }
 
-
 .container {
-  max-width: 1320px;         /*o 1320px, a tu gusto */
+  max-width: 1320px;
   padding-inline: var(--bs-gutter-x, .75rem);
   margin-inline: auto;
   margin: auto;
@@ -138,38 +126,23 @@
 }
 
 @media (min-width: 900px) {
-    body .page-columns {
-        display: grid;
-        gap: 0;
-        grid-template-columns: none;
-    }
+  body .page-columns {
+    display: grid;
+    gap: 0;
+    grid-template-columns: none;
   }
-
-
-
-
-h2{
-  color:#5a96ff;
 }
 
-h3, h4 {
-  font-family: Montserrat;
-}
+h2{ color:#5a96ff; }
+h3, h4 { font-family: Montserrat; }
+p, li{ color: #666666; }
 
-p, li{
-  color: #666666;
-}
+.frases{ font-weight: bold; color: #89d342; }
+.frases2{ font-weight: bold; padding-bottom: 20px; }
 
-.frases{
-  font-weight: bold;
-  color: #89d342;
-}
-
-.frases2{
-  font-weight: bold;
-  padding-bottom: 20px;
-}
-
+/* -------------------------------
+   Carrusel de organizadores
+   ------------------------------- */
 .imagecarousel {
   position: relative;
   margin: 0 auto 48px;
@@ -209,10 +182,11 @@ p, li{
   background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
 }
 
-.imagecarousel::-webkit-scrollbar {
-  display: none;
-}
+.imagecarousel::-webkit-scrollbar { display: none; }
 
+/* -------------------------------
+   Tarjetas de organizadores
+   ------------------------------- */
 .organizer-card {
   width: min(100%, 280px);
   background: rgba(255, 255, 255, 0.94);
@@ -224,6 +198,9 @@ p, li{
   align-items: center;
   text-align: center;
   scroll-snap-align: center;
+
+  /* Habilita container queries para autoajustar tipografía interna */
+  container-type: inline-size;
 }
 
 .organizer-card img {
@@ -237,6 +214,8 @@ p, li{
   flex-direction: column;
   gap: 0.35rem;
   padding: 1.1rem 1.25rem 1.5rem;
+  width: 100%;
+  max-width: 24rem; /* ancho estable para wrapping */
 }
 
 .organizer-name {
@@ -257,63 +236,44 @@ p, li{
   color: #666666;
 }
 
+/* 👉 Ajuste automático de tamaño (sin cortar):
+   - wrap permisivo (anywhere)
+   - tamaño fluido con cqw (container query width units)
+   - límites con clamp para legibilidad
+*/
 .organizer-email {
-  font-size: 0.9rem;
+  display: block;
+  line-height: 1.18;
   font-weight: 600;
   color: #1b64d1;
   text-decoration: none;
+
+  overflow-wrap: anywhere;  /* permite quiebre en cualquier punto */
+  word-break: break-word;   /* fallback */
+
+  /* Tamaño que se adapta al ancho de la tarjeta:
+     - mínimo legible: .76rem
+     - fluido en función del ancho del contenedor: 3.2cqw
+     - tope superior habitual: .95rem
+  */
+  font-size: clamp(.76rem, 3.2cqw, .95rem);
+  max-width: 100%;
 }
 
 .organizer-email:hover,
-.organizer-email:focus {
-  text-decoration: underline;
-}
+.organizer-email:focus { text-decoration: underline; }
 
-#hackods{
-  margin-bottom: 120px;
-}
-
-#convocatoria{
-  margin-bottom: 100px;
-  margin-top: 100px;
-
-}
-
-#cronograma{
-  margin-bottom: 100px;
-}
-
-#criterios{
-  margin-bottom: 120px;
-}
-
-#premios{
-  margin-bottom: 100px;
-}
-
-#jurado{
-  margin-bottom: 120px;
-}
-
-#descalificacion{
-  margin-bottom: 100px;
-}
-  
-#entrega{
-  margin-bottom: 100px;
-}
-
-#contacto{
-  margin-bottom: 10px;
-}
-
-#cta{
-  margin-bottom: 100px;
-}
-
-#Organizadores{
-  margin-bottom: 100px;
-}
+#hackods{ margin-bottom: 120px; }
+#convocatoria{ margin-bottom: 100px; margin-top: 100px; }
+#cronograma{ margin-bottom: 100px; }
+#criterios{ margin-bottom: 120px; }
+#premios{ margin-bottom: 100px; }
+#jurado{ margin-bottom: 120px; }
+#descalificacion{ margin-bottom: 100px; }
+#entrega{ margin-bottom: 100px; }
+#contacto{ margin-bottom: 10px; }
+#cta{ margin-bottom: 100px; }
+#Organizadores{ margin-bottom: 100px; }
 
 .hero {
   display: flex;
@@ -332,21 +292,14 @@ p, li{
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
 }
 
-main {
-  margin-top: 0;
-  padding-top: 0;
-}
+main { margin-top: 0; padding-top: 0; }
 
 .principal section[id],
 .principal [id].level1,
-[id].level1 {
-  scroll-margin-top: 80px;
-}
+[id].level1 { scroll-margin-top: 80px; }
 
 @media (max-width: 992px) {
-  .principal {
-    padding-inline: clamp(1rem, 6vw, 3rem);
-  }
+  .principal { padding-inline: clamp(1rem, 6vw, 3rem); }
 
   .imagecarousel {
     grid-auto-columns: minmax(70%, 320px);
@@ -354,14 +307,9 @@ main {
     padding: 1.5rem 1.5rem 2rem;
   }
 
-  .organizer-card {
-    width: min(100%, 320px);
-  }
+  .organizer-card { width: min(100%, 320px); }
 
-  .hero {
-    padding: clamp(1rem, 6vw, 3rem) 0 clamp(1.5rem, 7vw, 3rem);
-  }
-
+  .hero { padding: clamp(1rem, 6vw, 3rem) 0 clamp(1.5rem, 7vw, 3rem); }
 }
 
 @media (min-width: 1200px) {
@@ -372,13 +320,11 @@ main {
   }
 
   .imagecarousel::before,
-  .imagecarousel::after {
-    display: none;
-  }
+  .imagecarousel::after { display: none; }
 }
 
 .nav-footer {
-    min-height: 3.5em;
-    background-color: #242832;
-    color: #fff !important;
+  min-height: 3.5em;
+  background-color: #242832;
+  color: #fff !important;
 }
