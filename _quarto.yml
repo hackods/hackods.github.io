@@ -4,7 +4,7 @@ project:
 lang: es
 
 website:
-  title: ""
+  title: "HackODS"
   search: false
   navbar:
     logo: ./imagenes/logo_completo_blanco.png
