@@ -294,6 +294,22 @@ p, li{ color: #666666; }
 
 main { margin-top: 0; padding-top: 0; }
 
+
+
+.parallax {
+  /* Imagen de fondo */
+  background-image: url("imagenes/fondo.png");
+
+  /* Altura de la sección */
+  min-height: 500px;
+
+  /* Efecto parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 .principal section[id],
 .principal [id].level1,
 [id].level1 { scroll-margin-top: 80px; }

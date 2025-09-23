@@ -1,3 +1,4 @@
+::: {.parallax}    
 
 
 ::: {.hero}
@@ -182,6 +183,9 @@ Transforma estadísticas en soluciones, conecta ideas y crea impacto real.
  **@HackODS_UNAM** en Twitter e Instagram.
 
 :::
+
+:::
+
 
 ::: {.footer}
 :::
