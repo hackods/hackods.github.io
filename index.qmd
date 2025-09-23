@@ -17,9 +17,12 @@
 
 El primer hackatón de la UNAM para transformar datos abiertos en soluciones sostenibles. 
 Es una experiencia única de innovación y colaboración universitaria que busca convertir los desafíos de los Objetivos de Desarrollo Sostenible (ODS) en narrativas visuales accesibles, usando herramientas tecnológicas de código abierto y datos públicos.
+
 Durante varias etapas de formación, mentoría y creación, equipos multidisciplinarios diseñarán tableros interactivos que visibilicen el progreso (o retroceso) de México en el cumplimiento de los ODS.
 
-Si te apasionan los datos, las visualizaciones, el desarrollo sostenible y te interesa poner tu talento al servicio de las grandes causas del país... ¡El HackODS UNAM 2026 es para ti!
+Si te apasionan los datos, las visualizaciones, el desarrollo sostenible y te interesa poner tu talento al servicio de las grandes causas del país... 
+
+¡El HackODS UNAM 2026 es para ti!
 
  
 ---  
@@ -123,13 +126,11 @@ Transforma estadísticas en soluciones, conecta ideas y crea impacto real.
 ## Organizadores {#Organizadores}
 
 
-<!-- ::: {#organizadores}
-::: -->
  
 <div class="imagecarousel">
 
   <figure class="organizer-card">
-    <img src="./comite/Maricarmen.jpeg" alt="Maricarmen Hernández" />
+    <img src="./comite/Maricarmen.jpg" alt="Maricarmen Hernández" />
     <figcaption>
       <span class="organizer-name">Maricarmen Hernández</span>
       <span class="organizer-role">Logística</span>
@@ -149,7 +150,7 @@ Transforma estadísticas en soluciones, conecta ideas y crea impacto real.
   </figure>
 
   <figure class="organizer-card">
-    <img src="./comite/Dany.jpeg" alt="Daniela Juárez" />
+    <img src="./comite/Dany.jpg" alt="Daniela Juárez" />
     <figcaption>
       <span class="organizer-name">Daniela Juárez</span>
       <span class="organizer-role">Patrocinios</span>
@@ -159,7 +160,7 @@ Transforma estadísticas en soluciones, conecta ideas y crea impacto real.
   </figure>  
  
   <figure class="organizer-card">
-    <img src="./comite/Guillermo.jpeg" alt="Guillermo Barrios" />
+    <img src="./comite/Guillermo.jpg" alt="Guillermo Barrios" />
     <figcaption>
       <span class="organizer-name">Guillermo Barrios</span>
       <span class="organizer-role">Quarto y tableros</span>
