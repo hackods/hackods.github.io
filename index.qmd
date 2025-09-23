@@ -129,7 +129,7 @@ Transforma estadísticas en soluciones, conecta ideas y crea impacto real.
 <div class="imagecarousel">
 
   <figure class="organizer-card">
-    <img src="./comite/MariCarmen.jpeg" alt="Maricarmen Hernández" />
+    <img src="./comite/Maricarmen.jpeg" alt="Maricarmen Hernández" />
     <figcaption>
       <span class="organizer-name">Maricarmen Hernández</span>
       <span class="organizer-role">Coordinadora General</span>
