@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>HackODS</title>
+<title>Bienvenida al HackODS UNAM 2026 – HackODS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,17 +28,22 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f333d23ce7c1b08061db0ab13fae47ff.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a871abbcef43acd58ef4e285907f6a38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-45fcc7650e7139e1bcaf86d269e9dc05.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a871abbcef43acd58ef4e285907f6a38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -56,7 +61,169 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -64,7 +231,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="././imagenes/logo_completo_blanco.png" alt="" class="navbar-logo">
+    <img src="./logo.png" alt="" class="navbar-logo light-content">
+    <img src="./logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">HackODS</span>
@@ -76,287 +244,107 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html#convocatoria"> 
-<span class="menu-text">Convocatoria</span></a>
+    <a class="nav-link" href="./tableros-completo.html"> 
+<span class="menu-text">Tableros</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html#cronograma"> 
-<span class="menu-text">Cronograma</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html#premios"> 
-<span class="menu-text">Premios</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html#entrega"> 
-<span class="menu-text">Premiación</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html#contacto"> 
-<span class="menu-text">Contacto</span></a>
+    <a class="nav-link" href="./tableros.html"> 
+<span class="menu-text">Tab-light</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+    <a href="https://github.com/hackods/hackods.github.io" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
 
-
-
-<div class="parallax">
-<div class="hero">
-<p><img src="imagenes/portada2.png" class="hero-image img-fluid" alt="Portada HackODS"></p>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Bienvenida al HackODS UNAM 2026</h1>
+<p class="subtitle lead">El primer hackatón de la UNAM para transformar datos abiertos en soluciones sostenibles</p>
 </div>
-<section id="hackods" class="level1 principal">
-<h1>HackODS es …</h1>
-<!-- 
-#### Transformando datos abiertos en soluciones sostenibles {.frases}
 
-¿Te apasionan los datos, las visualizaciones y el desarrollo sostenible?  
-¿Te interesa poner tu talento al servicio de las grandes causas del país?  
 
-#### ¡Este hackatón es para ti! {.frases2} -->
-<p>El primer hackatón de la UNAM para transformar datos abiertos en soluciones sostenibles. Es una experiencia única de innovación y colaboración universitaria que busca convertir los desafíos de los Objetivos de Desarrollo Sostenible (ODS) en narrativas visuales accesibles, usando herramientas tecnológicas de código abierto y datos públicos.</p>
-<p>Durante varias etapas de formación, mentoría y creación, equipos multidisciplinarios diseñarán tableros interactivos que visibilicen el progreso (o retroceso) de México en el cumplimiento de los ODS.</p>
-<p>Si te apasionan los datos, las visualizaciones, el desarrollo sostenible y te interesa poner tu talento al servicio de las grandes causas del país…</p>
-<p>¡El HackODS UNAM 2026 es para ti!</p>
-<hr>
-<section id="convocatoria" class="level2">
-<h2 class="anchored" data-anchor-id="convocatoria">Convocatoria</h2>
-<section id="objetivo-general" class="level3">
-<h3 class="anchored" data-anchor-id="objetivo-general">Objetivo General</h3>
-<p>Impulsar la creación de tableros interactivos e historias visuales basadas en datos abiertos, que promuevan soluciones informadas e innovadoras para los retos del desarrollo sostenible en México.</p>
-</section>
-<section id="objetivos-específicos" class="level3">
-<h3 class="anchored" data-anchor-id="objetivos-específicos">Objetivos Específicos</h3>
-<ul>
-<li>Fomentar el pensamiento crítico y creativo a través del análisis y visualización de datos.</li>
-<li>Potenciar el uso de tecnologías abiertas para el bien común.</li>
-<li>Generar redes de colaboración entre estudiantes de distintas disciplinas.</li>
-<li>Visibilizar las brechas y avances en torno a los ODS a nivel nacional y regional.</li>
-</ul>
-</section>
-<section id="bases-de-participación" class="level3">
-<h3 class="anchored" data-anchor-id="bases-de-participación">Bases de Participación</h3>
-<section id="quiénes-pueden-participar" class="level4">
-<h4 class="anchored" data-anchor-id="quiénes-pueden-participar">1) ¿Quiénes pueden participar?</h4>
-<ul>
-<li>Estudiantes con inscripción vigente en licenciatura, maestría o doctorado de cualquier institución educativa mexicana.</li>
-<li>Equipos de tres integrantes como máximo, con al menos un hombre y una mujer.</li>
-<li>Se recomienda la integración de equipos multidisciplinarios (por ejemplo: ingeniería, ciencias sociales, diseño, matemáticas, comunicación).</li>
-</ul>
-</section>
-<section id="registro" class="level4">
-<h4 class="anchored" data-anchor-id="registro">2) Registro</h4>
-<ul>
-<li>Llena el formulario en: [XXX]</li>
-<li>Adjunta comprobante de inscripción vigente de cada integrante.</li>
-<li>Cuota de recuperación: $500 MXN por equipo (transferencia bancaria o plataforma indicada).</li>
-</ul>
-</section>
-<section id="categoría" class="level4">
-<h4 class="anchored" data-anchor-id="categoría">3) Categoría</h4>
-<ul>
-<li>Categoría única: Todos los equipos competirán bajo los mismos criterios de evaluación.</li>
-</ul>
-</section>
-</section>
-</section>
-<section id="cronograma" class="level2">
-<h2 class="anchored" data-anchor-id="cronograma">Cronograma General</h2>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Bienvenidas y bienvenidos al primer hackatón de la UNAM dedicado a convertir datos abiertos en narrativas visuales sobre los <strong>Objetivos de Desarrollo Sostenible (ODS)</strong>.</p>
+<p>En este sitio encontrarás toda la información necesaria para el desarrollo de tu proyecto: desde el reglamento de tableros hasta las herramientas y fuentes de datos que utilizarás durante el hackatón.</p>
+<section id="herramientas" class="level2">
+<h2 class="anchored" data-anchor-id="herramientas">Herramientas</h2>
+<p>Los tableros se desarrollan con herramientas de código abierto:</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 36%">
-<col style="width: 20%">
-<col style="width: 43%">
-</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Evento</th>
-<th style="text-align: left;">Fecha</th>
-<th style="text-align: left;">Detalles</th>
+<th>Herramienta</th>
+<th>Uso</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Publicación de la convocatoria y apertura registro</td>
-<td style="text-align: left;">12 de enero de 2026</td>
-<td style="text-align: left;">Disponible en [Agregar sitio web oficial]</td>
+<td><a href="https://quarto.org/">Quarto</a></td>
+<td>Generación del tablero (formato <code>dashboard</code>)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Evento híbrido transmitido y formación de equipos</td>
-<td style="text-align: left;">5 de febrero de 2026</td>
-<td style="text-align: left;">Sede: [Agregar sede] – Horario: [Agregar hora]</td>
+<td><a href="https://www.python.org/">Python</a></td>
+<td>Procesamiento y análisis de datos</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Cierre del registro</td>
-<td style="text-align: left;">13 de febrero de 2026</td>
-<td style="text-align: left;">Hora límite: 18:00 h</td>
+<td><a href="https://plotly.com/python/">Plotly</a></td>
+<td>Visualizaciones interactivas</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Capacitación y mentorías</td>
-<td style="text-align: left;">16 de febrero – mayo</td>
-<td style="text-align: left;">Talleres en línea: ODS, datos abiertos, UX/UI</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Evento final y premiación</td>
-<td style="text-align: left;">25 y 26 de junio de 2026</td>
-<td style="text-align: left;">Presentación y evaluación de proyectos</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td><a href="https://docs.astral.sh/uv/">uv</a></td>
+<td>Gestión del entorno y dependencias</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="criterios" class="level2">
-<h2 class="anchored" data-anchor-id="criterios">Criterios de Evaluación</h2>
-<p>Los proyectos serán evaluados por un jurado experto con base en los siguientes rubros:</p>
-<ul>
-<li>Calidad técnica: uso correcto y eficaz de herramientas y datos.</li>
-<li>Creatividad: originalidad en la visualización y narrativa.</li>
-<li>Impacto: relevancia del tablero para visibilizar problemáticas reales.</li>
-<li>Accesibilidad y diseño: claridad, inclusión y facilidad de interpretación.</li>
-</ul>
-</section>
-<section id="premios" class="level2">
-<h2 class="anchored" data-anchor-id="premios">Premios</h2>
-<ul>
-<li>1er. lugar: Tres laptops Dell XPS 13 (valor aproximado $25,000 MXN c/u).</li>
-<li>2do. lugar: Tres kits Raspberry Pi Modelo 5, 8GB RAM.</li>
-<li>3er. lugar: Tres Chromebooks Acer Spin 311.</li>
-</ul>
-<p>Además:</p>
-<ul>
-<li>Publicación de proyectos destacados en los portales oficiales de la UNAM.</li>
-<li>Constancias de participación para todos los equipos finalistas.</li>
-</ul>
-</section>
-<section id="jurado" class="level2">
-<h2 class="anchored" data-anchor-id="jurado">Jurado <em>(por anunciar)</em></h2>
-<p><strong>Integrantes (PA):</strong></p>
-<ul>
-<li>[Por anunciar]</li>
-<li>[Por anunciar]</li>
-<li>[Por anunciar]</li>
-</ul>
-<blockquote class="blockquote">
-<p>El fallo del jurado será <strong>definitivo e inapelable</strong>.</p>
-</blockquote>
-</section>
-<section id="descalificacion" class="level2">
-<h2 class="anchored" data-anchor-id="descalificacion">Motivos de Descalificación</h2>
-<ul>
-<li>Incumplimiento de los requisitos establecidos en la convocatoria.</li>
-<li>Plagio o uso indebido de datos no verificados.</li>
-<li>Conductas contrarias a la ética (discriminación, fraude, etc.).</li>
-<li>Inasistencia injustificada al evento final.</li>
-</ul>
-</section>
-<section id="entrega" class="level2">
-<h2 class="anchored" data-anchor-id="entrega">Premiación</h2>
-<p><strong>20–21 de noviembre de 2025</strong><br>
-Sede: Auditorio del Instituto de Geofísica, CU</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="imagenes/auditorio.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
-</figure>
-</div>
-<p><strong>Requisitos:</strong></p>
-<ul>
-<li>Presentar identificación oficial (INE, pasaporte o credencial de estudiante vigente).</li>
-<li>Asistir personalmente o con representante designado.</li>
-</ul>
-</section>
-<section id="cta" class="level2">
-<h2 class="anchored" data-anchor-id="cta">Llamado a la Acción</h2>
-<section id="haz-que-los-datos-hablen" class="level4 frases">
-<h4 class="frases anchored" data-anchor-id="haz-que-los-datos-hablen">¡Haz que los datos hablen!</h4>
-<p>Transforma estadísticas en soluciones, conecta ideas y crea impacto real.<br>
-<strong>Inscríbete y sé parte del cambio.</strong> → <a href="#registro">Ir al registro</a></p>
-</section>
-</section>
-<section id="Organizadores" class="level2">
-<h2 class="anchored" data-anchor-id="Organizadores">Organizadores</h2>
-<div class="imagecarousel">
-<figure class="organizer-card figure">
-<img src="./comite/Maricarmen.jpg" alt="Maricarmen Hernández" class="figure-img">
-<figcaption>
-<span class="organizer-name">Maricarmen Hernández</span> <span class="organizer-role">Logística</span> <span class="organizer-institution">Instituto de Geofísica, UNAM</span> <a class="organizer-email" href="mailto:mhernandezc@igeofisica.unam.mx">mhernandezc@igeofisica.unam.mx</a>
-</figcaption>
-</figure>
-<figure class="organizer-card figure">
-<img src="./comite/luismiguel.jpg" alt="Luis Miguel" class="figure-img">
-<figcaption>
-<span class="organizer-name">Luis Miguel de la Cruz </span> <span class="organizer-role">Mentor de Storytelling</span> <span class="organizer-institution">Instituto de Geofísica, UNAM</span> <a class="organizer-email" href="mailto:luiggi@igeofisica.unam.mx ">luiggi@igeofisica.unam.mx </a>
-</figcaption>
-</figure>
-<figure class="organizer-card figure">
-<img src="./comite/Dany.jpg" alt="Daniela Juárez" class="figure-img">
-<figcaption>
-<span class="organizer-name">Daniela Juárez</span> <span class="organizer-role">Patrocinios</span> <span class="organizer-institution">Instituto de Energías Renovables, UNAM</span> <a class="organizer-email" href="mailto:hackods@ier.unam.mx ">hackods@ier.unam.mx</a>
-</figcaption>
-</figure>
-<figure class="organizer-card figure">
-<img src="./comite/Guillermo.jpg" alt="Guillermo Barrios" class="figure-img">
-<figcaption>
-<span class="organizer-name">Guillermo Barrios</span> <span class="organizer-role">Quarto y tableros</span> <span class="organizer-institution">Instituto de Energías Renovables, UNAM</span> <a class="organizer-email" href="mailto:gbv@ier.unam.mx">gbv@ier.unam.mx</a>
-</figcaption>
-</figure>
-</div>
-<style>
-#btn-inscribete {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #2761e3;
-  color: white;
-  padding: 12px 20px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
-  z-index: 9999;
-  transition: background-color 0.3s ease;
-}
-#btn-inscribete:hover {
-  background-color: #5a96ff;
-}
-</style>
-<p><a id="btn-inscribete" href="#registro">📋 Inscríbete</a></p>
-</section>
 <section id="contacto" class="level2">
 <h2 class="anchored" data-anchor-id="contacto">Contacto</h2>
-<p>¿Tienes dudas o necesitas apoyo técnico?<br>
-👉 Escríbenos a <a href="mailto:hackods@ier.unam.mx">hackods@ier.unam.mx</a></p>
-<section id="síguenos-en-redes" class="level4 frases2">
-<h4 class="frases2 anchored" data-anchor-id="síguenos-en-redes">¡Síguenos en redes!</h4>
-<p><strong><span class="citation" data-cites="HackODS_UNAM">@HackODS_UNAM</span></strong> en Twitter e Instagram.</p>
-</section>
-</section>
-</section>
-</div>
-<div class="footer">
-
-</div>
+<p>Sitio oficial: <a href="https://www.hackods.unam.mx/">hackods.unam.mx</a></p>
+<p>Correo: <a href="mailto:hackods@ier.unam.mx">hackods@ier.unam.mx</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -406,13 +394,14 @@ Sede: Auditorio del Instituto de Geofísica, CU</p>
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -760,7 +749,7 @@ Sede: Auditorio del Instituto de Geofísica, CU</p>
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- Copyright 2025
+ HackODS UNAM 2026
   </li>  
 </ul>
     </div>   
@@ -768,19 +757,13 @@ Sede: Auditorio del Instituto de Geofísica, CU</p>
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
     <a class="nav-link" href="https://instagram.com/ierunam">
-      <i class="bi bi-instagram" role="img" aria-label="Instagram HackODS_UNAM">
+      <i class="bi bi-instagram" role="img" aria-label="Instagram IER UNAM">
 </i> 
     </a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="https://instagram.com/geofisica.unam">
       <i class="bi bi-instagram" role="img" aria-label="Instagram Geofísica">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/HackODS_UNAM">
-      <i class="bi bi-twitter" role="img">
 </i> 
     </a>
   </li>  

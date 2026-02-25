@@ -7,59 +7,30 @@ website:
   title: "HackODS"
   search: false
   navbar:
-    logo: ./imagenes/logo_completo_blanco.png
+    logo: logo.png
     left:
-      # - text: "¿Qué es?"
-      #   href: index.qmd#hackods
-      - text: "Convocatoria"
-        href: index.qmd#convocatoria
-      - text: "Cronograma"
-        href: index.qmd#cronograma
-      # - text: "Criterios"
-      #   href: index.qmd#criterios
-      - text: "Premios"
-        href: index.qmd#premios
-      # - text: "Jurado"
-      #   href: index.qmd#jurado
-      # - text: "Descalificación"
-      #   href: index.qmd#descalificacion
-      - text: "Premiación"
-        href: index.qmd#entrega
-      - text: "Contacto"
-        href: index.qmd#contacto
-    # right:
-      # - text: "Inscríbete"
-      #   href: index.qmd#registro
-    
+      - text: "Tableros"
+        href: tableros-completo.qmd
+      - text: "Tab-light"
+        href: tableros.qmd
+    tools:
+      - icon: github
+        href: https://github.com/hackods/hackods.github.io
 
-
-  page-footer: 
+  page-footer:
     background: gray
-    left: 
-      - text: "Copyright 2025" 
-    center:  
+    left:
+      - text: "HackODS UNAM 2026"
+    center:
       - icon: instagram
         href: https://instagram.com/ierunam
-        aria-label: Instagram HackODS_UNAM
+        aria-label: Instagram IER UNAM
       - icon: instagram
         href: https://instagram.com/geofisica.unam
         aria-label: Instagram Geofísica
-      - icon: twitter
-        href: https://twitter.com/HackODS_UNAM 
-        
-      
-
-        
-        
-
 format:
-  html:    
-    page-layout: full
+  html:
     theme:
-      - cosmo
-    #   - brand
+      light: zephyr
+      dark: darkly
     css: styles.css
-
-    # toc: true
-
-

@@ -1,0 +1,107 @@
+---
+title: "Reglamento de Tableros — HackODS 2026"
+number-sections: true
+---
+
+**Versión:** 0.1
+**Fecha:** febrero de 2026
+**Contacto:** hackods@ier.unam.mx
+
+---
+
+## Herramientas obligatorias
+
+| Herramienta | Uso | Versión mínima |
+|---|---|---|
+| [Quarto](https://quarto.org/) | Generación del tablero (formato `dashboard`) | 1.6 |
+| [Python](https://www.python.org/) | Procesamiento y análisis de datos | 3.11 |
+| [Plotly](https://plotly.com/python/) | Todas las visualizaciones interactivas | 5.x |
+| [uv](https://docs.astral.sh/uv/) | Gestión del entorno y dependencias | 0.5 |
+
+No se permite el uso de otras herramientas de visualización. Todas las figuras deben generarse con Plotly.
+
+---
+
+## Datos abiertos
+
+Se adopta la definición de la [Open Definition](https://opendefinition.org/od/2.1/es/): un dato es abierto si cualquier persona puede acceder a él, usarlo, modificarlo y redistribuirlo libremente.
+
+Un conjunto de datos es válido si:
+
+- Es de **acceso público y gratuito**.
+- Tiene una **licencia explícita** que permita su reutilización.
+- Proviene de una **fuente verificable e institucional**.
+
+### Fuentes recomendadas
+
+- [Portal de Datos Abiertos UNAM](https://datosabiertos.unam.mx/)
+- [datos.gob.mx](https://datos.gob.mx/)
+- [INEGI](https://www.inegi.org.mx/)
+- [CEPALSTAT](https://statistics.cepal.org/)
+- [ONU Stats / SDG Indicators](https://unstats.un.org/sdgs/dataportal)
+- [Our World in Data](https://ourworldindata.org/)
+- [Banco Mundial — Open Data](https://data.worldbank.org/)
+- [PNUD — Human Development Data](https://hdr.undp.org/data-center)
+
+Se pueden utilizar otras fuentes siempre que cumplan con la definición anterior y queden documentadas.
+
+**Está prohibido** utilizar datos sintéticos o generados por IA como datos primarios.
+
+---
+
+## Estructura del tablero
+
+El tablero debe construirse como una **narrativa con datos**. Debe incluir las siguientes secciones obligatorias:
+
+| Sección | Rol |
+|---|---|
+| **Contexto** | ODS y metas que aborda, audiencia objetivo |
+| **La Gran Idea** | Afirmación central que los datos sostienen |
+| **La tensión** | Problema o brecha que el tablero visibiliza |
+| **La evidencia** | Visualizaciones interactivas que construyen el argumento |
+| **La resolución** | Conclusión en prosa que responde la tensión |
+| **Fuentes de datos** | Procedencia de todos los datos utilizados |
+| **Aviso legal** | Licencia del proyecto y descargo de responsabilidad |
+
+---
+
+## Requisitos del código
+
+- Todo el código Python debe estar contenido en el archivo `.qmd`.
+- No se aceptan figuras importadas como imágenes estáticas.
+- Los chunks deben ocultar código y mensajes al usuario (`echo: false`, `warning: false`, `message: false`).
+
+### Documentación de fuentes
+
+Cada conjunto de datos debe documentarse con: nombre, organismo, URL de descarga, licencia y fecha de consulta.
+
+---
+
+## Repositorio y entrega
+
+- El repositorio debe ser **público** en GitHub.
+- El tablero debe estar **publicado en GitHub Pages**.
+- El entorno debe gestionarse con [uv](https://docs.astral.sh/uv/).
+- El proyecto debe ser reproducible con `uv sync && quarto render tablero.qmd`.
+- La rama principal debe estar limpia: sin archivos temporales, datos sensibles ni credenciales.
+
+---
+
+## Licencia
+
+El proyecto debe usar la licencia **CC BY-NC 4.0**. Más información: [creativecommons.org/licenses/by-nc/4.0/deed.es](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
+
+---
+
+## Causas de descalificación técnica
+
+- No puede renderizarse con `uv run quarto render index.qmd`.
+- Utiliza datos sintéticos o no verificables.
+- Las visualizaciones son imágenes estáticas.
+- El repositorio es privado o el tablero no es accesible públicamente.
+- No incluye las secciones obligatorias.
+- Incluye HTML o CSS personalizados que alteren el estilo base de Quarto.
+
+---
+
+*Este reglamento es un documento vivo. Cualquier actualización será comunicada por los canales oficiales del hackatón.*
