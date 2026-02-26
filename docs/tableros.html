@@ -38,9 +38,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a871abbcef43acd58ef4e285907f6a38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-45fcc7650e7139e1bcaf86d269e9dc05.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-a871abbcef43acd58ef4e285907f6a38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4938df15d0317f86d7b610638a76c4e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-475ad4fe1e4ce2c827a237f0e4cf2c17.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-4938df15d0317f86d7b610638a76c4e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No se han encontrado resultados",
@@ -56,6 +56,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -244,12 +250,8 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./tableros-completo.html"> 
-<span class="menu-text">Tableros</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./tableros.html" aria-current="page"> 
-<span class="menu-text">Tab-light</span></a>
+<span class="menu-text">Tableros</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -297,29 +299,24 @@ ul.task-list li input[type="checkbox"] {
 <tr class="header">
 <th>Herramienta</th>
 <th>Uso</th>
-<th>Versión mínima</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a href="https://quarto.org/">Quarto</a></td>
 <td>Generación del tablero (formato <code>dashboard</code>)</td>
-<td>1.6</td>
 </tr>
 <tr class="even">
 <td><a href="https://www.python.org/">Python</a></td>
-<td>Procesamiento y análisis de datos</td>
-<td>3.11</td>
+<td>Procesamiento y análisis de datos (se recomienda <a href="https://docs.anaconda.com/miniconda/">Miniconda</a>)</td>
 </tr>
 <tr class="odd">
 <td><a href="https://plotly.com/python/">Plotly</a></td>
 <td>Todas las visualizaciones interactivas</td>
-<td>5.x</td>
 </tr>
 <tr class="even">
 <td><a href="https://docs.astral.sh/uv/">uv</a></td>
 <td>Gestión del entorno y dependencias</td>
-<td>0.5</td>
 </tr>
 </tbody>
 </table>
@@ -348,12 +345,12 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://hdr.undp.org/data-center">PNUD — Human Development Data</a></li>
 </ul>
 <p>Se pueden utilizar otras fuentes siempre que cumplan con la definición anterior y queden documentadas.</p>
-<p><strong>Está prohibido</strong> utilizar datos sintéticos o generados por IA como datos primarios.</p>
+<p><strong>Está prohibido</strong> utilizar datos sintéticos o generados por IA.</p>
 <hr>
 </section>
 </section>
-<section id="estructura-del-tablero" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="estructura-del-tablero"><span class="header-section-number">3</span> Estructura del tablero</h2>
+<section id="estructura-del-tablero-a-revisar-por-luis-miguel" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="estructura-del-tablero-a-revisar-por-luis-miguel"><span class="header-section-number">3</span> Estructura del tablero A revisar por Luis Miguel</h2>
 <p>El tablero debe construirse como una <strong>narrativa con datos</strong>. Debe incluir las siguientes secciones obligatorias:</p>
 <table class="caption-top table">
 <colgroup>
@@ -404,7 +401,6 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Todo el código Python debe estar contenido en el archivo <code>.qmd</code>.</li>
 <li>No se aceptan figuras importadas como imágenes estáticas.</li>
-<li>Los chunks deben ocultar código y mensajes al usuario (<code>echo: false</code>, <code>warning: false</code>, <code>message: false</code>).</li>
 </ul>
 <section id="documentación-de-fuentes" class="level3" data-number="4.1">
 <h3 data-number="4.1" class="anchored" data-anchor-id="documentación-de-fuentes"><span class="header-section-number">4.1</span> Documentación de fuentes</h3>
@@ -418,8 +414,8 @@ ul.task-list li input[type="checkbox"] {
 <li>El repositorio debe ser <strong>público</strong> en GitHub.</li>
 <li>El tablero debe estar <strong>publicado en GitHub Pages</strong>.</li>
 <li>El entorno debe gestionarse con <a href="https://docs.astral.sh/uv/">uv</a>.</li>
-<li>El proyecto debe ser reproducible con <code>uv sync &amp;&amp; quarto render tablero.qmd</code>.</li>
-<li>La rama principal debe estar limpia: sin archivos temporales, datos sensibles ni credenciales.</li>
+<li>El proyecto debe ser reproducible con <code>uv run quarto render index.qmd</code>.</li>
+<li>La versión final del tablero debe estar en la rama <code>main</code>.</li>
 </ul>
 <hr>
 </section>

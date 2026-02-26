@@ -10,8 +10,6 @@ website:
     logo: logo.png
     left:
       - text: "Tableros"
-        href: tableros-completo.qmd
-      - text: "Tab-light"
         href: tableros.qmd
     tools:
       - icon: github
@@ -28,6 +26,9 @@ website:
       - icon: instagram
         href: https://instagram.com/geofisica.unam
         aria-label: Instagram Geofísica
+comments:
+  hypothesis: true
+
 format:
   html:
     theme:

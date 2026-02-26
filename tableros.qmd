@@ -11,12 +11,12 @@ number-sections: true
 
 ## Herramientas obligatorias
 
-| Herramienta | Uso | Versión mínima |
-|---|---|---|
-| [Quarto](https://quarto.org/) | Generación del tablero (formato `dashboard`) | 1.6 |
-| [Python](https://www.python.org/) | Procesamiento y análisis de datos | 3.11 |
-| [Plotly](https://plotly.com/python/) | Todas las visualizaciones interactivas | 5.x |
-| [uv](https://docs.astral.sh/uv/) | Gestión del entorno y dependencias | 0.5 |
+| Herramienta | Uso |
+|---|---|
+| [Quarto](https://quarto.org/) | Generación del tablero (formato `dashboard`) |
+| [Python](https://www.python.org/) | Procesamiento y análisis de datos (se recomienda [Miniconda](https://docs.anaconda.com/miniconda/)) |
+| [Plotly](https://plotly.com/python/) | Todas las visualizaciones interactivas |
+| [uv](https://docs.astral.sh/uv/) | Gestión del entorno y dependencias |
 
 No se permite el uso de otras herramientas de visualización. Todas las figuras deben generarse con Plotly.
 
@@ -45,11 +45,11 @@ Un conjunto de datos es válido si:
 
 Se pueden utilizar otras fuentes siempre que cumplan con la definición anterior y queden documentadas.
 
-**Está prohibido** utilizar datos sintéticos o generados por IA como datos primarios.
+**Está prohibido** utilizar datos sintéticos o generados por IA.
 
 ---
 
-## Estructura del tablero
+## Estructura del tablero A revisar por Luis Miguel
 
 El tablero debe construirse como una **narrativa con datos**. Debe incluir las siguientes secciones obligatorias:
 
@@ -69,7 +69,6 @@ El tablero debe construirse como una **narrativa con datos**. Debe incluir las s
 
 - Todo el código Python debe estar contenido en el archivo `.qmd`.
 - No se aceptan figuras importadas como imágenes estáticas.
-- Los chunks deben ocultar código y mensajes al usuario (`echo: false`, `warning: false`, `message: false`).
 
 ### Documentación de fuentes
 
@@ -82,8 +81,8 @@ Cada conjunto de datos debe documentarse con: nombre, organismo, URL de descarga
 - El repositorio debe ser **público** en GitHub.
 - El tablero debe estar **publicado en GitHub Pages**.
 - El entorno debe gestionarse con [uv](https://docs.astral.sh/uv/).
-- El proyecto debe ser reproducible con `uv sync && quarto render tablero.qmd`.
-- La rama principal debe estar limpia: sin archivos temporales, datos sensibles ni credenciales.
+- El proyecto debe ser reproducible con `uv run quarto render index.qmd`.
+- La versión final del tablero debe estar en la rama `main`.
 
 ---
 

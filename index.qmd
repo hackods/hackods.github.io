@@ -7,17 +7,6 @@ Bienvenidas y bienvenidos al primer hackatón de la UNAM dedicado a convertir da
 
 En este sitio encontrarás toda la información necesaria para el desarrollo de tu proyecto: desde el reglamento de tableros hasta las herramientas y fuentes de datos que utilizarás durante el hackatón.
 
-## Herramientas
-
-Los tableros se desarrollan con herramientas de código abierto:
-
-| Herramienta | Uso |
-|---|---|
-| [Quarto](https://quarto.org/) | Generación del tablero (formato `dashboard`) |
-| [Python](https://www.python.org/) | Procesamiento y análisis de datos |
-| [Plotly](https://plotly.com/python/) | Visualizaciones interactivas |
-| [uv](https://docs.astral.sh/uv/) | Gestión del entorno y dependencias |
-
 ## Contacto
 
 Sitio oficial: [hackods.unam.mx](https://www.hackods.unam.mx/)

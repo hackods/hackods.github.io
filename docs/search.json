@@ -130,14 +130,14 @@
     "href": "tableros.html#herramientas-obligatorias",
     "title": "Reglamento de Tableros — HackODS 2026",
     "section": "1 Herramientas obligatorias",
-    "text": "1 Herramientas obligatorias\n\n\n\nHerramienta\nUso\nVersión mínima\n\n\n\n\nQuarto\nGeneración del tablero (formato dashboard)\n1.6\n\n\nPython\nProcesamiento y análisis de datos\n3.11\n\n\nPlotly\nTodas las visualizaciones interactivas\n5.x\n\n\nuv\nGestión del entorno y dependencias\n0.5\n\n\n\nNo se permite el uso de otras herramientas de visualización. Todas las figuras deben generarse con Plotly."
+    "text": "1 Herramientas obligatorias\n\n\n\nHerramienta\nUso\n\n\n\n\nQuarto\nGeneración del tablero (formato dashboard)\n\n\nPython\nProcesamiento y análisis de datos (se recomienda Miniconda)\n\n\nPlotly\nTodas las visualizaciones interactivas\n\n\nuv\nGestión del entorno y dependencias\n\n\n\nNo se permite el uso de otras herramientas de visualización. Todas las figuras deben generarse con Plotly."
   },
   {
     "objectID": "tableros.html#datos-abiertos",
     "href": "tableros.html#datos-abiertos",
     "title": "Reglamento de Tableros — HackODS 2026",
     "section": "2 Datos abiertos",
-    "text": "2 Datos abiertos\nSe adopta la definición de la Open Definition: un dato es abierto si cualquier persona puede acceder a él, usarlo, modificarlo y redistribuirlo libremente.\nUn conjunto de datos es válido si:\n\nEs de acceso público y gratuito.\nTiene una licencia explícita que permita su reutilización.\nProviene de una fuente verificable e institucional.\n\n\n2.1 Fuentes recomendadas\n\nPortal de Datos Abiertos UNAM\ndatos.gob.mx\nINEGI\nCEPALSTAT\nONU Stats / SDG Indicators\nOur World in Data\nBanco Mundial — Open Data\nPNUD — Human Development Data\n\nSe pueden utilizar otras fuentes siempre que cumplan con la definición anterior y queden documentadas.\nEstá prohibido utilizar datos sintéticos o generados por IA como datos primarios."
+    "text": "2 Datos abiertos\nSe adopta la definición de la Open Definition: un dato es abierto si cualquier persona puede acceder a él, usarlo, modificarlo y redistribuirlo libremente.\nUn conjunto de datos es válido si:\n\nEs de acceso público y gratuito.\nTiene una licencia explícita que permita su reutilización.\nProviene de una fuente verificable e institucional.\n\n\n2.1 Fuentes recomendadas\n\nPortal de Datos Abiertos UNAM\ndatos.gob.mx\nINEGI\nCEPALSTAT\nONU Stats / SDG Indicators\nOur World in Data\nBanco Mundial — Open Data\nPNUD — Human Development Data\n\nSe pueden utilizar otras fuentes siempre que cumplan con la definición anterior y queden documentadas.\nEstá prohibido utilizar datos sintéticos o generados por IA."
   },
   {
     "objectID": "tableros.html#estructura-del-tablero",
@@ -151,7 +151,7 @@
     "href": "tableros.html#requisitos-del-código",
     "title": "Reglamento de Tableros — HackODS 2026",
     "section": "4 Requisitos del código",
-    "text": "4 Requisitos del código\n\nTodo el código Python debe estar contenido en el archivo .qmd.\nNo se aceptan figuras importadas como imágenes estáticas.\nLos chunks deben ocultar código y mensajes al usuario (echo: false, warning: false, message: false).\n\n\n4.1 Documentación de fuentes\nCada conjunto de datos debe documentarse con: nombre, organismo, URL de descarga, licencia y fecha de consulta."
+    "text": "4 Requisitos del código\n\nTodo el código Python debe estar contenido en el archivo .qmd.\nNo se aceptan figuras importadas como imágenes estáticas.\n\n\n4.1 Documentación de fuentes\nCada conjunto de datos debe documentarse con: nombre, organismo, URL de descarga, licencia y fecha de consulta."
   },
   {
     "objectID": "tableros.html#estructura-del-repositorio",
@@ -172,7 +172,7 @@
     "href": "tableros.html#repositorio-y-entrega",
     "title": "Reglamento de Tableros — HackODS 2026",
     "section": "5 Repositorio y entrega",
-    "text": "5 Repositorio y entrega\n\nEl repositorio debe ser público en GitHub.\nEl tablero debe estar publicado en GitHub Pages.\nEl entorno debe gestionarse con uv.\nEl proyecto debe ser reproducible con uv sync && quarto render tablero.qmd.\nLa rama principal debe estar limpia: sin archivos temporales, datos sensibles ni credenciales."
+    "text": "5 Repositorio y entrega\n\nEl repositorio debe ser público en GitHub.\nEl tablero debe estar publicado en GitHub Pages.\nEl entorno debe gestionarse con uv.\nEl proyecto debe ser reproducible con uv run quarto render index.qmd.\nLa versión final del tablero debe estar en la rama main."
   },
   {
     "objectID": "tableros.html#licencia",
@@ -271,5 +271,12 @@
     "title": "Reglamento de Tableros — HackODS 2026",
     "section": "10 Causas de descalificación técnica",
     "text": "10 Causas de descalificación técnica\nAdemás de las causas generales de descalificación indicadas en la convocatoria, un tablero será descalificado si:\n\nNo puede renderizarse con uv run quarto render index.qmd.\nUtiliza datos sintéticos o no verificables como fuente principal.\nLas visualizaciones son imágenes estáticas y no están generadas con Plotly.\nEl repositorio es privado o el tablero publicado no es accesible públicamente.\nNo incluye alguna de las secciones obligatorias.\nIncluye HTML o CSS personalizados que alteren el estilo base de Quarto.\n\n\nEste reglamento es un documento vivo. Cualquier actualización será comunicada por los canales oficiales del hackatón."
+  },
+  {
+    "objectID": "tableros.html#estructura-del-tablero-a-revisar-por-luis-miguel",
+    "href": "tableros.html#estructura-del-tablero-a-revisar-por-luis-miguel",
+    "title": "Reglamento de Tableros — HackODS 2026",
+    "section": "3 Estructura del tablero A revisar por Luis Miguel",
+    "text": "3 Estructura del tablero A revisar por Luis Miguel\nEl tablero debe construirse como una narrativa con datos. Debe incluir las siguientes secciones obligatorias:\n\n\n\n\n\n\n\nSección\nRol\n\n\n\n\nContexto\nODS y metas que aborda, audiencia objetivo\n\n\nLa Gran Idea\nAfirmación central que los datos sostienen\n\n\nLa tensión\nProblema o brecha que el tablero visibiliza\n\n\nLa evidencia\nVisualizaciones interactivas que construyen el argumento\n\n\nLa resolución\nConclusión en prosa que responde la tensión\n\n\nFuentes de datos\nProcedencia de todos los datos utilizados\n\n\nAviso legal\nLicencia del proyecto y descargo de responsabilidad"
   }
 ]
