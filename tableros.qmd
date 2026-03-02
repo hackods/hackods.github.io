@@ -18,7 +18,7 @@ number-sections: true
 | [Plotly](https://plotly.com/python/) | Todas las visualizaciones interactivas |
 | [uv](https://docs.astral.sh/uv/) | Gestión del entorno y dependencias |
 
-No se permite el uso de otras herramientas de visualización. Todas las figuras deben generarse con Plotly.
+No se permite el uso de otras herramientas de desarrollo.
 
 ---
 
@@ -49,9 +49,13 @@ Se pueden utilizar otras fuentes siempre que cumplan con la definición anterior
 
 ---
 
-## Estructura del tablero A revisar por Luis Miguel
+## Estructura del tablero
 
-El tablero debe construirse como una **narrativa con datos**. Debe incluir las siguientes secciones obligatorias:
+El tablero debe tener las siguientes secciones:
+
+EN PROCESO...
+
+<!-- El tablero debe construirse como una **narrativa con datos**. Debe incluir las siguientes secciones obligatorias:
 
 | Sección | Rol |
 |---|---|
@@ -63,14 +67,14 @@ El tablero debe construirse como una **narrativa con datos**. Debe incluir las s
 | **Fuentes de datos** | Procedencia de todos los datos utilizados |
 | **Aviso legal** | Licencia del proyecto y descargo de responsabilidad |
 
----
+--- -->
 
 ## Requisitos del código
 
 - Todo el código Python debe estar contenido en el archivo `.qmd`.
-- No se aceptan figuras importadas como imágenes estáticas.
+- Las gráficas se deben generar en el  importadas como imágenes estáticas.
 
-### Documentación de fuentes
+### Documentación de fuentes de datos
 
 Cada conjunto de datos debe documentarse con: nombre, organismo, URL de descarga, licencia y fecha de consulta.
 
