@@ -27,7 +27,7 @@ website:
         href: https://instagram.com/geofisica.unam
         aria-label: Instagram Geofísica
 comments:
-  hypothesis: true
+  hypothesis: false
 
 format:
   html:
