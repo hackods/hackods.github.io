@@ -11,6 +11,8 @@ website:
     left:
       - text: "Tableros"
         href: tableros.qmd
+      - text: "Capacitación"
+        href: capacitacion.qmd
     tools:
       - icon: github
         href: https://github.com/hackods/hackods.github.io

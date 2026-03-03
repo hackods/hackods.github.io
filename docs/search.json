@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bienvenida al HackODS UNAM 2026",
+    "objectID": "capacitacion.html",
+    "href": "capacitacion.html",
+    "title": "Capacitación",
     "section": "",
-    "text": "Bienvenidas y bienvenidos al primer hackatón de la UNAM dedicado a convertir datos abiertos en narrativas visuales sobre los Objetivos de Desarrollo Sostenible (ODS).\nEn este sitio encontrarás toda la información necesaria para el desarrollo de tu proyecto: desde el reglamento de tableros hasta las herramientas y fuentes de datos que utilizarás durante el hackatón."
+    "text": "View slides in full screen"
   },
   {
-    "objectID": "index.html#contacto",
-    "href": "index.html#contacto",
-    "title": "Bienvenida al HackODS UNAM 2026",
-    "section": "Contacto",
-    "text": "Contacto\nSitio oficial: hackods.unam.mx\nCorreo: hackods@ier.unam.mx"
+    "objectID": "capacitacion.html#presentaciones",
+    "href": "capacitacion.html#presentaciones",
+    "title": "Capacitación",
+    "section": "",
+    "text": "View slides in full screen"
   },
   {
     "objectID": "tableros.html",
@@ -68,5 +68,19 @@
     "title": "Reglamento de Tableros — HackODS 2026",
     "section": "7 Causas de descalificación técnica",
     "text": "7 Causas de descalificación técnica\n\nNo puede renderizarse con uv run quarto render index.qmd.\nUtiliza datos sintéticos o no verificables.\nLas visualizaciones son imágenes estáticas.\nEl repositorio es privado o el tablero no es accesible públicamente.\nNo incluye las secciones obligatorias.\nIncluye HTML o CSS personalizados que alteren el estilo base de Quarto.\n\n\nEste reglamento es un documento vivo. Cualquier actualización será comunicada por los canales oficiales del hackatón."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bienvenida al HackODS UNAM 2026",
+    "section": "",
+    "text": "Bienvenidas y bienvenidos al primer hackatón de la UNAM dedicado a convertir datos abiertos en narrativas visuales sobre los Objetivos de Desarrollo Sostenible (ODS).\nEn este sitio encontrarás toda la información necesaria para el desarrollo de tu proyecto: desde el reglamento de tableros hasta las herramientas y fuentes de datos que utilizarás durante el hackatón."
+  },
+  {
+    "objectID": "index.html#contacto",
+    "href": "index.html#contacto",
+    "title": "Bienvenida al HackODS UNAM 2026",
+    "section": "Contacto",
+    "text": "Contacto\nSitio oficial: hackods.unam.mx\nCorreo: hackods@ier.unam.mx"
   }
 ]

@@ -1,0 +1,9 @@
+---
+title: "Capacitación"
+---
+
+## Presentaciones
+
+### Quarto
+
+{{< revealjs "https://altamarmx.github.io/hardware-software-libre-sostenibilidad/#/title-slide" height="475px" width="100%" >}}
