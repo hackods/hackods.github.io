@@ -6,4 +6,4 @@ title: "Capacitación"
 
 ### Quarto
 
-{{< revealjs "https://altamarmx.github.io/hardware-software-libre-sostenibilidad/#/title-slide" height="475px" width="100%" >}}
+{{< revealjs "https://hackods.github.io/ecosistemaHackODS/#/title-slide" height="475px" width="100%" >}}
