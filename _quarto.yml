@@ -36,6 +36,6 @@ comments:
 format:
   html:
     theme:
-      light: zephyr
-      dark: darkly
+      light: lux
+      dark: superhero
     css: styles.css
