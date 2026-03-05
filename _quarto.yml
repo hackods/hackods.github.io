@@ -11,8 +11,8 @@ website:
     left:
       - text: "Reglamentos"
         menu:
-          - text: "Tableros"
-            href: tableros.qmd
+          # - text: "Tableros"
+          #   href: tableros.qmd
           - text: "Comunicación"
             href: comunicacion.qmd
       - text: "Calendario"
