@@ -7,10 +7,12 @@ website:
   title: "HackODS"
   search: false
   navbar:
-    logo: logo.png
+    logo: img/logo.png
     left:
       - text: "Tableros"
         href: tableros.qmd
+      - text: "Calendario"
+        href: calendario.qmd
       - text: "Capacitación"
         href: capacitacion.qmd
     tools:

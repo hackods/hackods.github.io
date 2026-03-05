@@ -14,6 +14,20 @@
     "text": "View slides in full screen"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bienvenida al HackODS UNAM 2026",
+    "section": "",
+    "text": "Bienvenidas y bienvenidos al primer hackatón de la UNAM dedicado a convertir datos abiertos en narrativas visuales sobre los Objetivos de Desarrollo Sostenible (ODS).\nEn este sitio encontrarás toda la información necesaria para el desarrollo de tu proyecto: desde el reglamento de tableros hasta las herramientas y fuentes de datos que utilizarás durante el hackatón."
+  },
+  {
+    "objectID": "index.html#contacto",
+    "href": "index.html#contacto",
+    "title": "Bienvenida al HackODS UNAM 2026",
+    "section": "Contacto",
+    "text": "Contacto\nSitio oficial: hackods.unam.mx\nCorreo: hackods@ier.unam.mx"
+  },
+  {
     "objectID": "tableros.html",
     "href": "tableros.html",
     "title": "Reglamento de Tableros — HackODS 2026",
@@ -70,17 +84,10 @@
     "text": "7 Causas de descalificación técnica\n\nNo puede renderizarse con uv run quarto render index.qmd.\nUtiliza datos sintéticos o no verificables.\nLas visualizaciones son imágenes estáticas.\nEl repositorio es privado o el tablero no es accesible públicamente.\nNo incluye las secciones obligatorias.\nIncluye HTML o CSS personalizados que alteren el estilo base de Quarto.\n\n\nEste reglamento es un documento vivo. Cualquier actualización será comunicada por los canales oficiales del hackatón."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bienvenida al HackODS UNAM 2026",
+    "objectID": "calendario.html",
+    "href": "calendario.html",
+    "title": "Calendario capacitación",
     "section": "",
-    "text": "Bienvenidas y bienvenidos al primer hackatón de la UNAM dedicado a convertir datos abiertos en narrativas visuales sobre los Objetivos de Desarrollo Sostenible (ODS).\nEn este sitio encontrarás toda la información necesaria para el desarrollo de tu proyecto: desde el reglamento de tableros hasta las herramientas y fuentes de datos que utilizarás durante el hackatón."
-  },
-  {
-    "objectID": "index.html#contacto",
-    "href": "index.html#contacto",
-    "title": "Bienvenida al HackODS UNAM 2026",
-    "section": "Contacto",
-    "text": "Contacto\nSitio oficial: hackods.unam.mx\nCorreo: hackods@ier.unam.mx"
+    "text": "NotaSemana 1 ・ 2 - 6 mar\n\n\n\n\n\n\nDía\nActividad\n\n\n\n\nLun 2\nIntroducción, dinámica\n\n\nMar 3\nMéxico y la Agenda 2030, UNESCO\n\n\nJue 5\nInstalación Python, Jupyter\n\n\n\n\n\n\n\n\n\n\n\nTipSemana 2 ・ 9 - 13 mar\n\n\n\n\n\n\nDía\nActividad\n\n\n\n\nLun 9\nTaller datos INEGI\n\n\nMar 10\nPortal de Datos Abiertos UNAM\n\n\nMié 11\nCreative Commons *\n\n\nJue 12\nPandas\n\n\nVie 13\nNotion *\n\n\n\n\n\n\n\n\n\n\n\nImportanteSemana 3 ・ 16 - 20 mar\n\n\n\n\n\n\nDía\nActividad\n\n\n\n\nMar 17\nMariana Peña, SDNS Youth\n\n\nMié 18\nDiseño UX\n\n\nJue 19\nVisualización con Plotly, Rúbrica tableros\n\n\n\n\n\n\n\n\n\n\n\nAdvertenciaVacaciones ・ 30 mar – 5 abr\n\n\n\n\n\n\nDía\nActividad\n\n\n\n\n—\nSemana de descanso\n\n\n\n\n\n\n\n\n\n\n\nNotaSemana 4 ・ 23 - 27 mar\n\n\n\n\n\n\nDía\nActividad\n\n\n\n\nLun 23\nGit y GitHub\n\n\nMar 24\nStorytelling con datos\n\n\nJue 26\nQuarto para tableros\n\n\n\n\n\n\n\n\n\n\n\nTipSemana 5 ・ 6 - 10 abr\n\n\n\n\n\n\nDía\nActividad\n\n\n\n\nLun 6\nPor definir\n\n\nMar 7\nPor definir\n\n\nJue 9\nMi primer tablero en GitHub Pages\n\n\n\n\n\n\n\n\n\n\n\nImportanteSemana 6 ・ 13 - 17 abr\n\n\n\n\n\n\nDía\nActividad\n\n\n\n\nLun 13\nPor definir\n\n\nMar 14\nPor definir\n\n\nJue 16\nCierre y dudas"
   }
 ]
