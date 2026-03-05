@@ -1,0 +1,82 @@
+---
+title: "Código de Conducta del Grupo de Telegram HackODS"
+---
+
+Con el fin de mantener un espacio ordenado, respetuoso, seguro y útil para todas las personas participantes, se establecen los siguientes lineamientos de convivencia y comunicación dentro del grupo oficial de Telegram del HackODS.
+
+## 1. Canal oficial de comunicación
+
+El grupo es el **único canal de atención** para dudas generales sobre el Hackatón.
+
+- Toda consulta deberá realizarse **dentro del grupo**.
+- **No se dará seguimiento a mensajes directos** enviados a integrantes del comité organizador.
+- En caso de recibir mensajes privados, estos **no serán respondidos y se borrarán**, con el fin de asegurar transparencia y equidad en la atención.
+
+## 2. Horarios de atención
+
+El comité organizador brindará acompañamiento en el grupo en los siguientes términos:
+
+- **Horario de atención:** de las 9:00 a las 19:00 horas (hora del centro de México), únicamente en días hábiles.
+- **Fines de semana:** no habrá atención activa.
+- Los mensajes enviados fuera de horario serán atendidos al **siguiente día hábil**.
+
+Agradecemos su cooperación para permitir una gestión ordenada del evento.
+
+## 3. Uso responsable del grupo
+
+Para mantener la utilidad del espacio:
+
+- Evitar mensajes repetidos.
+- Leer mensajes fijados y preguntas frecuentes antes de consultar.
+- Mantener las conversaciones sólo **relacionadas con el HackODS**.
+- Evitar el uso de emojis, stickers o mensajes que dificulten el seguimiento.
+
+**Sugerencia:** Se recomienda silenciar (mute) las notificaciones del grupo y revisarlo periódicamente.
+
+## 4. Protección de datos personales
+
+Para cuidar la seguridad de todas las personas:
+
+- No compartir datos personales en el grupo (teléfonos, correos, documentos, comprobantes de pago, etcétera).
+- No publicar información sensible propia ni de terceros.
+- Cualquier envío de información personal deberá realizarse exclusivamente **por medio del correo oficial del HackODS**.
+
+## 5. Respeto y convivencia
+
+Este es un espacio profesional y colaborativo. Se espera:
+
+- Trato respetuoso en todo momento.
+- Lenguaje adecuado e inclusivo.
+- Cero tolerancia a conductas de acoso, discriminación, agresión o bromas discriminatorias u ofensivas.
+
+El comité organizador podrá:
+
+- Eliminar mensajes inapropiados.
+- Emitir advertencias.
+- Retirar del grupo a quien incumpla reiteradamente estos lineamientos.
+
+## 6. Difusión y contenido
+
+Dentro del grupo:
+
+- Evitar spam, publicidad o promoción no relacionada con el Hackatón.
+- No compartir enlaces externos sin contexto, no verificados o que puedan poner en peligro la seguridad del grupo.
+- No enviar archivos pesados sin que hayan sido solicitados.
+
+## 7. Carácter informativo del grupo
+
+El grupo se utilizará para:
+
+- Avisos oficiales del HackODS.
+- Resolución de dudas generales.
+- Recordatorios logísticos.
+- Información relevante para participantes.
+
+Para temas individuales o sensibles, se deberá utilizar el **correo oficial del evento**.
+
+## 8. Aceptación de lineamientos
+
+La permanencia en este grupo implica la **aceptación de este Código de Conducta**.
+
+Agradecemos su colaboración para mantener este espacio ordenado, útil y respetuoso para toda la comunidad HackODS.
+

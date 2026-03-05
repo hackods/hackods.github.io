@@ -84,6 +84,69 @@
     "text": "7 Causas de descalificación técnica\n\nNo puede renderizarse con uv run quarto render index.qmd.\nUtiliza datos sintéticos o no verificables.\nLas visualizaciones son imágenes estáticas.\nEl repositorio es privado o el tablero no es accesible públicamente.\nNo incluye las secciones obligatorias.\nIncluye HTML o CSS personalizados que alteren el estilo base de Quarto.\n\n\nEste reglamento es un documento vivo. Cualquier actualización será comunicada por los canales oficiales del hackatón."
   },
   {
+    "objectID": "comunicacion.html",
+    "href": "comunicacion.html",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "",
+    "text": "Con el fin de mantener un espacio ordenado, respetuoso, seguro y útil para todas las personas participantes, se establecen los siguientes lineamientos de convivencia y comunicación dentro del grupo oficial de Telegram del HackODS."
+  },
+  {
+    "objectID": "comunicacion.html#canal-oficial-de-comunicación",
+    "href": "comunicacion.html#canal-oficial-de-comunicación",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "1. Canal oficial de comunicación",
+    "text": "1. Canal oficial de comunicación\nEl grupo es el único canal de atención para dudas generales sobre el Hackatón.\n\nToda consulta deberá realizarse dentro del grupo.\nNo se dará seguimiento a mensajes directos enviados a integrantes del comité organizador.\nEn caso de recibir mensajes privados, estos no serán respondidos y se borrarán, con el fin de asegurar transparencia y equidad en la atención."
+  },
+  {
+    "objectID": "comunicacion.html#horarios-de-atención",
+    "href": "comunicacion.html#horarios-de-atención",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "2. Horarios de atención",
+    "text": "2. Horarios de atención\nEl comité organizador brindará acompañamiento en el grupo en los siguientes términos:\n\nHorario de atención: de las 9:00 a las 19:00 horas (hora del centro de México), únicamente en días hábiles.\nFines de semana: no habrá atención activa.\nLos mensajes enviados fuera de horario serán atendidos al siguiente día hábil.\n\nAgradecemos su cooperación para permitir una gestión ordenada del evento."
+  },
+  {
+    "objectID": "comunicacion.html#uso-responsable-del-grupo",
+    "href": "comunicacion.html#uso-responsable-del-grupo",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "3. Uso responsable del grupo",
+    "text": "3. Uso responsable del grupo\nPara mantener la utilidad del espacio:\n\nEvitar mensajes repetidos.\nLeer mensajes fijados y preguntas frecuentes antes de consultar.\nMantener las conversaciones sólo relacionadas con el HackODS.\nEvitar el uso de emojis, stickers o mensajes que dificulten el seguimiento.\n\nSugerencia: Se recomienda silenciar (mute) las notificaciones del grupo y revisarlo periódicamente."
+  },
+  {
+    "objectID": "comunicacion.html#protección-de-datos-personales",
+    "href": "comunicacion.html#protección-de-datos-personales",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "4. Protección de datos personales",
+    "text": "4. Protección de datos personales\nPara cuidar la seguridad de todas las personas:\n\nNo compartir datos personales en el grupo (teléfonos, correos, documentos, comprobantes de pago, etcétera).\nNo publicar información sensible propia ni de terceros.\nCualquier envío de información personal deberá realizarse exclusivamente por medio del correo oficial del HackODS."
+  },
+  {
+    "objectID": "comunicacion.html#respeto-y-convivencia",
+    "href": "comunicacion.html#respeto-y-convivencia",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "5. Respeto y convivencia",
+    "text": "5. Respeto y convivencia\nEste es un espacio profesional y colaborativo. Se espera:\n\nTrato respetuoso en todo momento.\nLenguaje adecuado e inclusivo.\nCero tolerancia a conductas de acoso, discriminación, agresión o bromas discriminatorias u ofensivas.\n\nEl comité organizador podrá:\n\nEliminar mensajes inapropiados.\nEmitir advertencias.\nRetirar del grupo a quien incumpla reiteradamente estos lineamientos."
+  },
+  {
+    "objectID": "comunicacion.html#difusión-y-contenido",
+    "href": "comunicacion.html#difusión-y-contenido",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "6. Difusión y contenido",
+    "text": "6. Difusión y contenido\nDentro del grupo:\n\nEvitar spam, publicidad o promoción no relacionada con el Hackatón.\nNo compartir enlaces externos sin contexto, no verificados o que puedan poner en peligro la seguridad del grupo.\nNo enviar archivos pesados sin que hayan sido solicitados."
+  },
+  {
+    "objectID": "comunicacion.html#carácter-informativo-del-grupo",
+    "href": "comunicacion.html#carácter-informativo-del-grupo",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "7. Carácter informativo del grupo",
+    "text": "7. Carácter informativo del grupo\nEl grupo se utilizará para:\n\nAvisos oficiales del HackODS.\nResolución de dudas generales.\nRecordatorios logísticos.\nInformación relevante para participantes.\n\nPara temas individuales o sensibles, se deberá utilizar el correo oficial del evento."
+  },
+  {
+    "objectID": "comunicacion.html#aceptación-de-lineamientos",
+    "href": "comunicacion.html#aceptación-de-lineamientos",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "8. Aceptación de lineamientos",
+    "text": "8. Aceptación de lineamientos\nLa permanencia en este grupo implica la aceptación de este Código de Conducta.\nAgradecemos su colaboración para mantener este espacio ordenado, útil y respetuoso para toda la comunidad HackODS."
+  },
+  {
     "objectID": "calendario.html",
     "href": "calendario.html",
     "title": "Calendario capacitación",

@@ -9,8 +9,12 @@ website:
   navbar:
     logo: img/logo.png
     left:
-      - text: "Tableros"
-        href: tableros.qmd
+      - text: "Reglamentos"
+        menu:
+          - text: "Tableros"
+            href: tableros.qmd
+          - text: "Comunicación"
+            href: comunicacion.qmd
       - text: "Calendario"
         href: calendario.qmd
       - text: "Capacitación"
