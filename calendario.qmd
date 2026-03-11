@@ -1,64 +1,62 @@
 ---
 title: Calendario capacitación
-
 ---
 
 
 ::: {.callout-note title="Semana 1 ・ 2 - 6 mar" icon=false}
-| Día | Actividad |
-|-----|-----------|
-| **Lun 2** | Introducción, dinámica |
-| **Mar 3** | México y la Agenda 2030, UNESCO |
-| **Jue 5** | Instalación Python, Jupyter |
+| Día | Actividad | Ponente | Afiliación |
+|-----|-----------|---------|------------|
+| **Lun 2** | Introducción, dinámica | Dr. Luis Miguel de la Cruz y Dr. Guillermo Barrios | - |
+| **Mar 3** | México y la Agenda 2030, UNESCO | Adolfo Rodríguez | UNESCO México |
+| **Jue 5** | Instalación Python, Jupyter | Dr. Guillermo Barrios del Valle | - |
 :::
 
 
 ::: {.callout-tip title="Semana 2 ・ 9 - 13 mar" icon=false}
-| Día | Actividad |
-|-----|-----------|
-| **Lun 9** | Taller datos INEGI |
-| **Mar 10** | Portal de Datos Abiertos UNAM |
-| **Mié 11** | Creative Commons * |
-| **Jue 12** | Pandas |
-| **Vie 13** | Notion * |
+| Día | Actividad | Ponente | Afiliación |
+|-----|-----------|---------|------------|
+| **Lun 9** | Taller datos INEGI | M. Teresa De Jesús Cruz Apanco | INEGI |
+| **Mar 10** | Portal de Datos Abiertos UNAM | Laura Olguin, Omar Solís | Portal de Datos Abiertos UNAM |
+| **Jue 12** | Manejo de datos con Pandas | Dr. Guillermo Barrios del Valle | - |
+| **Vie 13** | Notion * | Ing. Ximena Cruz | - |
 :::
 
 ::: {.callout-important title="Semana 3 ・ 16 - 20 mar" icon=false}
-| Día | Actividad |
-|-----|-----------|
-| **Mar 17** | Mariana Peña, SDNS Youth |
-| **Mié 18** | Diseño UX |
-| **Jue 19** | Visualización con Plotly, Rúbrica tableros |
-:::
-
-::: {.callout-warning title="Vacaciones ・ 30 mar – 5 abr" icon=false}
-| Día | Actividad |
-|-----|-----------|
-| — | Semana de descanso |
+| Día | Actividad | Ponente | Afiliación |
+|-----|-----------|---------|------------|
+| **Mar 17** | Alianzas para alcanzar los ODS | Mariana Peña | SDNS Youth |
+| **Mié 18** | Diseño UX/UI | Miguel Ángel Vela Rosas | Instituto de Geofísica |
+| **Jue 19** | Visualización con Plotly | - | - |
+| **Vie 20** | Libera historias de datos | Dra. Jackeline Bucio García | - |
 :::
 
 ::: {.callout-note title="Semana 4 ・ 23 - 27 mar" icon=false}
-| Día | Actividad |
-|-----|-----------|
-| **Lun 23** | Git y GitHub |
-| **Mar 24** | Storytelling con datos |
-| **Jue 26** | Quarto para tableros |
+| Día | Actividad | Ponente | Afiliación |
+|-----|-----------|---------|------------|
+| **Lun 23** | Git y GitHub | Josafat Jimenez | - |
+| **Mar 24** | Storytelling| Dr. Luis Miguel de la Cruz | - |
+| **Jue 26** | Quarto para tableros | Dr. Guillermo Barrios del Valle | - |
+:::
+
+::: {.callout-warning title="Vacaciones ・ 30 mar – 5 abr" icon=false}
+
+
+# SEMANA DE DESCANSO
 :::
 
 ::: {.callout-tip title="Semana 5 ・ 6 - 10 abr" icon=false}
-| Día | Actividad |
-|-----|-----------|
-| **Lun 6** | Por definir |
-| **Mar 7** | Por definir |
-| **Jue 9** | Mi primer tablero en GitHub Pages |
+| Día | Actividad | Ponente | Afiliación |
+|-----|-----------|---------|------------|
+| **Lun 6** | Métricas, webinar 1 | - | Utel |
+| **Mar 7** | Webinar 1 | - | Iberdrola |
+| **Jue 9** | Mi primer tablero en GitHub Pages | Dr. Guillermo Barrios del Valle | - |
 :::
 
 ::: {.callout-important title="Semana 6 ・ 13 - 17 abr" icon=false}
-| Día | Actividad |
-|-----|-----------|
-| **Lun 13** | Por definir |
-| **Mar 14** | Por definir |
-| **Jue 16** | Cierre y dudas |
+| Día | Actividad | Ponente | Afiliación |
+|-----|-----------|---------|------------|
+| **Lun 13** | Webinar 2 | - | Iberdrola |
+| **Mar 14** | Webinar 2 | - | Utel |
+| **Jue 16** | Cierre y dudas | - | - |
 :::
-
 
