@@ -6,35 +6,35 @@ title: Calendario capacitación
 ::: {.callout-note title="Semana 1 ・ 2 - 6 mar" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Lun 2** | Introducción, dinámica | Dr. Luis Miguel de la Cruz y Dr. Guillermo Barrios |   | 18:00 a 20:00 hrs |
-| **Mar 3** | México y la Agenda 2030, UNESCO | Adolfo Rodríguez | UNESCO México | 18:00 a 20:00 hrs |
-| **Jue 5** | Instalación Python, Jupyter | Dr. Guillermo Barrios del Valle |   | 18:00 a 20:00 hrs |
+| **Lun 2** | Introducción, dinámica | Dr. Luis Miguel de la Cruz y Dr. Guillermo Barrios |   | 18:00 a 20:00 h |
+| **Mar 3** | México y la Agenda 2030, UNESCO | Adolfo Rodríguez | UNESCO México | 18:00 a 20:00 h |
+| **Jue 5** | Instalación Python, Jupyter | Dr. Guillermo Barrios del Valle |   | 18:00 a 20:00 h |
 :::
 
 ::: {.callout-tip title="Semana 2 ・ 9 - 13 mar" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Lun 9** | Taller datos INEGI | M. Teresa De Jesús Cruz Apanco | INEGI | 18:00 a 20:00 hrs |
-| **Mar 10** | Portal de Datos Abiertos UNAM | Laura Olguin, Omar Solís | Portal de Datos Abiertos UNAM | 18:00 a 20:00 hrs |
-| **Jue 12** | Manejo de datos con Pandas | Dr. Guillermo Barrios del Valle |   | 18:00 a 20:00 hrs |
-| **Vie 13** | Notion * | Ing. Ximena Cruz |   | 17:00 a 18:30 hrs |
+| **Lun 9** | Taller datos INEGI | M. Teresa De Jesús Cruz Apanco | INEGI | 18:00 a 20:00 h |
+| **Mar 10** | Portal de Datos Abiertos UNAM | Laura Olguin, Omar Solís | Portal de Datos Abiertos UNAM | 18:00 a 20:00 h |
+| **Jue 12** | Manejo de datos con Pandas | Dr. Guillermo Barrios del Valle |   | 18:00 a 20:00 h |
+| **Vie 13** | Notion * | Ing. Ximena Cruz |   | 17:00 a 18:30 h |
 :::
 
 ::: {.callout-important title="Semana 3 ・ 16 - 20 mar" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Mar 17** | Alianzas para alcanzar los ODS | Mariana Peña | SDNS Youth | 18:00 a 20:00 hrs |
+| **Mar 17** | Alianzas para alcanzar los ODS | Mariana Peña | SDNS Youth | 18:00 a 20:00 h |
 | **Mié 18** | Diseño UX/UI | Miguel Ángel Vela Rosas | Instituto de Geofísica |   |
-| **Jue 19** | Visualización con Plotly |   |   | 18:00 a 20:00 hrs |
+| **Jue 19** | Visualización con Plotly |   |   | 18:00 a 20:00 h |
 | **Vie 20** | Libera historias de datos | Dra. Jackeline Bucio García |   |   |
 :::
 
 ::: {.callout-note title="Semana 4 ・ 23 - 27 mar" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Lun 23** | Git y GitHub | Josafat Jimenez |   | 18:00 a 20:00 hrs |
-| **Mar 24** | Storytelling | Dr. Luis Miguel de la Cruz |   | 18:00 a 20:00 hrs |
-| **Jue 26** | Quarto para tableros | Dr. Guillermo Barrios del Valle |   | 18:00 a 20:00 hrs |
+| **Lun 23** | Git y GitHub | Josafat Jimenez |   | 18:00 a 20:00 h |
+| **Mar 24** | Storytelling | Dr. Luis Miguel de la Cruz |   | 18:00 a 20:00 h |
+| **Jue 26** | Quarto para tableros | Dr. Guillermo Barrios del Valle |   | 18:00 a 20:00 h |
 :::
 
 ::: {.callout-warning title="Vacaciones ・ 30 mar – 5 abr" icon=false}
@@ -46,15 +46,15 @@ title: Calendario capacitación
 ::: {.callout-tip title="Semana 5 ・ 6 - 10 abr" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Lun 6** | Métricas, webinar 1 |   | Utel | 18:00 a 20:00 hrs |
-| **Mar 7** | Webinar 1 |   | Iberdrola | 18:00 a 20:00 hrs |
-| **Jue 9** | Mi primer tablero en GitHub Pages | Dr. Guillermo Barrios del Valle |   | 18:00 a 20:00 hrs |
+| **Lun 6** | Métricas, webinar 1 |   | Utel | 18:00 a 20:00 h |
+| **Mar 7** | Webinar 1 |   | Iberdrola | 18:00 a 20:00 h |
+| **Jue 9** | Mi primer tablero en GitHub Pages | Dr. Guillermo Barrios del Valle |   | 18:00 a 20:00 h |
 :::
 
 ::: {.callout-important title="Semana 6 ・ 13 - 17 abr" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Lun 13** | Webinar 2 |   | Iberdrola | 18:00 a 20:00 hrs |
-| **Mar 14** | Webinar 2 |   | Utel | 18:00 a 20:00 hrs |
-| **Jue 16** | Cierre y dudas |   |   | 18:00 a 20:00 hrs |
+| **Lun 13** | Webinar 2 |   | Iberdrola | 18:00 a 20:00 h |
+| **Mar 14** | Webinar 2 |   | Utel | 18:00 a 20:00 h |
+| **Jue 16** | Cierre y dudas |   |   | 18:00 a 20:00 h |
 :::
