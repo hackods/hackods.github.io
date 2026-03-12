@@ -6,7 +6,7 @@ title: "Capacitación"
 
 ### Quarto
 
-{{< revealjs "https://hackods.github.io/ecosistemaHackODS/#/title-slide" height="475px" width="100%" >}}
+{{< revealjs "https://hackods.github.io/ecosistemaHackODS/#/title-slide" height="200px" width="100%" >}}
 
 
-{{< revealjs "https://hackods.github.io/intro-jupyter-pandas/#/title-slide" height="475px" width="100%" >}}
+{{< revealjs "https://hackods.github.io/intro-jupyter-pandas/#/title-slide" height="200px" width="100%" >}}
