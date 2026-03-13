@@ -23,8 +23,8 @@ title: Calendario capacitación
 ::: {.callout-important title="Semana 3 ・ 16 - 20 mar" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Mar 17** | Alianzas para alcanzar los ODS | Ing. Mariana Elizabeth Peña Laureano| SDNS Youth | 18:00 a 20:00 h |
-| **Mié 18** | Diseño UX/UI | Miguel Ángel Vela Rosas | Instituto de Geofísica |  18:00 a 20:00 h  |
+| **Mar 17** | Alianzas para alcanzar los ODS | Ing. Mariana Elizabeth Peña Laureano| SDSN Youth | 18:00 a 20:00 h |
+| **Mié 18** | Diseño UX/UI | Miguel Ángel Vela Rosas | Instituto de Geofísica UNAM |  18:00 a 20:00 h  |
 | **Jue 19** | Visualización con Plotly |   |Instituto de Energías Renovables UNAM | 18:00 a 20:00 h |
 | **Vie 20** | Libera historias de datos: continúa el ciclo de conocimiento abierto  | Dra. Jackeline Bucio García |   |  17:00 a 18:30 h |
 :::
@@ -33,7 +33,7 @@ title: Calendario capacitación
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
 | **Lun 23** | Git y GitHub | Josafat Jimenez |   | 18:00 a 20:00 h |
-| **Mar 24** | Storytelling | Dr. Luis Miguel de la Cruz |Instituto de Geofísica | 18:00 a 20:00 h |
+| **Mar 24** | Storytelling | Dr. Luis Miguel de la Cruz |Instituto de Geofísica UNAM | 18:00 a 20:00 h |
 | **Jue 26** | Quarto para tableros | Dr. Guillermo Barrios del Valle |Instituto de Energías Renovables UNAM | 18:00 a 20:00 h |
 :::
 
