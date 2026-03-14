@@ -1,0 +1,135 @@
+---
+title: "Rúbrica de corte · HackODS UNAM 2026"
+subtitle: "Evaluación 50 → 20 equipos"
+format:
+  html:
+    toc: true
+    toc-title: "Secciones"
+    toc-depth: 2
+---
+
+::: {.callout-note}
+**Entrega:** viernes 10 de abril mediante fork en GitHub | **Resultados:** domingo 12 de abril | **Puntaje máximo:** 30 pts
+
+**Evaluadores:** 2 personas evalúan los 50 equipos de forma independiente; se promedian los puntajes. Los casos en el umbral 20–21 se revisan en conjunto.
+:::
+
+## Datos del equipo
+
+| Campo | Valor |
+|---|---|
+| Nombre del equipo | |
+| URL del repositorio | |
+| ODS elegidos | |
+| Evaluador/a | |
+| Fecha de evaluación | |
+
+---
+
+## Módulo A · Cumplimiento técnico del repositorio (5 pts, binario) {#modulo-a}
+
+::: {.callout-important}
+**Umbral de descalificación automática.** Si el equipo obtiene **menos de 3 puntos** en este módulo, no se evalúan los módulos B, C y D y el equipo queda fuera del corte. Este módulo es compartido con la rúbrica de evaluación final.
+:::
+
+| # | Criterio | Descripción | Pts |
+|---|---|---|:---:|
+| A1 | README completo | Contiene nombre del equipo, ODS elegido y descripción breve del proyecto | 0 / 1 |
+| A2 | Licencia CC BY-SA | Archivo `LICENSE` o declaración explícita en el README | 0 / 1 |
+| A3 | Estructura de carpetas | Existen `datos/` `scripts/` `dashboard/` | 0 / 1 |
+| A4 | Declaratoria de uso de IA | Archivo presente usando la **plantilla oficial de HackODS** (no texto libre) | 0 / 1 |
+| A5 | Metadatos de los datos | Fuente, fecha de descarga, licencia y descripción de variables por dataset | 0 / 1 |
+
+**Subtotal A:** ___/5
+
+**Notas módulo A** *(obligatorio si hay 0 en algún criterio):*
+
+>
+
+---
+
+## Módulo B · Selección y calidad de datos (9 pts, graduado 0–3) {#modulo-b}
+
+| # | Criterio | 0 | 1 | 2 | 3 |
+|---|---|---|---|---|---|
+| B1 | **Pertinencia** — Los datos son coherentes con el ODS | Sin relación | Relación débil | Relación clara | Múltiples fuentes complementarias |
+| B2 | **Verificabilidad de la fuente** — Fuentes públicas y confiables | Sin fuente | Mencionada, no verificable | Pública verificada | Oficial con URL (INEGI, ONU, datos.gob.mx) |
+| B3 | **Justificación de la selección** — Explican por qué estos datos | Sin justificación | Superficial | Razonada | Pensamiento crítico evidente |
+
+**Subtotal B:** ___/9
+
+**Notas módulo B:**
+
+>
+
+---
+
+## Módulo C · Esbozo narrativo — storytelling (9 pts, graduado 0–3) {#modulo-c}
+
+::: {.callout-tip}
+**Criterio de desempate primario.** En caso de empate en el umbral 20–21, se ordena primero por puntaje C, luego B, luego D.
+:::
+
+| # | Criterio | 0 | 1 | 2 | 3 |
+|---|---|---|---|---|---|
+| C1 | **Pregunta o problema central** — Pregunta clara que guía el tablero | Ausente | Vaga o muy amplia | Específica y relevante | Específica, relevante y con ángulo original |
+| C2 | **Coherencia narrativa** — Coherencia entre ODS, datos e historia | Sin coherencia | Parcial / confusa | Razonable | Los datos sostienen la historia; el ODS la enmarca |
+| C3 | **Potencial de impacto** — Visibiliza un problema real en México | Sin potencial | Muy general | Relevancia local o sectorial | Relevancia nacional, audiencia clara |
+
+**Subtotal C:** ___/9
+
+**Notas módulo C** *(base para retroalimentación escrita al equipo):*
+
+>
+
+---
+
+## Módulo D · Prototipo Quarto (7 pts, mixto) {#modulo-d}
+
+| # | Criterio | 0 | 1 | 2 | 3 |
+|---|---|---|---|---|---|
+| D0 | **Existencia del `.qmd`** *(gate)* | No existe | Existe | — | — |
+| D1 | **Avance visual** — Al menos una visualización o estructura | Sin visualización | Placeholder / gráfica de prueba | Una viz con datos reales | Dos+ vizs coherentes |
+| D2 | **Coherencia prototipo–narrativa** — Refleja la historia de datos | Sin relación | Superficial | Ilustra parcialmente | Sostiene y enriquece la narrativa |
+
+::: {.callout-warning}
+Si D0 = 0, los criterios D1 y D2 se puntúan automáticamente como 0.
+:::
+
+**Subtotal D:** ___/7
+
+**Notas módulo D:**
+
+>
+
+---
+
+## Retroalimentación escrita al equipo {#retro}
+
+::: {.callout-note}
+Obligatoria para todos los equipos — tanto los que pasan como los que no. Tono constructivo, 2–4 oraciones. Se envía junto con los resultados del 12 de abril.
+:::
+
+**Estructura sugerida:** (1) qué tienen bien · (2) qué les falta · (3) una sugerencia concreta
+
+>
+
+---
+
+## Puntaje total {#total}
+
+| Módulo | Máximo | Puntaje |
+|---|:---:|:---:|
+| A · Cumplimiento técnico | 5 | |
+| B · Selección de datos | 9 | |
+| C · Narrativa (desempate 1°) | 9 | |
+| D · Prototipo Quarto | 7 | |
+| **Total** | **30** | |
+
+**Desempate (umbral 20–21):** 1° C · 2° B · 3° D
+
+**Veredicto:** ☐ Pasa  ☐ Zona de corte  ☐ No pasa  ☐ Descalificado (A < 3)
+
+---
+
+*HackODS UNAM 2026 · Instituto de Energías Renovables & Instituto de Geofísica · [hackods@ier.unam.mx](mailto:hackods@ier.unam.mx)*

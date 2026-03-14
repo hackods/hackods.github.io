@@ -4,14 +4,56 @@
     "href": "capacitacion.html",
     "title": "Capacitación",
     "section": "",
-    "text": "View slides in full screen\n       \n      \n    \n  \n    View slides in full screen"
+    "text": "View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n\n\n\n  Download PDF File\n   \n    Unable to display PDF file. Download instead."
   },
   {
     "objectID": "capacitacion.html#presentaciones",
     "href": "capacitacion.html#presentaciones",
     "title": "Capacitación",
     "section": "",
-    "text": "View slides in full screen\n       \n      \n    \n  \n    View slides in full screen"
+    "text": "View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n\n\n\n  Download PDF File\n   \n    Unable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "declaratoriaIA.html",
+    "href": "declaratoriaIA.html",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "",
+    "text": "En el HackODS UNAM 2026 no prohibimos el uso de herramientas de inteligencia artificial generativa. Consideramos que estas herramientas forman parte del ecosistema de trabajo contemporáneo y que aprender a integrarlas con criterio es una competencia profesional valiosa.\nSin embargo, el objetivo del hackathon es evaluar la agencia intelectual de cada equipo: su capacidad de formular preguntas relevantes, tomar decisiones informadas sobre datos, y construir una narrativa que conecte los Objetivos de Desarrollo Sostenible con problemáticas reales. Ninguna herramienta sustituye eso.\nPor lo tanto, nuestra política se resume en:\n\nNo nos importa si usaron IA. Nos importa que piensen."
+  },
+  {
+    "objectID": "declaratoriaIA.html#postura-del-hackods-sobre-la-ia",
+    "href": "declaratoriaIA.html#postura-del-hackods-sobre-la-ia",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "",
+    "text": "En el HackODS UNAM 2026 no prohibimos el uso de herramientas de inteligencia artificial generativa. Consideramos que estas herramientas forman parte del ecosistema de trabajo contemporáneo y que aprender a integrarlas con criterio es una competencia profesional valiosa.\nSin embargo, el objetivo del hackathon es evaluar la agencia intelectual de cada equipo: su capacidad de formular preguntas relevantes, tomar decisiones informadas sobre datos, y construir una narrativa que conecte los Objetivos de Desarrollo Sostenible con problemáticas reales. Ninguna herramienta sustituye eso.\nPor lo tanto, nuestra política se resume en:\n\nNo nos importa si usaron IA. Nos importa que piensen."
+  },
+  {
+    "objectID": "declaratoriaIA.html#herramientas-permitidas",
+    "href": "declaratoriaIA.html#herramientas-permitidas",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "2 Herramientas permitidas",
+    "text": "2 Herramientas permitidas\nLos equipos pueden usar cualquier herramienta de IA generativa, incluyendo pero no limitado a:\n\nAsistentes de código\nChatbots generativos \nHerramientas de corrección y edición de texto"
+  },
+  {
+    "objectID": "declaratoriaIA.html#reglas-obligatorias",
+    "href": "declaratoriaIA.html#reglas-obligatorias",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "3 Reglas obligatorias",
+    "text": "3 Reglas obligatorias\n\n3.1 Archivo ai-log.md\nCada equipo debe incluir un archivo ai-log.md en la raíz de su repositorio. Este archivo documenta de manera transparente cómo se usaron herramientas de IA durante el hackathon.\nEl archivo debe contener como mínimo:\n\nHerramientas utilizadas: lista de las herramientas de IA empleadas.\nRegistro de uso: entradas individuales para cada interacción significativa, con la fecha, la tarea delegada, el resultado obtenido y las modificaciones que realizó el equipo.\nDecisiones propias: para cada entrada, una explicación de por qué se aceptó, rechazó o modificó la salida de la IA.\n\n\n\n\n\n\n\nImportanteAusencia del ai-log.md\n\n\n\nLa ausencia del archivo ai-log.md en el repositorio resultará en una penalización en la evaluación, independientemente de si el equipo usó IA o no. En caso de no haber usado herramientas de IA, el archivo debe indicar explícitamente: “Este equipo no utilizó herramientas de inteligencia artificial generativa durante el hackathon.”\n\n\n\n\n3.2 Reproducibilidad ante todo\nTodo código generado con asistencia de IA debe:\n\nEjecutarse correctamente en el pipeline del proyecto.\nSeguir las convenciones de estilo del equipo (sin mezcla de estilos provenientes de distintos prompts).\nEstar documentado con comentarios que demuestren comprensión.\n\n\n\n3.3 Narrativa propia\nLa narrativa del tablero —los textos que contextualizan los datos, conectan las variables con los ODS y formulan argumentos— debe ser producto del trabajo intelectual del equipo. Puede usarse IA como herramienta de revisión o retroalimentación, pero el contenido narrativo final debe reflejar la voz y el criterio del equipo.\n\nLa capacidad de responder con solidez forma parte de la evaluación."
+  },
+  {
+    "objectID": "declaratoriaIA.html#rúbrica-integración-estratégica-de-herramientas",
+    "href": "declaratoriaIA.html#rúbrica-integración-estratégica-de-herramientas",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "4 Rúbrica: Integración estratégica de herramientas",
+    "text": "4 Rúbrica: Integración estratégica de herramientas\nEl uso de IA se evalúa como una dimensión independiente en la rúbrica del hackathon. No se penaliza usarla ni se bonifica evitarla. Se evalúa cómo se integró en el proceso de trabajo.\n\n\n\n\n\n\n\n\nNivel\nDescriptor\nPuntaje\n\n\n\n\nDelegación pasiva\nLa IA generó el contenido con mínima intervención del equipo. La narrativa es genérica, el código presenta inconsistencias de estilo y el ai-log.md es vago o superficial.\n1-3\n\n\nUso funcional\nLa IA se usó para tareas específicas y delimitadas. El equipo puede explicar qué delegó y por qué. Hay registro claro pero la reflexión sobre las decisiones es limitada.\n4-6\n\n\nUso estratégico\nLa IA fue un acelerador, no un sustituto. Hay una filosofía explícita de uso, los prompts son reproducibles, y las decisiones propias están documentadas con justificación de contexto.\n7-10"
+  },
+  {
+    "objectID": "declaratoriaIA.html#ejemplos-de-ai-log.md",
+    "href": "declaratoriaIA.html#ejemplos-de-ai-log.md",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "5 Ejemplos de ai-log.md",
+    "text": "5 Ejemplos de ai-log.md\nA continuación presentamos tres ejemplos para un proyecto hipotético: un tablero sobre el ODS 6 (Agua Limpia y Saneamiento) con datos de CONAGUA. Los tres equipos usan IA; la diferencia está en cómo la usan y documentan.\n\n5.1 Ejemplo: Delegación pasiva\n# AI Log - Equipo Aqua\n\n## Herramientas utilizadas\n- ChatGPT 4o\n\n## Uso general\nUsamos ChatGPT para ayudarnos con el código del tablero\ny con algunas partes de la narrativa. También nos ayudó\ncon las gráficas.\n\n\n\n\n\n\nAdvertencia¿Por qué este log es insuficiente?\n\n\n\nNo hay detalle de tareas específicas, no hay registro de decisiones, no hay trazabilidad del proceso. Un juez no puede distinguir qué hizo el equipo de qué hizo la IA. Este tipo de log corresponde al nivel de delegación pasiva en la rúbrica.\n\n\n\n\n5.2 Ejemplo: Uso funcional\n# AI Log - Equipo Hidro\n\n## Herramientas\n- Claude (claude.ai)\n- GitHub Copilot\n\n## Registro de uso\n\n### 2026-03-15 | Claude | Limpieza de datos\n- **Tarea**: Teníamos el CSV de CONAGUA con columnas mal\n  nombradas y valores faltantes. Le pedimos a Claude que\n  nos generara un script de limpieza.\n- **Resultado**: Nos dio un pipeline con pandas que\n  renombraba columnas y hacía imputación con la mediana.\n- **Modificación**: Cambiamos la imputación por\n  interpolación temporal porque nuestros datos son series\n  de tiempo mensuales. La mediana no tenía sentido aquí.\n\n### 2026-03-15 | Copilot | Visualización\n- **Tarea**: Autocompletado para generar el código base\n  de un mapa interactivo con plotly express.\n- **Resultado**: Generó la estructura básica del mapa\n  con px.choropleth.\n- **Modificación**: Ajustamos la paleta de colores y\n  agregamos etiquetas manuales para los estados con\n  mayor estrés hídrico.\n\n### 2026-03-16 | Claude | Depuración\n- **Tarea**: El render de Quarto fallaba con un error de\n   no entendíamos. Pegamos el error en Claude.\n- **Resultado**: Identificó un error en uso de comillas.\n- **Modificación**: Ninguna, la solución fue directa.\n\n\n\n\n\n\nNotaBuen registro, espacio para crecer\n\n\n\nHay trazabilidad clara y una decisión técnica propia (interpolación temporal sobre mediana). Sin embargo, la IA participó en casi todas las tareas técnicas. Un juez exploraría qué tanto domina el equipo su propio pipeline.\n\n\n\n\n5.3 Ejemplo: Uso estratégico\n# AI Log - Equipo Cuenca\n\n## Herramientas\n- Claude (claude.ai)\n- GitHub Copilot (VS Code)\n\n## Filosofía de uso\nDecidimos usar IA exclusivamente para tareas mecánicas y\nde exploración inicial. La narrativa, la selección de\nvariables y las decisiones editoriales fueron 100% del\nequipo. Nuestro criterio: si la tarea requiere\nconocimiento del contexto hídrico de Guerrero, la\nhacemos nosotros.\n\n## Registro de uso \n\n### 2026-03-15 | Claude | Exploración de estructura\n- **Tarea**: Le pedimos 3 opciones de layout para un\n  tablero de Quarto con 4 secciones temáticas.\n- **Prompt**: \"Dame 3 estructuras de layout en Quarto\n  dashboard para un proyecto con 4 secciones: contexto\n  geográfico, acceso a agua, calidad del agua, y\n  tendencia temporal\"\n- **Resultado**: Nos dio layouts con tabs, sidebar y\n  scroll vertical.\n- **Decisión**: Elegimos sidebar porque nuestro usuario\n  objetivo  necesita\n  navegar entre secciones sin perder el contexto del mapa\n  principal. \n\n### 2026-03-15 | Copilot | Boilerplate de gráficas\n- **Tarea**: Generar código base para 6 gráficas en\n  plotly.\n- **Resultado**: Templates funcionales para bar, line,\n  choropleth, scatter, heatmap, y funnel.\n- **Decisión**: Descartamos 3 de las 6. El heatmap no\n  comunicaba bien la estacionalidad (probamos y era\n  confuso). El scatter no era apropiado para datos\n  categóricos por municipio. Nos quedamos con bar, line\n  y choropleth. Toda la personalización visual (paleta\n  basada en identidad del ODS 6, etiquetas en español,\n  anotaciones contextuales) fue manual.\n\n### 2026-03-16 | Claude | Revisión de narrativa\n- **Tarea**: Le pedimos que criticara nuestro borrador de\n  narrativa de la sección de acceso a agua.\n- **Prompt**: \"Critica este texto como si fueras un editor\n  de datos. ¿La narrativa conecta bien los datos con el\n  argumento? ¿Hay saltos lógicos?\"\n- **Resultado**: Señaló que no conectábamos el dato de\n  cobertura municipal con el argumento de desigualdad\n  regional.\n- **Decisión**: Agregamos un párrafo puente con el\n  coeficiente de Gini de acceso hídrico que ya teníamos\n  calculado pero no habíamos integrado. El texto final\n  es completamente nuestro, la IA solo fungió como\n  revisor crítico.\n\n### Lo que NO usamos IA para hacer\n- La selección de las 4 variables clave (revisión de\n  literatura y discusión en equipo)\n- La narrativa del tablero (redacción propia, 3\n  iteraciones internas)\n- La interpretación de outliers en Acapulco post-Otis\n  (conocimiento local del equipo)\n\n\n\n\n\n\nTipModelo a seguir\n\n\n\nHay una filosofía explícita de uso, prompts reproducibles, decisiones justificadas con conocimiento de contexto, y una sección de lo que deliberadamente no se delegó. Este log demuestra agencia intelectual."
   },
   {
     "objectID": "index.html",
@@ -152,5 +194,61 @@
     "title": "Calendario capacitación",
     "section": "",
     "text": "NotaSemana 1 ・ 2 - 6 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 2\nIntroducción, dinámica\nDr. Luis Miguel de la Cruz y Dr. Guillermo Barrios\nIGf-UNAM, IER-UNAM\n18:00 a 20:00 h\n\n\nMar 3\nMéxico y la Agenda 2030, UNESCO\nAdolfo Rodríguez\nUNESCO México\n18:00 a 20:00 h\n\n\nJue 5\nInstalación Python, Jupyter\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\n\n\n\n\n\n\n\n\n\nTipSemana 2 ・ 9 - 13 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 9\nTaller datos INEGI\nM. Teresa De Jesús Cruz Apanco\nINEGI\n18:00 a 20:00 h\n\n\nMar 10\nPortal de Datos Abiertos UNAM\nLaura Olguin, Omar Solís\nPortal de Datos Abiertos UNAM\n18:00 a 20:00 h\n\n\nJue 12\nManejo de datos con Pandas\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\nVie 13\nNotion *\nIng. Ximena Cruz\n\n17:00 a 18:30 h\n\n\n\n\n\n\n\n\n\n\n\nImportanteSemana 3 ・ 16 - 20 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nMar 17\nAlianzas para alcanzar los ODS\nIng. Mariana Elizabeth Peña Laureano\nSDSN Youth\n18:00 a 20:00 h\n\n\nMié 18\nDiseño UX/UI\nMiguel Ángel Vela Rosas\nInstituto de Geofísica UNAM\n18:00 a 20:00 h\n\n\nJue 19\nVisualización con Plotly\n\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\nVie 20\nLibera historias de datos: continúa el ciclo de conocimiento abierto\nDra. Jackeline Bucio García\n\n17:00 a 18:30 h\n\n\n\n\n\n\n\n\n\n\n\nNotaSemana 4 ・ 23 - 27 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 23\nGit y GitHub\nJosafat Jimenez\n\n18:00 a 20:00 h\n\n\nMar 24\nStorytelling\nDr. Luis Miguel de la Cruz\nInstituto de Geofísica UNAM\n18:00 a 20:00 h\n\n\nJue 26\nQuarto para tableros\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\n\n\n\n\n\n\n\n\n\nAdvertenciaVacaciones ・ 30 mar – 5 abr\n\n\n\nSEMANA DE DESCANSO\n\n\n\n\n\n\n\n\nTipSemana 5 ・ 6 - 10 abr\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 6\nMétricas, webinar 1\n\nUtel\n18:00 a 20:00 h\n\n\nMar 7\nWebinar 1\n\nIberdrola\n18:00 a 20:00 h\n\n\nJue 9\nMi primer tablero en GitHub Pages\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\n\n\n\n\n\n\n\n\n\nImportanteSemana 6 ・ 13 - 17 abr\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 13\nWebinar 2\n\nIberdrola\n18:00 a 20:00 h\n\n\nMar 14\nWebinar 2\n\nUtel\n18:00 a 20:00 h\n\n\nJue 16\nCierre de capacitación y dudas\n\n\n18:00 a 20:00 h"
+  },
+  {
+    "objectID": "rubrica20.html",
+    "href": "rubrica20.html",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "",
+    "text": "Nota\n\n\n\nEntrega: viernes 10 de abril mediante fork en GitHub | Resultados: domingo 12 de abril | Puntaje máximo: 30 pts\nEvaluadores: 2 personas evalúan los 50 equipos de forma independiente; se promedian los puntajes. Los casos en el umbral 20–21 se revisan en conjunto."
+  },
+  {
+    "objectID": "rubrica20.html#datos-del-equipo",
+    "href": "rubrica20.html#datos-del-equipo",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Datos del equipo",
+    "text": "Datos del equipo\n\n\n\nCampo\nValor\n\n\n\n\nNombre del equipo\n\n\n\nURL del repositorio\n\n\n\nODS elegidos\n\n\n\nEvaluador/a\n\n\n\nFecha de evaluación"
+  },
+  {
+    "objectID": "rubrica20.html#modulo-a",
+    "href": "rubrica20.html#modulo-a",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Módulo A · Cumplimiento técnico del repositorio (5 pts, binario)",
+    "text": "Módulo A · Cumplimiento técnico del repositorio (5 pts, binario)\n\n\n\n\n\n\nImportante\n\n\n\nUmbral de descalificación automática. Si el equipo obtiene menos de 3 puntos en este módulo, no se evalúan los módulos B, C y D y el equipo queda fuera del corte. Este módulo es compartido con la rúbrica de evaluación final.\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\nDescripción\nPts\n\n\n\n\nA1\nREADME completo\nContiene nombre del equipo, ODS elegido y descripción breve del proyecto\n0 / 1\n\n\nA2\nLicencia CC BY-SA\nArchivo LICENSE o declaración explícita en el README\n0 / 1\n\n\nA3\nEstructura de carpetas\nExisten datos/ scripts/ dashboard/\n0 / 1\n\n\nA4\nDeclaratoria de uso de IA\nArchivo presente usando la plantilla oficial de HackODS (no texto libre)\n0 / 1\n\n\nA5\nMetadatos de los datos\nFuente, fecha de descarga, licencia y descripción de variables por dataset\n0 / 1\n\n\n\nSubtotal A: ___/5\nNotas módulo A (obligatorio si hay 0 en algún criterio):"
+  },
+  {
+    "objectID": "rubrica20.html#modulo-b",
+    "href": "rubrica20.html#modulo-b",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Módulo B · Selección y calidad de datos (9 pts, graduado 0–3)",
+    "text": "Módulo B · Selección y calidad de datos (9 pts, graduado 0–3)\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\n0\n1\n2\n3\n\n\n\n\nB1\nPertinencia — Los datos son coherentes con el ODS\nSin relación\nRelación débil\nRelación clara\nMúltiples fuentes complementarias\n\n\nB2\nVerificabilidad de la fuente — Fuentes públicas y confiables\nSin fuente\nMencionada, no verificable\nPública verificada\nOficial con URL (INEGI, ONU, datos.gob.mx)\n\n\nB3\nJustificación de la selección — Explican por qué estos datos\nSin justificación\nSuperficial\nRazonada\nPensamiento crítico evidente\n\n\n\nSubtotal B: ___/9\nNotas módulo B:"
+  },
+  {
+    "objectID": "rubrica20.html#modulo-c",
+    "href": "rubrica20.html#modulo-c",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Módulo C · Esbozo narrativo — storytelling (9 pts, graduado 0–3)",
+    "text": "Módulo C · Esbozo narrativo — storytelling (9 pts, graduado 0–3)\n\n\n\n\n\n\nTip\n\n\n\nCriterio de desempate primario. En caso de empate en el umbral 20–21, se ordena primero por puntaje C, luego B, luego D.\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\n0\n1\n2\n3\n\n\n\n\nC1\nPregunta o problema central — Pregunta clara que guía el tablero\nAusente\nVaga o muy amplia\nEspecífica y relevante\nEspecífica, relevante y con ángulo original\n\n\nC2\nCoherencia narrativa — Coherencia entre ODS, datos e historia\nSin coherencia\nParcial / confusa\nRazonable\nLos datos sostienen la historia; el ODS la enmarca\n\n\nC3\nPotencial de impacto — Visibiliza un problema real en México\nSin potencial\nMuy general\nRelevancia local o sectorial\nRelevancia nacional, audiencia clara\n\n\n\nSubtotal C: ___/9\nNotas módulo C (base para retroalimentación escrita al equipo):"
+  },
+  {
+    "objectID": "rubrica20.html#modulo-d",
+    "href": "rubrica20.html#modulo-d",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Módulo D · Prototipo Quarto (7 pts, mixto)",
+    "text": "Módulo D · Prototipo Quarto (7 pts, mixto)\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\n0\n1\n2\n3\n\n\n\n\nD0\nExistencia del .qmd (gate)\nNo existe\nExiste\n—\n—\n\n\nD1\nAvance visual — Al menos una visualización o estructura\nSin visualización\nPlaceholder / gráfica de prueba\nUna viz con datos reales\nDos+ vizs coherentes\n\n\nD2\nCoherencia prototipo–narrativa — Refleja la historia de datos\nSin relación\nSuperficial\nIlustra parcialmente\nSostiene y enriquece la narrativa\n\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nSi D0 = 0, los criterios D1 y D2 se puntúan automáticamente como 0.\n\n\nSubtotal D: ___/7\nNotas módulo D:"
+  },
+  {
+    "objectID": "rubrica20.html#retro",
+    "href": "rubrica20.html#retro",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Retroalimentación escrita al equipo",
+    "text": "Retroalimentación escrita al equipo\n\n\n\n\n\n\nNota\n\n\n\nObligatoria para todos los equipos — tanto los que pasan como los que no. Tono constructivo, 2–4 oraciones. Se envía junto con los resultados del 12 de abril.\n\n\nEstructura sugerida: (1) qué tienen bien · (2) qué les falta · (3) una sugerencia concreta"
+  },
+  {
+    "objectID": "rubrica20.html#total",
+    "href": "rubrica20.html#total",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Puntaje total",
+    "text": "Puntaje total\n\n\n\nMódulo\nMáximo\nPuntaje\n\n\n\n\nA · Cumplimiento técnico\n5\n\n\n\nB · Selección de datos\n9\n\n\n\nC · Narrativa (desempate 1°)\n9\n\n\n\nD · Prototipo Quarto\n7\n\n\n\nTotal\n30\n\n\n\n\nDesempate (umbral 20–21): 1° C · 2° B · 3° D\nVeredicto: ☐ Pasa ☐ Zona de corte ☐ No pasa ☐ Descalificado (A &lt; 3)\n\nHackODS UNAM 2026 · Instituto de Energías Renovables & Instituto de Geofísica · hackods@ier.unam.mx"
   }
 ]

@@ -6,7 +6,11 @@ title: "Capacitación"
 
 ### Quarto
 
-{{< revealjs "https://hackods.github.io/ecosistemaHackODS/#/title-slide" height="200px" width="50%" >}}
+{{< revealjs "https://hackods.github.io/ecosistemaHackODS/#/title-slide" height="300px" width="70%" >}}
 
 
-{{< revealjs "https://hackods.github.io/intro-jupyter-pandas/#/title-slide" height="200px" width="50%" >}}
+{{< revealjs "https://hackods.github.io/intro-jupyter-pandas/#/title-slide" height="300px" width="70%" >}}
+
+### Material
+
+{{< pdf "pdfs/INEGI_HackODS_UNAM_2026.pdf" height="400px" width="70%" >}}
