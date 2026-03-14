@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -68,10 +68,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7918a30dcbe0964e0775e1e7241c14e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-325377edd0b5848b6513b94fac83da98.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No se han encontrado resultados",
@@ -131,11 +131,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="./capacitacion.html"> 
 <span class="menu-text">Capacitación</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./declaratoriaIA.html" aria-current="page"> 
+<span class="menu-text">Política de IA</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
     <a href="https://github.com/hackods/hackods.github.io" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -193,7 +196,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="postura-del-hackods-sobre-la-ia" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="postura-del-hackods-sobre-la-ia"><span class="header-section-number">1</span> Postura del HackODS sobre la IA</h2>
 <p>En el HackODS UNAM 2026 <strong>no prohibimos el uso de herramientas de inteligencia artificial generativa</strong>. Consideramos que estas herramientas forman parte del ecosistema de trabajo contemporáneo y que aprender a integrarlas con criterio es una competencia profesional valiosa.</p>
-<p>Sin embargo, el objetivo del hackathon es evaluar la <strong>agencia intelectual</strong> de cada equipo: su capacidad de formular preguntas relevantes, tomar decisiones informadas sobre datos, y construir una narrativa que conecte los Objetivos de Desarrollo Sostenible con problemáticas reales. Ninguna herramienta sustituye eso.</p>
+<p>Sin embargo, el objetivo del hackathon es evaluar la capacidad analítica de cada equipo: su capacidad de formular preguntas relevantes, tomar decisiones informadas sobre datos, y construir una narrativa que conecte los Objetivos de Desarrollo Sostenible con problemáticas reales. Ninguna herramienta sustituye eso.</p>
 <p>Por lo tanto, nuestra política se resume en:</p>
 <blockquote class="blockquote">
 <p>No nos importa si usaron IA. Nos importa que piensen.</p>
@@ -212,11 +215,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 data-number="3" class="anchored" data-anchor-id="reglas-obligatorias"><span class="header-section-number">3</span> Reglas obligatorias</h2>
 <section id="archivo-ai-log.md" class="level3" data-number="3.1">
 <h3 data-number="3.1" class="anchored" data-anchor-id="archivo-ai-log.md"><span class="header-section-number">3.1</span> Archivo <code>ai-log.md</code></h3>
-<p>Cada equipo <strong>debe incluir</strong> un archivo <code>ai-log.md</code> en la raíz de su repositorio. Este archivo documenta de manera transparente cómo se usaron herramientas de IA durante el hackathon.</p>
+<p>Cada equipo debe incluir un archivo <code>ai-log.md</code> en la raíz de su repositorio. Este archivo documenta de manera transparente cómo se usaron herramientas de IA durante el hackathon.</p>
 <p>El archivo debe contener como mínimo:</p>
 <ol type="1">
 <li><strong>Herramientas utilizadas</strong>: lista de las herramientas de IA empleadas.</li>
-<li><strong>Registro de uso</strong>: entradas individuales para cada interacción significativa, con la fecha, la tarea delegada, el resultado obtenido y las modificaciones que realizó el equipo.</li>
+<li><strong>Registro de uso</strong>: entradas individuales para cada interacción significativa, con:
+<ul>
+<li>la fecha,</li>
+<li>la tarea delegada,</li>
+<li>el prompt,</li>
+<li>el resultado obtenido y</li>
+<li>las modificaciones que realizó el equipo.</li>
+</ul></li>
 <li><strong>Decisiones propias</strong>: para cada entrada, una explicación de por qué se aceptó, rechazó o modificó la salida de la IA.</li>
 </ol>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -229,7 +239,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La ausencia del archivo <code>ai-log.md</code> en el repositorio resultará en una penalización en la evaluación, independientemente de si el equipo usó IA o no. En caso de no haber usado herramientas de IA, el archivo debe indicar explícitamente: <em>“Este equipo no utilizó herramientas de inteligencia artificial generativa durante el hackathon.”</em></p>
+<p>La ausencia del archivo <code>ai-log.md</code> en el repositorio resultará en una penalización en la evaluación, independientemente de si el equipo usó IA o no. En caso de no haber usado herramientas de IA, el archivo debe indicar explícitamente: <em>“El equipo NOMBRE_DEL_EQUIPO no utilizó herramientas de inteligencia artificial generativa durante el hackathon.”</em></p>
 </div>
 </div>
 </section>
@@ -257,7 +267,7 @@ Durante la presentación, los jueces podrán hacer preguntas como:
 </section>
 <section id="rúbrica-integración-estratégica-de-herramientas" class="level2" data-number="4">
 <h2 data-number="4" class="anchored" data-anchor-id="rúbrica-integración-estratégica-de-herramientas"><span class="header-section-number">4</span> Rúbrica: Integración estratégica de herramientas</h2>
-<p>El uso de IA se evalúa como una <strong>dimensión independiente</strong> en la rúbrica del hackathon. No se penaliza usarla ni se bonifica evitarla. Se evalúa <strong>cómo</strong> se integró en el proceso de trabajo.</p>
+<p>El uso de IA se evalúa como una dimensión independiente en la rúbrica del hackathon. Cuando el equipo usa la IA, se evalúa cómo se integró en el proceso de trabajo.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 27%">
@@ -273,26 +283,26 @@ Durante la presentación, los jueces podrán hacer preguntas como:
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Delegación pasiva</strong></td>
-<td>La IA generó el contenido con mínima intervención del equipo. La narrativa es genérica, el código presenta inconsistencias de estilo y el <code>ai-log.md</code> es vago o superficial.</td>
-<td style="text-align: center;">1-3</td>
+<td><strong>Uso estratégico</strong></td>
+<td>La IA fue un acelerador, no un sustituto. Hay una filosofía explícita de uso, los prompts son reproducibles, y las decisiones propias están documentadas en el archivo <code>ai-log.md</code> como se describe en el punto 3.1 de esta declaratoria.</td>
+<td style="text-align: center;">7-10</td>
 </tr>
 <tr class="even">
 <td><strong>Uso funcional</strong></td>
-<td>La IA se usó para tareas específicas y delimitadas. El equipo puede explicar qué delegó y por qué. Hay registro claro pero la reflexión sobre las decisiones es limitada.</td>
+<td>La IA se usó para tareas específicas y delimitadas. El equipo puede explicar qué delegó y por qué. Hay registro claro en el archivo <code>ai-log.md</code> pero la reflexión sobre las decisiones es limitada.</td>
 <td style="text-align: center;">4-6</td>
 </tr>
 <tr class="odd">
-<td><strong>Uso estratégico</strong></td>
-<td>La IA fue un acelerador, no un sustituto. Hay una filosofía explícita de uso, los prompts son reproducibles, y las decisiones propias están documentadas con justificación de contexto.</td>
-<td style="text-align: center;">7-10</td>
+<td><strong>Delegación pasiva</strong></td>
+<td>La IA generó el contenido con mínima intervención del equipo. La narrativa es genérica, el código presenta inconsistencias de estilo y el archivo <code>ai-log.md</code> es vago o superficial.</td>
+<td style="text-align: center;">1-3</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="ejemplos-de-ai-log.md" class="level2" data-number="5">
 <h2 data-number="5" class="anchored" data-anchor-id="ejemplos-de-ai-log.md"><span class="header-section-number">5</span> Ejemplos de <code>ai-log.md</code></h2>
-<p>A continuación presentamos tres ejemplos para un proyecto hipotético: un tablero sobre el ODS 6 (Agua Limpia y Saneamiento) con datos de CONAGUA. Los tres equipos usan IA; la diferencia está en <strong>cómo</strong> la usan y documentan.</p>
+<p>A continuación presentamos tres ejemplos para un proyecto hipotético: un tablero sobre el ODS 6 (Agua Limpia y Saneamiento) con datos de CONAGUA. Los tres equipos usan IA; la diferencia está en cómo la usan y documentan.</p>
 <section id="ejemplo-delegación-pasiva" class="level3" data-number="5.1">
 <h3 data-number="5.1" class="anchored" data-anchor-id="ejemplo-delegación-pasiva"><span class="header-section-number">5.1</span> Ejemplo: Delegación pasiva</h3>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># AI Log - Equipo Aqua</span></span>
@@ -314,7 +324,7 @@ Durante la presentación, los jueces podrán hacer preguntas como:
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>No hay detalle de tareas específicas, no hay registro de decisiones, no hay trazabilidad del proceso. Un juez no puede distinguir qué hizo el equipo de qué hizo la IA. Este tipo de log corresponde al nivel de <strong>delegación pasiva</strong> en la rúbrica.</p>
+<p>No hay detalle de tareas específicas, no hay registro de decisiones, no hay trazabilidad del proceso. Un juez no puede distinguir qué hizo el equipo de qué hizo la IA. Este tipo de registro corresponde al nivel de <strong>delegación pasiva</strong> en la rúbrica.</p>
 </div>
 </div>
 </section>
@@ -348,7 +358,7 @@ Durante la presentación, los jueces podrán hacer preguntas como:
 <span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>  mayor estrés hídrico.</span>
 <span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2026-03-16 | Claude | Depuración</span></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Tarea**: El render de Quarto fallaba con un error de</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Tarea**: El render de Quarto fallaba con un error que</span>
 <span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>   no entendíamos. Pegamos el error en Claude.</span>
 <span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Resultado**: Identificó un error en uso de comillas.</span>
 <span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Modificación**: Ninguna, la solución fue directa.</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
@@ -362,7 +372,7 @@ Durante la presentación, los jueces podrán hacer preguntas como:
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Hay trazabilidad clara y una decisión técnica propia (interpolación temporal sobre mediana). Sin embargo, la IA participó en casi todas las tareas técnicas. Un juez exploraría qué tanto domina el equipo su propio pipeline.</p>
+<p>Hay trazabilidad clara y una decisión técnica propia (interpolación temporal sobre mediana). Sin embargo, la IA participó en casi todas las tareas técnicas. Un juez exploraría qué tanto domina el equipo su propio pipeline. Este tipo de registro corresponde al nivel de <strong>uso funcional</strong> en la rúbrica.</p>
 </div>
 </div>
 </section>
@@ -426,7 +436,7 @@ Durante la presentación, los jueces podrán hacer preguntas como:
 <span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a>  es completamente nuestro, la IA solo fungió como</span>
 <span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a>  revisor crítico.</span>
 <span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a><span class="fu">### Lo que NO usamos IA para hacer</span></span>
+<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a><span class="fu">### NO usamos IA para hacer lo siguiente:</span></span>
 <span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>La selección de las 4 variables clave (revisión de</span>
 <span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a>  literatura y discusión en equipo)</span>
 <span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>La narrativa del tablero (redacción propia, 3</span>
@@ -443,7 +453,7 @@ Durante la presentación, los jueces podrán hacer preguntas como:
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Hay una filosofía explícita de uso, prompts reproducibles, decisiones justificadas con conocimiento de contexto, y una sección de lo que deliberadamente <em>no</em> se delegó. Este log demuestra agencia intelectual.</p>
+<p>Hay una filosofía explícita de uso, prompts reproducibles, decisiones justificadas con conocimiento de contexto, y una sección de lo que deliberadamente <em>no</em> se delegó. Este tipo de registro corresponde al nivel de <strong>uso estratégico</strong> en la rúbrica. Además, el equipo demuestra capacidad analítica.</p>
 </div>
 </div>
 <!-- 
