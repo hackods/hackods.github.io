@@ -6,16 +6,16 @@ title: Calendario capacitación
 ::: {.callout-note title="Semana 1 ・ 2 - 6 mar" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Lun 2** | Introducción, dinámica | Dr. Luis Miguel de la Cruz y Dr. Guillermo Barrios |IGf-UNAM, IER-UNAM   | 18:00 a 20:00 h |
-| **Mar 3** | México y la Agenda 2030, UNESCO | Adolfo Rodríguez | UNESCO México | 18:00 a 20:00 h |
+| **Lun 2** | Introducción, dinámica | Dr. Luis Miguel de la Cruz Salas y Dr. Guillermo Barrios |IGf-UNAM, IER-UNAM   | 18:00 a 20:00 h |
+| **Mar 3** | México y la Agenda 2030, UNESCO | Mtro. Adolfo Rodríguez | UNESCO México | 18:00 a 20:00 h |
 | **Jue 5** | Instalación Python, Jupyter | Dr. Guillermo Barrios del Valle |Instituto de Energías Renovables UNAM   | 18:00 a 20:00 h |
 :::
 
 ::: {.callout-tip title="Semana 2 ・ 9 - 13 mar" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Lun 9** | Taller datos INEGI | M. Teresa De Jesús Cruz Apanco | INEGI | 18:00 a 20:00 h |
-| **Mar 10** | Portal de Datos Abiertos UNAM | Laura Olguin, Omar Solís | Portal de Datos Abiertos UNAM | 18:00 a 20:00 h |
+| **Lun 9** | Taller datos INEGI | Mtra. Teresa De Jesús Cruz Apanco | INEGI | 18:00 a 20:00 h |
+| **Mar 10** | Portal de Datos Abiertos UNAM | Mtra. Laura Olguin, Lic. Omar Solís | Portal de Datos Abiertos UNAM | 18:00 a 20:00 h |
 | **Jue 12** | Manejo de datos con Pandas | Dr. Guillermo Barrios del Valle | Instituto de Energías Renovables UNAM  | 18:00 a 20:00 h |
 | **Vie 13** | Notion * | Ing. Ximena Cruz |   | 17:00 a 18:30 h |
 :::
@@ -24,16 +24,16 @@ title: Calendario capacitación
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
 | **Mar 17** | Alianzas para alcanzar los ODS | Ing. Mariana Elizabeth Peña Laureano| SDSN Youth | 18:00 a 20:00 h |
-| **Mié 18** | Diseño UX/UI | Miguel Ángel Vela Rosas | Instituto de Geofísica UNAM |  18:00 a 20:00 h  |
-| **Jue 19** | Visualización con Plotly |   |Instituto de Energías Renovables UNAM | 18:00 a 20:00 h |
-| **Vie 20** | Libera historias de datos: continúa el ciclo de conocimiento abierto  | Dra. Jackeline Bucio García |   |  17:00 a 18:30 h |
+| **Mié 18** | Diseño UX/UI | Ing. Miguel Ángel Vela Rosas | Instituto de Geofísica UNAM |  18:00 a 20:00 h  |
+| **Jue 19** | Visualización con Plotly |   Dr. Guillermo Barrios del Valle |Instituto de Energías Renovables UNAM | 18:00 a 20:00 h |
+| **Vie 20** | Libera historias de datos: continúa el ciclo de conocimiento abierto  | Dra. Jackeline Bucio García | Coordinación de Universidad Abierta y Educación Digital, UNAM  |  17:00 a 18:30 h |
 :::
 
 ::: {.callout-note title="Semana 4 ・ 23 - 27 mar" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Lun 23** | Git y GitHub | Josafat Jimenez |   | 18:00 a 20:00 h |
-| **Mar 24** | Storytelling | Dr. Luis Miguel de la Cruz |Instituto de Geofísica UNAM | 18:00 a 20:00 h |
+| **Lun 23** | Git y GitHub | Josafat Jimenez |  GitHub Campus Expert | 18:00 a 20:00 h |
+| **Mar 24** | Storytelling | Dr. Luis Miguel de la Cruz Salas |Instituto de Geofísica UNAM | 18:00 a 20:00 h |
 | **Jue 26** | Quarto para tableros | Dr. Guillermo Barrios del Valle |Instituto de Energías Renovables UNAM | 18:00 a 20:00 h |
 :::
 
@@ -47,14 +47,14 @@ title: Calendario capacitación
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
 | **Lun 6** | Métricas, webinar 1 |   | Utel | 18:00 a 20:00 h |
-| **Mar 7** | Webinar 1 |   | Iberdrola | 18:00 a 20:00 h |
+| **Mar 7** | Webinar 1 |   | Impulso STEM | 18:00 a 20:00 h |
 | **Jue 9** | Mi primer tablero en GitHub Pages | Dr. Guillermo Barrios del Valle |Instituto de Energías Renovables UNAM| 18:00 a 20:00 h |
 :::
 
 ::: {.callout-important title="Semana 6 ・ 13 - 17 abr" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Lun 13** | Webinar 2 |   | Iberdrola | 18:00 a 20:00 h |
-| **Mar 14** | Webinar 2 |   | Utel | 18:00 a 20:00 h |
+| **Lun 13** | Taller de Pitch | Dra. Candy Flores-Gracia  |  | 18:00 a 20:00 h |
+| **Mar 14** | De los datos a la acción: cómo convertir métricas en comportamientos sostenibles. |   | Utel | 18:00 a 20:00 h |
 | **Jue 16** | Cierre de capacitación y dudas  |   |   | 18:00 a 20:00 h |
 :::
