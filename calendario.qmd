@@ -32,7 +32,7 @@ title: Calendario capacitación
 ::: {.callout-note title="Semana 4 ・ 23 - 27 mar" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Lun 23** | Git y GitHub | Josafat Jimenez |  GitHub Campus Expert | 18:00 a 20:00 h |
+| **Lun 23** | Git y GitHub | Lic. Josafat Jimenez |  GitHub Campus Expert | 18:00 a 20:00 h |
 | **Mar 24** | Storytelling | Dr. Luis Miguel de la Cruz Salas |Instituto de Geofísica UNAM | 18:00 a 20:00 h |
 | **Jue 26** | Quarto para tableros | Dr. Guillermo Barrios del Valle |Instituto de Energías Renovables UNAM | 18:00 a 20:00 h |
 :::
@@ -54,7 +54,7 @@ title: Calendario capacitación
 ::: {.callout-important title="Semana 6 ・ 13 - 17 abr" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Lun 13** | Taller de Pitch | Dra. Candy Flores-Gracia  |  | 18:00 a 20:00 h |
-| **Mar 14** | De los datos a la acción: cómo convertir métricas en comportamientos sostenibles. |   | Utel | 18:00 a 20:00 h |
+| **Lun 13** | Taller de Pitch | Dra. Candy Flores-Gracia  | Emprendedora | 18:00 a 20:00 h |
+| **Mar 14** | De los datos a la acción: cómo convertir métricas en comportamientos sostenibles |  Dra. Julieta Palma, Vicerectora de Divulgación | Utel | 18:00 a 20:00 h |
 | **Jue 16** | Cierre de capacitación y dudas  |   |   | 18:00 a 20:00 h |
 :::
