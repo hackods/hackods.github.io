@@ -200,7 +200,7 @@
     "href": "rubrica20.html",
     "title": "Rúbrica de corte · HackODS UNAM 2026",
     "section": "",
-    "text": "Nota\n\n\n\nEntrega: viernes 10 de abril mediante fork en GitHub | Resultados: domingo 12 de abril | Puntaje máximo: 30 pts\nEvaluadores: 2 personas evalúan los 50 equipos de forma independiente; se promedian los puntajes. Los casos en el umbral 20–21 se revisan en conjunto."
+    "text": "Nota\n\n\n\nEntrega: viernes 10 de abril mediante fork en GitHub | Resultados: domingo 12 de abril | Puntaje máximo: 30 pts\nEvaluadores: 3 personas evalúan los 50 equipos de forma independiente; se promedian los puntajes. Los casos en el umbral 20–21 se revisan en conjunto."
   },
   {
     "objectID": "rubrica20.html#datos-del-equipo",
@@ -213,42 +213,35 @@
     "objectID": "rubrica20.html#modulo-a",
     "href": "rubrica20.html#modulo-a",
     "title": "Rúbrica de corte · HackODS UNAM 2026",
-    "section": "Módulo A · Cumplimiento técnico del repositorio (5 pts, binario)",
-    "text": "Módulo A · Cumplimiento técnico del repositorio (5 pts, binario)\n\n\n\n\n\n\nImportante\n\n\n\nUmbral de descalificación automática. Si el equipo obtiene menos de 3 puntos en este módulo, no se evalúan los módulos B, C y D y el equipo queda fuera del corte. Este módulo es compartido con la rúbrica de evaluación final.\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\nDescripción\nPts\n\n\n\n\nA1\nREADME completo\nContiene nombre del equipo, ODS elegido y descripción breve del proyecto\n0 / 1\n\n\nA2\nLicencia CC BY-SA\nArchivo LICENSE o declaración explícita en el README\n0 / 1\n\n\nA3\nEstructura de carpetas\nExisten datos/ scripts/ dashboard/\n0 / 1\n\n\nA4\nDeclaratoria de uso de IA\nArchivo presente usando la plantilla oficial de HackODS (no texto libre)\n0 / 1\n\n\nA5\nMetadatos de los datos\nFuente, fecha de descarga, licencia y descripción de variables por dataset\n0 / 1\n\n\n\nSubtotal A: ___/5\nNotas módulo A (obligatorio si hay 0 en algún criterio):"
+    "section": "Módulo A · Cumplimiento técnico del repositorio",
+    "text": "Módulo A · Cumplimiento técnico del repositorio\n\n\n\n\n\n\nImportante\n\n\n\nUmbral de descalificación automática. Si el equipo obtiene menos de 3 puntos en este módulo, no se evalúan los módulos B, C y D y el equipo queda fuera.\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\nDescripción\nPts\n\n\n\n\nA1\nLicencia CC BY-SA\nArchivo LICENSE o declaración explícita en el README\n0 / 1\n\n\nA2\nREADME completo\nContiene nombre del equipo, integrantes (descripción), ODS elegido(s) y descripción breve del proyecto\n0 / 1\n\n\nA3\nMetadatos de los datos\nFuente, fecha de descarga, licencia y descripción de variables por dataset\n0 / 1\n\n\nA4\nEstructura de carpetas\nExisten datos/ scripts/ dashboard/\n0 / 1\n\n\nA5\nDeclaratoria de uso de IA\nArchivo presente usando la plantilla oficial de HackODS (no texto libre)\n0 / 1"
   },
   {
     "objectID": "rubrica20.html#modulo-b",
     "href": "rubrica20.html#modulo-b",
     "title": "Rúbrica de corte · HackODS UNAM 2026",
-    "section": "Módulo B · Selección y calidad de datos (9 pts, graduado 0–3)",
-    "text": "Módulo B · Selección y calidad de datos (9 pts, graduado 0–3)\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\n0\n1\n2\n3\n\n\n\n\nB1\nPertinencia — Los datos son coherentes con el ODS\nSin relación\nRelación débil\nRelación clara\nMúltiples fuentes complementarias\n\n\nB2\nVerificabilidad de la fuente — Fuentes públicas y confiables\nSin fuente\nMencionada, no verificable\nPública verificada\nOficial con URL (INEGI, ONU, datos.gob.mx)\n\n\nB3\nJustificación de la selección — Explican por qué estos datos\nSin justificación\nSuperficial\nRazonada\nPensamiento crítico evidente\n\n\n\nSubtotal B: ___/9\nNotas módulo B:"
+    "section": "Módulo B · Selección y calidad de datos",
+    "text": "Módulo B · Selección y calidad de datos\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\n0\n1\n2\n3\n\n\n\n\nB1\nPertinencia — Los datos son coherentes con el ODS\nSin relación\nRelación débil\nRelación clara\nMúltiples fuentes complementarias\n\n\nB2\nVerificabilidad de la fuente — Fuentes públicas y confiables\nSin fuente\nMencionada, no verificable\nPública verificada\nOficial con URL (INEGI, ONU, datos.gob.mx)\n\n\nB3\nJustificación de la selección — Explican por qué estos datos\nSin justificación\nSuperficial\nRazonada\nPensamiento crítico evidente\n\n\n\nNotas módulo B:\n\nDOCUMENTAR EN EL README"
   },
   {
     "objectID": "rubrica20.html#modulo-c",
     "href": "rubrica20.html#modulo-c",
     "title": "Rúbrica de corte · HackODS UNAM 2026",
-    "section": "Módulo C · Esbozo narrativo — storytelling (9 pts, graduado 0–3)",
-    "text": "Módulo C · Esbozo narrativo — storytelling (9 pts, graduado 0–3)\n\n\n\n\n\n\nTip\n\n\n\nCriterio de desempate primario. En caso de empate en el umbral 20–21, se ordena primero por puntaje C, luego B, luego D.\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\n0\n1\n2\n3\n\n\n\n\nC1\nPregunta o problema central — Pregunta clara que guía el tablero\nAusente\nVaga o muy amplia\nEspecífica y relevante\nEspecífica, relevante y con ángulo original\n\n\nC2\nCoherencia narrativa — Coherencia entre ODS, datos e historia\nSin coherencia\nParcial / confusa\nRazonable\nLos datos sostienen la historia; el ODS la enmarca\n\n\nC3\nPotencial de impacto — Visibiliza un problema real en México\nSin potencial\nMuy general\nRelevancia local o sectorial\nRelevancia nacional, audiencia clara\n\n\n\nSubtotal C: ___/9\nNotas módulo C (base para retroalimentación escrita al equipo):"
+    "section": "Módulo C · Esbozo narrativo — storytelling",
+    "text": "Módulo C · Esbozo narrativo — storytelling\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\n0\n1\n2\n3\n\n\n\n\nC1\nPregunta o problema central — Pregunta clara que guía el tablero\nAusente\nVaga o muy amplia\nEspecífica y relevante\nEspecífica, relevante y con perspectiva novedosa\n\n\nC2\nCoherencia narrativa — Coherencia entre ODS, datos e historia\nSin coherencia\nParcial / confusa\nRazonable\nLos datos sostienen la historia\n\n\nC3\nPotencial de impacto — Visibiliza un problema real en México\nSin potencial\nPoco claro\nMuy general\nRelevancia y audiencia clara\n\n\n\nNotas módulo C\n\nCada equipo debe documentar en el README su pregunta o problema central."
   },
   {
     "objectID": "rubrica20.html#modulo-d",
     "href": "rubrica20.html#modulo-d",
     "title": "Rúbrica de corte · HackODS UNAM 2026",
-    "section": "Módulo D · Prototipo Quarto (7 pts, mixto)",
-    "text": "Módulo D · Prototipo Quarto (7 pts, mixto)\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\n0\n1\n2\n3\n\n\n\n\nD0\nExistencia del .qmd (gate)\nNo existe\nExiste\n—\n—\n\n\nD1\nAvance visual — Al menos una visualización o estructura\nSin visualización\nPlaceholder / gráfica de prueba\nUna viz con datos reales\nDos+ vizs coherentes\n\n\nD2\nCoherencia prototipo–narrativa — Refleja la historia de datos\nSin relación\nSuperficial\nIlustra parcialmente\nSostiene y enriquece la narrativa\n\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nSi D0 = 0, los criterios D1 y D2 se puntúan automáticamente como 0.\n\n\nSubtotal D: ___/7\nNotas módulo D:"
+    "section": "Módulo D · Prototipo Tablero",
+    "text": "Módulo D · Prototipo Tablero\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\n0\n1\n2\n3\n\n\n\n\nD0\nExistencia de un .qmd o un .ipynb\nNo existe ninguno\nExiste .ipynb\nExiste .qmd\n—\n\n\nD1\nAvance visual — Al menos una visualización\nSin visualización\nGráfica de prueba\nUna vizualización con datos reales\nDos o más visualizaciones coherentes\n\n\nD2\nEstructura — Estructura o maquetado del tablero\nSin estructura\nEstructura con secciones\nEstructura con narrativa\nEstructura con narrativa y secciones\n\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nSi D0 = 0, los criterios D1 y D2 se puntúan automáticamente como 0.\n\n\nNotas módulo D:\n\nSi no entregan el qmd, se pueden entregar las visualizaciones en una libreta de Jupyter. La estructura con secciones y la estructura con narrativa pueden estar contenidas en una libreta de Jupyter en el repositorio y ser especificado en el README."
   },
   {
     "objectID": "rubrica20.html#retro",
     "href": "rubrica20.html#retro",
     "title": "Rúbrica de corte · HackODS UNAM 2026",
     "section": "Retroalimentación escrita al equipo",
-    "text": "Retroalimentación escrita al equipo\n\n\n\n\n\n\nNota\n\n\n\nObligatoria para todos los equipos — tanto los que pasan como los que no. Tono constructivo, 2–4 oraciones. Se envía junto con los resultados del 12 de abril.\n\n\nEstructura sugerida: (1) qué tienen bien · (2) qué les falta · (3) una sugerencia concreta"
-  },
-  {
-    "objectID": "rubrica20.html#total",
-    "href": "rubrica20.html#total",
-    "title": "Rúbrica de corte · HackODS UNAM 2026",
-    "section": "Puntaje total",
-    "text": "Puntaje total\n\n\n\nMódulo\nMáximo\nPuntaje\n\n\n\n\nA · Cumplimiento técnico\n5\n\n\n\nB · Selección de datos\n9\n\n\n\nC · Narrativa (desempate 1°)\n9\n\n\n\nD · Prototipo Quarto\n7\n\n\n\nTotal\n30\n\n\n\n\nDesempate (umbral 20–21): 1° C · 2° B · 3° D\nVeredicto: ☐ Pasa ☐ Zona de corte ☐ No pasa ☐ Descalificado (A &lt; 3)\n\nHackODS UNAM 2026 · Instituto de Energías Renovables & Instituto de Geofísica · hackods@ier.unam.mx"
+    "text": "Retroalimentación escrita al equipo\n\n\n\n\n\n\nNota\n\n\n\nLa retroalimentación del corte de los 20 equipos se entregará a cada equipo solo bajo petición y al termino del HackODS."
   }
 ]
