@@ -55,6 +55,6 @@ title: Calendario capacitación
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
 | **Lun 13** | Taller de Pitch | Dra. Candy Flores-Gracia  | Emprendedora | 18:00 a 20:00 h |
-| **Mar 14** | De los datos a la acción: cómo convertir métricas en comportamientos sostenibles |  Dra. Julieta Palma, Vicerectora de Divulgación | Utel | 18:00 a 20:00 h |
+| **Mar 14** | De los datos a la acción: cómo convertir métricas en comportamientos sostenibles |  Mtra. Sandra Alejo | Utel | 18:00 a 20:00 h |
 | **Jue 16** | Cierre de capacitación y dudas  |   |   | 18:00 a 20:00 h |
 :::
