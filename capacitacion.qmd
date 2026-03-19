@@ -11,6 +11,9 @@ title: "Capacitación"
 
 {{< revealjs "https://hackods.github.io/intro-jupyter-pandas/#/title-slide" height="300px" width="70%" >}}
 
+
+{{< revealjs "https://hackods.github.io/intro-plotly/#/title-slide" height="300px" width="70%" >}}
+
 ### Material
 
 {{< pdf "pdfs/INEGI_HackODS_UNAM_2026.pdf" height="400px" width="70%" >}}
