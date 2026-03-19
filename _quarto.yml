@@ -15,14 +15,14 @@ website:
           #   href: tableros.qmd
           - text: "Comunicación"
             href: comunicacion.qmd
-          # - text: "Rúbrica 20 equipes"
-          #   href: rubrica20.qmd
+          - text: "Rúbrica 20 equipes"
+            href: rubrica20.qmd
       - text: "Calendario"
         href: calendario.qmd
       - text: "Capacitación"
         href: capacitacion.qmd
-      # - text: "Política de IA"
-      #   href: declaratoriaIA.qmd
+      - text: "Política de IA"
+        href: declaratoriaIA.qmd
     tools:
       - icon: github
         href: https://github.com/hackods/hackods.github.io

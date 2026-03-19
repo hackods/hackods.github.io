@@ -9,9 +9,11 @@ format:
 ---
 
 ::: {.callout-note}
-**Entrega:** viernes 10 de abril mediante fork en GitHub | **Resultados:** domingo 12 de abril | **Puntaje máximo:** 30 pts
 
-**Evaluadores:** 3 personas evalúan los 50 equipos de forma independiente; se promedian los puntajes. Los casos en el umbral 20–21 se revisan en conjunto.
+**Entrega:** viernes 10 de abril mediante fork en GitHub 
+
+**Resultados:** domingo 12 de abril | **Puntaje máximo:** 30 pts
+
 :::
 
 ## Datos del equipo
