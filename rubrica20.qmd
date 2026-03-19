@@ -12,7 +12,7 @@ format:
 
 **Entrega:** viernes 10 de abril mediante fork en GitHub 
 
-**Resultados:** domingo 12 de abril | **Puntaje máximo:** 30 pts
+**Resultados:** domingo 12 de abril 
 
 :::
 
