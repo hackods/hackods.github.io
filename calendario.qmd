@@ -46,9 +46,12 @@ title: Calendario capacitación
 ::: {.callout-tip title="Semana 5 ・ 6 - 10 abr" icon=false}
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
-| **Lun 6** | Métricas, webinar 1 |   | Utel | 18:00 a 20:00 h |
-| **Mar 7** | Webinar 1 |   | Impulso STEM | 18:00 a 20:00 h |
+| **Lun 6** | LIBRE | --  | -- | -- |
+| **Mar 7** | 1er etapa mentoría S01 |   |  | 18:00 a 20:00 h |
+| **Mie 8** | 1er etapa mentoría S02 |   |  | 18:00 a 20:00 h |
 | **Jue 9** | Mi primer tablero en GitHub Pages | Dr. Guillermo Barrios del Valle |Instituto de Energías Renovables UNAM| 18:00 a 20:00 h |
+| **Vie 10** | 1er etapa mentoría S03 |   |  | 12:00 a 14:00 h |
+
 :::
 
 ::: {.callout-important title="Semana 6 ・ 13 - 17 abr" icon=false}
