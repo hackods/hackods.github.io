@@ -1,75 +1,5 @@
 [
   {
-    "objectID": "capacitacion.html",
-    "href": "capacitacion.html",
-    "title": "Capacitación",
-    "section": "",
-    "text": "View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n\n\n\n  Download PDF File\n   \n    Unable to display PDF file. Download instead."
-  },
-  {
-    "objectID": "capacitacion.html#presentaciones",
-    "href": "capacitacion.html#presentaciones",
-    "title": "Capacitación",
-    "section": "",
-    "text": "View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n\n\n\n  Download PDF File\n   \n    Unable to display PDF file. Download instead."
-  },
-  {
-    "objectID": "declaratoriaIA.html",
-    "href": "declaratoriaIA.html",
-    "title": "Declaratoria y Reglamento de Uso de IA",
-    "section": "",
-    "text": "En el HackODS UNAM 2026 no prohibimos el uso de herramientas de inteligencia artificial generativa. Consideramos que estas herramientas forman parte del ecosistema de trabajo contemporáneo y que aprender a integrarlas con criterio es una competencia profesional valiosa.\nSin embargo, el objetivo del hackathon es evaluar la capacidad analítica de cada equipo: su capacidad de formular preguntas relevantes, tomar decisiones informadas sobre datos, y construir una narrativa que conecte los Objetivos de Desarrollo Sostenible con problemáticas reales. Ninguna herramienta sustituye eso.\nPor lo tanto, nuestra política se resume en:\n\nNo nos importa si usaron IA. Nos importa que piensen."
-  },
-  {
-    "objectID": "declaratoriaIA.html#postura-del-hackods-sobre-la-ia",
-    "href": "declaratoriaIA.html#postura-del-hackods-sobre-la-ia",
-    "title": "Declaratoria y Reglamento de Uso de IA",
-    "section": "",
-    "text": "En el HackODS UNAM 2026 no prohibimos el uso de herramientas de inteligencia artificial generativa. Consideramos que estas herramientas forman parte del ecosistema de trabajo contemporáneo y que aprender a integrarlas con criterio es una competencia profesional valiosa.\nSin embargo, el objetivo del hackathon es evaluar la capacidad analítica de cada equipo: su capacidad de formular preguntas relevantes, tomar decisiones informadas sobre datos, y construir una narrativa que conecte los Objetivos de Desarrollo Sostenible con problemáticas reales. Ninguna herramienta sustituye eso.\nPor lo tanto, nuestra política se resume en:\n\nNo nos importa si usaron IA. Nos importa que piensen."
-  },
-  {
-    "objectID": "declaratoriaIA.html#herramientas-permitidas",
-    "href": "declaratoriaIA.html#herramientas-permitidas",
-    "title": "Declaratoria y Reglamento de Uso de IA",
-    "section": "2 Herramientas permitidas",
-    "text": "2 Herramientas permitidas\nLos equipos pueden usar cualquier herramienta de IA generativa, incluyendo pero no limitado a:\n\nAsistentes de código\nChatbots generativos \nHerramientas de corrección y edición de texto"
-  },
-  {
-    "objectID": "declaratoriaIA.html#reglas-obligatorias",
-    "href": "declaratoriaIA.html#reglas-obligatorias",
-    "title": "Declaratoria y Reglamento de Uso de IA",
-    "section": "3 Reglas obligatorias",
-    "text": "3 Reglas obligatorias\n\n3.1 Archivo ai-log.md\nCada equipo debe incluir un archivo ai-log.md en la raíz de su repositorio. Este archivo documenta de manera transparente cómo se usaron herramientas de IA durante el hackathon.\nEl archivo debe contener como mínimo:\n\nHerramientas utilizadas: lista de las herramientas de IA empleadas.\nRegistro de uso: entradas individuales para cada interacción significativa, con:\n\nla fecha,\nla tarea delegada,\nel prompt,\nel resultado obtenido y\nlas modificaciones que realizó el equipo.\n\nDecisiones propias: para cada entrada, una explicación de por qué se aceptó, rechazó o modificó la salida de la IA.\n\n\n\n\n\n\n\nImportanteAusencia del ai-log.md\n\n\n\nLa ausencia del archivo ai-log.md en el repositorio resultará en una penalización en la evaluación, independientemente de si el equipo usó IA o no. En caso de no haber usado herramientas de IA, el archivo debe indicar explícitamente: “El equipo NOMBRE_DEL_EQUIPO no utilizó herramientas de inteligencia artificial generativa durante el hackathon.”\n\n\n\n\n3.2 Reproducibilidad ante todo\nTodo código generado con asistencia de IA debe:\n\nEjecutarse correctamente en el pipeline del proyecto.\nSeguir las convenciones de estilo del equipo (sin mezcla de estilos provenientes de distintos prompts).\nEstar documentado con comentarios que demuestren comprensión.\n\n\n\n3.3 Narrativa propia\nLa narrativa del tablero —los textos que contextualizan los datos, conectan las variables con los ODS y formulan argumentos— debe ser producto del trabajo intelectual del equipo. Puede usarse IA como herramienta de revisión o retroalimentación, pero el contenido narrativo final debe reflejar la voz y el criterio del equipo.\n\nLa capacidad de responder con solidez forma parte de la evaluación."
-  },
-  {
-    "objectID": "declaratoriaIA.html#rúbrica-integración-estratégica-de-herramientas",
-    "href": "declaratoriaIA.html#rúbrica-integración-estratégica-de-herramientas",
-    "title": "Declaratoria y Reglamento de Uso de IA",
-    "section": "4 Rúbrica: Integración estratégica de herramientas",
-    "text": "4 Rúbrica: Integración estratégica de herramientas\nEl uso de IA se evalúa como una dimensión independiente en la rúbrica del hackathon. Cuando el equipo usa la IA, se evalúa cómo se integró en el proceso de trabajo.\n\n\n\n\n\n\n\n\nNivel\nDescriptor\nPuntaje\n\n\n\n\nUso estratégico\nLa IA fue un acelerador, no un sustituto. Hay una filosofía explícita de uso, los prompts son reproducibles, y las decisiones propias están documentadas en el archivo ai-log.md como se describe en el punto 3.1 de esta declaratoria.\n7-10\n\n\nUso funcional\nLa IA se usó para tareas específicas y delimitadas. El equipo puede explicar qué delegó y por qué. Hay registro claro en el archivo ai-log.md pero la reflexión sobre las decisiones es limitada.\n4-6\n\n\nDelegación pasiva\nLa IA generó el contenido con mínima intervención del equipo. La narrativa es genérica, el código presenta inconsistencias de estilo y el archivo ai-log.md es vago o superficial.\n1-3"
-  },
-  {
-    "objectID": "declaratoriaIA.html#ejemplos-de-ai-log.md",
-    "href": "declaratoriaIA.html#ejemplos-de-ai-log.md",
-    "title": "Declaratoria y Reglamento de Uso de IA",
-    "section": "5 Ejemplos de ai-log.md",
-    "text": "5 Ejemplos de ai-log.md\nA continuación presentamos tres ejemplos para un proyecto hipotético: un tablero sobre el ODS 6 (Agua Limpia y Saneamiento) con datos de CONAGUA. Los tres equipos usan IA; la diferencia está en cómo la usan y documentan.\n\n5.1 Ejemplo: Delegación pasiva\n# AI Log - Equipo Aqua\n\n## Herramientas utilizadas\n- ChatGPT 4o\n\n## Uso general\nUsamos ChatGPT para ayudarnos con el código del tablero\ny con algunas partes de la narrativa. También nos ayudó\ncon las gráficas.\n\n\n\n\n\n\nAdvertencia¿Por qué este log es insuficiente?\n\n\n\nNo hay detalle de tareas específicas, no hay registro de decisiones, no hay trazabilidad del proceso. Un juez no puede distinguir qué hizo el equipo de qué hizo la IA. Este tipo de registro corresponde al nivel de delegación pasiva en la rúbrica.\n\n\n\n\n5.2 Ejemplo: Uso funcional\n# AI Log - Equipo Hidro\n\n## Herramientas\n- Claude (claude.ai)\n- GitHub Copilot\n\n## Registro de uso\n\n### 2026-03-15 | Claude | Limpieza de datos\n- **Tarea**: Teníamos el CSV de CONAGUA con columnas mal\n  nombradas y valores faltantes. Le pedimos a Claude que\n  nos generara un script de limpieza.\n- **Resultado**: Nos dio un pipeline con pandas que\n  renombraba columnas y hacía imputación con la mediana.\n- **Modificación**: Cambiamos la imputación por\n  interpolación temporal porque nuestros datos son series\n  de tiempo mensuales. La mediana no tenía sentido aquí.\n\n### 2026-03-15 | Copilot | Visualización\n- **Tarea**: Autocompletado para generar el código base\n  de un mapa interactivo con plotly express.\n- **Resultado**: Generó la estructura básica del mapa\n  con px.choropleth.\n- **Modificación**: Ajustamos la paleta de colores y\n  agregamos etiquetas manuales para los estados con\n  mayor estrés hídrico.\n\n### 2026-03-16 | Claude | Depuración\n- **Tarea**: El render de Quarto fallaba con un error que\n   no entendíamos. Pegamos el error en Claude.\n- **Resultado**: Identificó un error en uso de comillas.\n- **Modificación**: Ninguna, la solución fue directa.\n\n\n\n\n\n\nNotaBuen registro, espacio para crecer\n\n\n\nHay trazabilidad clara y una decisión técnica propia (interpolación temporal sobre mediana). Sin embargo, la IA participó en casi todas las tareas técnicas. Un juez exploraría qué tanto domina el equipo su propio pipeline. Este tipo de registro corresponde al nivel de uso funcional en la rúbrica.\n\n\n\n\n5.3 Ejemplo: Uso estratégico\n# AI Log - Equipo Cuenca\n\n## Herramientas\n- Claude (claude.ai)\n- GitHub Copilot (VS Code)\n\n## Filosofía de uso\nDecidimos usar IA exclusivamente para tareas mecánicas y\nde exploración inicial. La narrativa, la selección de\nvariables y las decisiones editoriales fueron 100% del\nequipo. Nuestro criterio: si la tarea requiere\nconocimiento del contexto hídrico de Guerrero, la\nhacemos nosotros.\n\n## Registro de uso \n\n### 2026-03-15 | Claude | Exploración de estructura\n- **Tarea**: Le pedimos 3 opciones de layout para un\n  tablero de Quarto con 4 secciones temáticas.\n- **Prompt**: \"Dame 3 estructuras de layout en Quarto\n  dashboard para un proyecto con 4 secciones: contexto\n  geográfico, acceso a agua, calidad del agua, y\n  tendencia temporal\"\n- **Resultado**: Nos dio layouts con tabs, sidebar y\n  scroll vertical.\n- **Decisión**: Elegimos sidebar porque nuestro usuario\n  objetivo  necesita\n  navegar entre secciones sin perder el contexto del mapa\n  principal. \n\n### 2026-03-15 | Copilot | Boilerplate de gráficas\n- **Tarea**: Generar código base para 6 gráficas en\n  plotly.\n- **Resultado**: Templates funcionales para bar, line,\n  choropleth, scatter, heatmap, y funnel.\n- **Decisión**: Descartamos 3 de las 6. El heatmap no\n  comunicaba bien la estacionalidad (probamos y era\n  confuso). El scatter no era apropiado para datos\n  categóricos por municipio. Nos quedamos con bar, line\n  y choropleth. Toda la personalización visual (paleta\n  basada en identidad del ODS 6, etiquetas en español,\n  anotaciones contextuales) fue manual.\n\n### 2026-03-16 | Claude | Revisión de narrativa\n- **Tarea**: Le pedimos que criticara nuestro borrador de\n  narrativa de la sección de acceso a agua.\n- **Prompt**: \"Critica este texto como si fueras un editor\n  de datos. ¿La narrativa conecta bien los datos con el\n  argumento? ¿Hay saltos lógicos?\"\n- **Resultado**: Señaló que no conectábamos el dato de\n  cobertura municipal con el argumento de desigualdad\n  regional.\n- **Decisión**: Agregamos un párrafo puente con el\n  coeficiente de Gini de acceso hídrico que ya teníamos\n  calculado pero no habíamos integrado. El texto final\n  es completamente nuestro, la IA solo fungió como\n  revisor crítico.\n\n### NO usamos IA para hacer lo siguiente:\n- La selección de las 4 variables clave (revisión de\n  literatura y discusión en equipo)\n- La narrativa del tablero (redacción propia, 3\n  iteraciones internas)\n- La interpretación de outliers en Acapulco post-Otis\n  (conocimiento local del equipo)\n\n\n\n\n\n\nTipModelo a seguir\n\n\n\nHay una filosofía explícita de uso, prompts reproducibles, decisiones justificadas con conocimiento de contexto, y una sección de lo que deliberadamente no se delegó. Este tipo de registro corresponde al nivel de uso estratégico en la rúbrica. Además, el equipo demuestra capacidad analítica."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bienvenida al HackODS UNAM 2026",
-    "section": "",
-    "text": "Bienvenidas y bienvenidos al primer hackatón de la UNAM dedicado a convertir datos abiertos en narrativas visuales sobre los Objetivos de Desarrollo Sostenible (ODS).\nEn este sitio encontrarás toda la información necesaria para el desarrollo de tu proyecto: desde el reglamento de tableros hasta las herramientas y fuentes de datos que utilizarás durante el hackatón."
-  },
-  {
-    "objectID": "index.html#contacto",
-    "href": "index.html#contacto",
-    "title": "Bienvenida al HackODS UNAM 2026",
-    "section": "Contacto",
-    "text": "Contacto\nSitio oficial: hackods.unam.mx\nCorreo: hackods@ier.unam.mx"
-  },
-  {
     "objectID": "tableros.html",
     "href": "tableros.html",
     "title": "Reglamento de Tableros — HackODS 2026",
@@ -126,46 +56,18 @@
     "text": "7 Causas de descalificación técnica\n\nNo puede renderizarse con uv run quarto render index.qmd.\nUtiliza datos sintéticos o no verificables.\nLas visualizaciones son imágenes estáticas.\nEl repositorio es privado o el tablero no es accesible públicamente.\nNo incluye las secciones obligatorias.\nIncluye HTML o CSS personalizados que alteren el estilo base de Quarto.\n\n\nEste reglamento es un documento vivo. Cualquier actualización será comunicada por los canales oficiales del hackatón."
   },
   {
-    "objectID": "mentorias.html",
-    "href": "mentorias.html",
-    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bienvenida al HackODS UNAM 2026",
     "section": "",
-    "text": "Antes del corte que definirá a los 20 equipos finalistas, cada equipo tendrá una única sesión de 30 minutos por Zoom con una o dos personas expertas. La organización agendará a cada equipo en una sesión específica.\nEl propósito es orientar la historia que están construyendo: ¿su narrativa es clara?, ¿los datos respaldan lo que quieren contar?, ¿el enfoque es viable y relevante?\n\n\n\nUna conversación para fortalecer tu historia y tu enfoque narrativo.\nUn espacio para recibir retroalimentación sobre la coherencia entre tu pregunta, tus datos y tu ODS.\nUna oportunidad para afinar tu bosquejo antes de la entrega final.\n\n\n\n\n\nNo es soporte técnico para código, tableros ni herramientas.\nLa persona mentora no resuelve problemas técnicos ni te dice qué gráficas usar.\nNo te dice qué hacer; te ayuda a ver con más claridad lo que tú ya estás construyendo."
+    "text": "Bienvenidas y bienvenidos al primer hackatón de la UNAM dedicado a convertir datos abiertos en narrativas visuales sobre los Objetivos de Desarrollo Sostenible (ODS).\nEn este sitio encontrarás toda la información necesaria para el desarrollo de tu proyecto: desde el reglamento de tableros hasta las herramientas y fuentes de datos que utilizarás durante el hackatón."
   },
   {
-    "objectID": "mentorias.html#qué-son-las-mentorías",
-    "href": "mentorias.html#qué-son-las-mentorías",
-    "title": "Mentorías de primera etapa · Prepara tu sesión",
-    "section": "",
-    "text": "Antes del corte que definirá a los 20 equipos finalistas, cada equipo tendrá una única sesión de 30 minutos por Zoom con una o dos personas expertas. La organización agendará a cada equipo en una sesión específica.\nEl propósito es orientar la historia que están construyendo: ¿su narrativa es clara?, ¿los datos respaldan lo que quieren contar?, ¿el enfoque es viable y relevante?\n\n\n\nUna conversación para fortalecer tu historia y tu enfoque narrativo.\nUn espacio para recibir retroalimentación sobre la coherencia entre tu pregunta, tus datos y tu ODS.\nUna oportunidad para afinar tu bosquejo antes de la entrega final.\n\n\n\n\n\nNo es soporte técnico para código, tableros ni herramientas.\nLa persona mentora no resuelve problemas técnicos ni te dice qué gráficas usar.\nNo te dice qué hacer; te ayuda a ver con más claridad lo que tú ya estás construyendo."
-  },
-  {
-    "objectID": "mentorias.html#fechas-y-horarios",
-    "href": "mentorias.html#fechas-y-horarios",
-    "title": "Mentorías de primera etapa · Prepara tu sesión",
-    "section": "Fechas y horarios",
-    "text": "Fechas y horarios\nLas mentorías se realizan por videollamada (Zoom) en tres sesiones durante la Semana 5:\n\n\n\nSesión\nDía\nHorario\n\n\n\n\nS01\nMartes 7 de abril\n18:00 a 20:00 h\n\n\nS02\nMiércoles 8 de abril\n18:00 a 20:00 h\n\n\nS03\nViernes 10 de abril\n12:00 a 14:00 h\n\n\n\nLa asignación de equipo, sesión y horario se publicará. Por cuestiones de logística, no es posible realizar cambios de sesión ni de horario."
-  },
-  {
-    "objectID": "mentorias.html#qué-deben-preparar",
-    "href": "mentorias.html#qué-deben-preparar",
-    "title": "Mentorías de primera etapa · Prepara tu sesión",
-    "section": "¿Qué deben preparar?",
-    "text": "¿Qué deben preparar?\nCada equipo debe llegar a la mentoría con una presentación breve de 3 diapositivas (puede ser PDF, Google Slides o similar). No se requiere un tablero funcional ni gráficas interactivas. Es un bosquejo, no un producto terminado.\n\nContenido sugerido por diapositiva\nDiapositiva 1 — Equipo y ODS\n\nNombre del equipo e integrantes (breve).\nODS elegido(s) y por qué les importa.\n\nDiapositiva 2 — Pregunta, datos y enfoque\n\n¿Cuál es la pregunta que guía su historia?\n¿Qué quieren visibilizar o demostrar con datos?\n¿Qué fuentes de datos están considerando y cómo se relacionan con su pregunta y su ODS?\n\nDiapositiva 3 — Dudas o puntos de orientación\n\n¿En qué parte de su historia sienten que necesitan más claridad?\n¿Hay algo que no estén seguros de cómo enfocar?\n\n\n\nResumen rápido\n\n\n\nSí traer\nNo es necesario\n\n\n\n\nPresentación de 3 diapositivas\nTablero funcional\n\n\nPregunta o problema central claro\nGráficas interactivas\n\n\nLista de fuentes de datos\nCódigo terminado\n\n\nDudas concretas sobre el enfoque\nDiseño visual final"
-  },
-  {
-    "objectID": "mentorias.html#asistencia-obligatoria",
-    "href": "mentorias.html#asistencia-obligatoria",
-    "title": "Mentorías de primera etapa · Prepara tu sesión",
-    "section": "Asistencia obligatoria",
-    "text": "Asistencia obligatoria\nDebe presentarse al menos 1 integrante del equipo a la sesión de mentoría. La inasistencia será tomada en cuenta en la evaluación para pasar a la fase final."
-  },
-  {
-    "objectID": "mentorias.html#recomendaciones-finales",
-    "href": "mentorias.html#recomendaciones-finales",
-    "title": "Mentorías de primera etapa · Prepara tu sesión",
-    "section": "Recomendaciones finales",
-    "text": "Recomendaciones finales\n\nRevisen la rúbrica de corte antes de la mentoría, en particular los módulos B (datos) y C (storytelling). Su sesión será más productiva si ya tienen claro qué se evalúa: Rúbrica de corte.\nSean concretos. Tienen 30 minutos: lleguen con una historia clara, no con una lluvia de ideas.\nSe recomienda que esté presente todo el equipo. La inasistencia se considerará en la evaluación.\nTomen notas. La retroalimentación es para ustedes; aprovéchenla para ajustar antes de la entrega.\n\n\n¿Dudas? Escríbenos a hackods@ier.unam.mx"
+    "objectID": "index.html#contacto",
+    "href": "index.html#contacto",
+    "title": "Bienvenida al HackODS UNAM 2026",
+    "section": "Contacto",
+    "text": "Contacto\nSitio oficial: hackods.unam.mx\nCorreo: hackods@ier.unam.mx"
   },
   {
     "objectID": "comunicacion.html",
@@ -235,7 +137,63 @@
     "href": "calendario.html",
     "title": "Calendario capacitación",
     "section": "",
-    "text": "NotaSemana 1 ・ 2 - 6 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 2\nIntroducción, dinámica\nDr. Luis Miguel de la Cruz Salas y Dr. Guillermo Barrios\nIGf-UNAM, IER-UNAM\n18:00 a 20:00 h\n\n\nMar 3\nMéxico y la Agenda 2030, UNESCO\nMtro. Adolfo Rodríguez\nUNESCO México\n18:00 a 20:00 h\n\n\nJue 5\nInstalación Python, Jupyter\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\n\n\n\n\n\n\n\n\n\nTipSemana 2 ・ 9 - 13 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 9\nTaller datos INEGI\nMtra. Teresa De Jesús Cruz Apanco\nINEGI\n18:00 a 20:00 h\n\n\nMar 10\nPortal de Datos Abiertos UNAM\nMtra. Laura Olguin, Lic. Omar Solís\nPortal de Datos Abiertos UNAM\n18:00 a 20:00 h\n\n\nJue 12\nManejo de datos con Pandas\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\nVie 13\nNotion *\nIng. Ximena Cruz\n\n17:00 a 18:30 h\n\n\n\n\n\n\n\n\n\n\n\nImportanteSemana 3 ・ 16 - 20 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nMar 17\nAlianzas para alcanzar los ODS\nIng. Mariana Elizabeth Peña Laureano\nSDSN Youth\n18:00 a 20:00 h\n\n\nMié 18\nDiseño UX/UI\nIng. Miguel Ángel Vela Rosas\nInstituto de Geofísica UNAM\n18:00 a 20:00 h\n\n\nJue 19\nVisualización con Plotly\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\nVie 20\nLibera historias de datos: continúa el ciclo de conocimiento abierto\nDra. Jackeline Bucio García\nCoordinación de Universidad Abierta y Educación Digital, UNAM\n17:00 a 18:30 h\n\n\n\n\n\n\n\n\n\n\n\nNotaSemana 4 ・ 23 - 27 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 23\nGit y GitHub\nLic. Josafat Jimenez\nGitHub Campus Expert\n18:00 a 20:00 h\n\n\nMar 24\nStorytelling\nDr. Luis Miguel de la Cruz Salas\nInstituto de Geofísica UNAM\n18:00 a 20:00 h\n\n\nJue 26\nQuarto para tableros\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\n\n\n\n\n\n\n\n\n\nAdvertenciaVacaciones ・ 30 mar – 5 abr\n\n\n\nSEMANA DE DESCANSO\n\n\n\n\n\n\n\n\nTipSemana 5 ・ 6 - 10 abr\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 6\nMétricas, webinar 1\n\nUtel\n18:00 a 20:00 h\n\n\nMar 7\nWebinar 1\n\nImpulso STEM\n18:00 a 20:00 h\n\n\nJue 9\nMi primer tablero en GitHub Pages\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\n\n\n\n\n\n\n\n\n\nImportanteSemana 6 ・ 13 - 17 abr\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 13\nTaller de Pitch\nDra. Candy Flores-Gracia\nEmprendedora\n18:00 a 20:00 h\n\n\nMar 14\nDe los datos a la acción: cómo convertir métricas en comportamientos sostenibles\nMtra. Sandra Alejo\nUtel\n18:00 a 20:00 h\n\n\nJue 16\nCierre de capacitación y dudas\n\n\n18:00 a 20:00 h"
+    "text": "NotaSemana 1 ・ 2 - 6 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 2\nIntroducción, dinámica\nDr. Luis Miguel de la Cruz Salas y Dr. Guillermo Barrios\nIGf-UNAM, IER-UNAM\n18:00 a 20:00 h\n\n\nMar 3\nMéxico y la Agenda 2030, UNESCO\nMtro. Adolfo Rodríguez\nUNESCO México\n18:00 a 20:00 h\n\n\nJue 5\nInstalación Python, Jupyter\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\n\n\n\n\n\n\n\n\n\nTipSemana 2 ・ 9 - 13 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 9\nTaller datos INEGI\nMtra. Teresa De Jesús Cruz Apanco\nINEGI\n18:00 a 20:00 h\n\n\nMar 10\nPortal de Datos Abiertos UNAM\nMtra. Laura Olguin, Lic. Omar Solís\nPortal de Datos Abiertos UNAM\n18:00 a 20:00 h\n\n\nJue 12\nManejo de datos con Pandas\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\nVie 13\nNotion *\nIng. Ximena Cruz\n\n17:00 a 18:30 h\n\n\n\n\n\n\n\n\n\n\n\nImportanteSemana 3 ・ 16 - 20 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nMar 17\nAlianzas para alcanzar los ODS\nIng. Mariana Elizabeth Peña Laureano\nSDSN Youth\n18:00 a 20:00 h\n\n\nMié 18\nDiseño UX/UI\nIng. Miguel Ángel Vela Rosas\nInstituto de Geofísica UNAM\n18:00 a 20:00 h\n\n\nJue 19\nVisualización con Plotly\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\nVie 20\nLibera historias de datos: continúa el ciclo de conocimiento abierto\nDra. Jackeline Bucio García\nCoordinación de Universidad Abierta y Educación Digital, UNAM\n17:00 a 18:30 h\n\n\n\n\n\n\n\n\n\n\n\nNotaSemana 4 ・ 23 - 27 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 23\nGit y GitHub\nLic. Josafat Jimenez\nGitHub Campus Expert\n18:00 a 20:00 h\n\n\nMar 24\nStorytelling\nDr. Luis Miguel de la Cruz Salas\nInstituto de Geofísica UNAM\n18:00 a 20:00 h\n\n\nJue 26\nQuarto para tableros\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\n\n\n\n\n\n\n\n\n\nAdvertenciaVacaciones ・ 30 mar – 5 abr\n\n\n\nSEMANA DE DESCANSO\n\n\n\n\n\n\n\n\nTipSemana 5 ・ 6 - 10 abr\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 6\nLIBRE\n–\n–\n–\n\n\nMar 7\n1er etapa mentoría S01\n\n\n18:00 a 20:00 h\n\n\nMie 8\n1er etapa mentoría S02\n\n\n18:00 a 20:00 h\n\n\nJue 9\nMi primer tablero en GitHub Pages\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\nVie 10\n1er etapa mentoría S03\n\n\n12:00 a 14:00 h\n\n\n\n\n\n\n\n\n\n\n\nImportanteSemana 6 ・ 13 - 17 abr\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 13\nTaller de Pitch\nDra. Candy Flores-Gracia\nEmprendedora\n18:00 a 20:00 h\n\n\nMar 14\nDe los datos a la acción: cómo convertir métricas en comportamientos sostenibles\nMtra. Sandra Alejo\nUtel\n18:00 a 20:00 h\n\n\nJue 16\nCierre de capacitación y dudas\n\n\n18:00 a 20:00 h"
+  },
+  {
+    "objectID": "capacitacion.html",
+    "href": "capacitacion.html",
+    "title": "Capacitación",
+    "section": "",
+    "text": "View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n\n\n\n  Download PDF File\n   \n    Unable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "capacitacion.html#presentaciones",
+    "href": "capacitacion.html#presentaciones",
+    "title": "Capacitación",
+    "section": "",
+    "text": "View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n\n\n\n  Download PDF File\n   \n    Unable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "declaratoriaIA.html",
+    "href": "declaratoriaIA.html",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "",
+    "text": "En el HackODS UNAM 2026 no prohibimos el uso de herramientas de inteligencia artificial generativa. Consideramos que estas herramientas forman parte del ecosistema de trabajo contemporáneo y que aprender a integrarlas con criterio es una competencia profesional valiosa.\nSin embargo, el objetivo del hackathon es evaluar la capacidad analítica de cada equipo: su capacidad de formular preguntas relevantes, tomar decisiones informadas sobre datos, y construir una narrativa que conecte los Objetivos de Desarrollo Sostenible con problemáticas reales. Ninguna herramienta sustituye eso.\nPor lo tanto, nuestra política se resume en:\n\nNo nos importa si usaron IA. Nos importa que piensen."
+  },
+  {
+    "objectID": "declaratoriaIA.html#postura-del-hackods-sobre-la-ia",
+    "href": "declaratoriaIA.html#postura-del-hackods-sobre-la-ia",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "",
+    "text": "En el HackODS UNAM 2026 no prohibimos el uso de herramientas de inteligencia artificial generativa. Consideramos que estas herramientas forman parte del ecosistema de trabajo contemporáneo y que aprender a integrarlas con criterio es una competencia profesional valiosa.\nSin embargo, el objetivo del hackathon es evaluar la capacidad analítica de cada equipo: su capacidad de formular preguntas relevantes, tomar decisiones informadas sobre datos, y construir una narrativa que conecte los Objetivos de Desarrollo Sostenible con problemáticas reales. Ninguna herramienta sustituye eso.\nPor lo tanto, nuestra política se resume en:\n\nNo nos importa si usaron IA. Nos importa que piensen."
+  },
+  {
+    "objectID": "declaratoriaIA.html#herramientas-permitidas",
+    "href": "declaratoriaIA.html#herramientas-permitidas",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "2 Herramientas permitidas",
+    "text": "2 Herramientas permitidas\nLos equipos pueden usar cualquier herramienta de IA generativa, incluyendo pero no limitado a:\n\nAsistentes de código\nChatbots generativos \nHerramientas de corrección y edición de texto"
+  },
+  {
+    "objectID": "declaratoriaIA.html#reglas-obligatorias",
+    "href": "declaratoriaIA.html#reglas-obligatorias",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "3 Reglas obligatorias",
+    "text": "3 Reglas obligatorias\n\n3.1 Archivo ai-log.md\nCada equipo debe incluir un archivo ai-log.md en la raíz de su repositorio. Este archivo documenta de manera transparente cómo se usaron herramientas de IA durante el hackathon.\nEl archivo debe contener como mínimo:\n\nHerramientas utilizadas: lista de las herramientas de IA empleadas.\nRegistro de uso: entradas individuales para cada interacción significativa, con:\n\nla fecha,\nla tarea delegada,\nel prompt,\nel resultado obtenido y\nlas modificaciones que realizó el equipo.\n\nDecisiones propias: para cada entrada, una explicación de por qué se aceptó, rechazó o modificó la salida de la IA.\n\n\n\n\n\n\n\nImportanteAusencia del ai-log.md\n\n\n\nLa ausencia del archivo ai-log.md en el repositorio resultará en una penalización en la evaluación, independientemente de si el equipo usó IA o no. En caso de no haber usado herramientas de IA, el archivo debe indicar explícitamente: “El equipo NOMBRE_DEL_EQUIPO no utilizó herramientas de inteligencia artificial generativa durante el hackathon.”\n\n\n\n\n3.2 Reproducibilidad ante todo\nTodo código generado con asistencia de IA debe:\n\nEjecutarse correctamente en el pipeline del proyecto.\nSeguir las convenciones de estilo del equipo (sin mezcla de estilos provenientes de distintos prompts).\nEstar documentado con comentarios que demuestren comprensión.\n\n\n\n3.3 Narrativa propia\nLa narrativa del tablero —los textos que contextualizan los datos, conectan las variables con los ODS y formulan argumentos— debe ser producto del trabajo intelectual del equipo. Puede usarse IA como herramienta de revisión o retroalimentación, pero el contenido narrativo final debe reflejar la voz y el criterio del equipo.\n\nLa capacidad de responder con solidez forma parte de la evaluación."
+  },
+  {
+    "objectID": "declaratoriaIA.html#rúbrica-integración-estratégica-de-herramientas",
+    "href": "declaratoriaIA.html#rúbrica-integración-estratégica-de-herramientas",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "4 Rúbrica: Integración estratégica de herramientas",
+    "text": "4 Rúbrica: Integración estratégica de herramientas\nEl uso de IA se evalúa como una dimensión independiente en la rúbrica del hackathon. Cuando el equipo usa la IA, se evalúa cómo se integró en el proceso de trabajo.\n\n\n\n\n\n\n\n\nNivel\nDescriptor\nPuntaje\n\n\n\n\nUso estratégico\nLa IA fue un acelerador, no un sustituto. Hay una filosofía explícita de uso, los prompts son reproducibles, y las decisiones propias están documentadas en el archivo ai-log.md como se describe en el punto 3.1 de esta declaratoria.\n7-10\n\n\nUso funcional\nLa IA se usó para tareas específicas y delimitadas. El equipo puede explicar qué delegó y por qué. Hay registro claro en el archivo ai-log.md pero la reflexión sobre las decisiones es limitada.\n4-6\n\n\nDelegación pasiva\nLa IA generó el contenido con mínima intervención del equipo. La narrativa es genérica, el código presenta inconsistencias de estilo y el archivo ai-log.md es vago o superficial.\n1-3"
+  },
+  {
+    "objectID": "declaratoriaIA.html#ejemplos-de-ai-log.md",
+    "href": "declaratoriaIA.html#ejemplos-de-ai-log.md",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "5 Ejemplos de ai-log.md",
+    "text": "5 Ejemplos de ai-log.md\nA continuación presentamos tres ejemplos para un proyecto hipotético: un tablero sobre el ODS 6 (Agua Limpia y Saneamiento) con datos de CONAGUA. Los tres equipos usan IA; la diferencia está en cómo la usan y documentan.\n\n5.1 Ejemplo: Delegación pasiva\n# AI Log - Equipo Aqua\n\n## Herramientas utilizadas\n- ChatGPT 4o\n\n## Uso general\nUsamos ChatGPT para ayudarnos con el código del tablero\ny con algunas partes de la narrativa. También nos ayudó\ncon las gráficas.\n\n\n\n\n\n\nAdvertencia¿Por qué este log es insuficiente?\n\n\n\nNo hay detalle de tareas específicas, no hay registro de decisiones, no hay trazabilidad del proceso. Un juez no puede distinguir qué hizo el equipo de qué hizo la IA. Este tipo de registro corresponde al nivel de delegación pasiva en la rúbrica.\n\n\n\n\n5.2 Ejemplo: Uso funcional\n# AI Log - Equipo Hidro\n\n## Herramientas\n- Claude (claude.ai)\n- GitHub Copilot\n\n## Registro de uso\n\n### 2026-03-15 | Claude | Limpieza de datos\n- **Tarea**: Teníamos el CSV de CONAGUA con columnas mal\n  nombradas y valores faltantes. Le pedimos a Claude que\n  nos generara un script de limpieza.\n- **Resultado**: Nos dio un pipeline con pandas que\n  renombraba columnas y hacía imputación con la mediana.\n- **Modificación**: Cambiamos la imputación por\n  interpolación temporal porque nuestros datos son series\n  de tiempo mensuales. La mediana no tenía sentido aquí.\n\n### 2026-03-15 | Copilot | Visualización\n- **Tarea**: Autocompletado para generar el código base\n  de un mapa interactivo con plotly express.\n- **Resultado**: Generó la estructura básica del mapa\n  con px.choropleth.\n- **Modificación**: Ajustamos la paleta de colores y\n  agregamos etiquetas manuales para los estados con\n  mayor estrés hídrico.\n\n### 2026-03-16 | Claude | Depuración\n- **Tarea**: El render de Quarto fallaba con un error que\n   no entendíamos. Pegamos el error en Claude.\n- **Resultado**: Identificó un error en uso de comillas.\n- **Modificación**: Ninguna, la solución fue directa.\n\n\n\n\n\n\nNotaBuen registro, espacio para crecer\n\n\n\nHay trazabilidad clara y una decisión técnica propia (interpolación temporal sobre mediana). Sin embargo, la IA participó en casi todas las tareas técnicas. Un juez exploraría qué tanto domina el equipo su propio pipeline. Este tipo de registro corresponde al nivel de uso funcional en la rúbrica.\n\n\n\n\n5.3 Ejemplo: Uso estratégico\n# AI Log - Equipo Cuenca\n\n## Herramientas\n- Claude (claude.ai)\n- GitHub Copilot (VS Code)\n\n## Filosofía de uso\nDecidimos usar IA exclusivamente para tareas mecánicas y\nde exploración inicial. La narrativa, la selección de\nvariables y las decisiones editoriales fueron 100% del\nequipo. Nuestro criterio: si la tarea requiere\nconocimiento del contexto hídrico de Guerrero, la\nhacemos nosotros.\n\n## Registro de uso \n\n### 2026-03-15 | Claude | Exploración de estructura\n- **Tarea**: Le pedimos 3 opciones de layout para un\n  tablero de Quarto con 4 secciones temáticas.\n- **Prompt**: \"Dame 3 estructuras de layout en Quarto\n  dashboard para un proyecto con 4 secciones: contexto\n  geográfico, acceso a agua, calidad del agua, y\n  tendencia temporal\"\n- **Resultado**: Nos dio layouts con tabs, sidebar y\n  scroll vertical.\n- **Decisión**: Elegimos sidebar porque nuestro usuario\n  objetivo  necesita\n  navegar entre secciones sin perder el contexto del mapa\n  principal. \n\n### 2026-03-15 | Copilot | Boilerplate de gráficas\n- **Tarea**: Generar código base para 6 gráficas en\n  plotly.\n- **Resultado**: Templates funcionales para bar, line,\n  choropleth, scatter, heatmap, y funnel.\n- **Decisión**: Descartamos 3 de las 6. El heatmap no\n  comunicaba bien la estacionalidad (probamos y era\n  confuso). El scatter no era apropiado para datos\n  categóricos por municipio. Nos quedamos con bar, line\n  y choropleth. Toda la personalización visual (paleta\n  basada en identidad del ODS 6, etiquetas en español,\n  anotaciones contextuales) fue manual.\n\n### 2026-03-16 | Claude | Revisión de narrativa\n- **Tarea**: Le pedimos que criticara nuestro borrador de\n  narrativa de la sección de acceso a agua.\n- **Prompt**: \"Critica este texto como si fueras un editor\n  de datos. ¿La narrativa conecta bien los datos con el\n  argumento? ¿Hay saltos lógicos?\"\n- **Resultado**: Señaló que no conectábamos el dato de\n  cobertura municipal con el argumento de desigualdad\n  regional.\n- **Decisión**: Agregamos un párrafo puente con el\n  coeficiente de Gini de acceso hídrico que ya teníamos\n  calculado pero no habíamos integrado. El texto final\n  es completamente nuestro, la IA solo fungió como\n  revisor crítico.\n\n### NO usamos IA para hacer lo siguiente:\n- La selección de las 4 variables clave (revisión de\n  literatura y discusión en equipo)\n- La narrativa del tablero (redacción propia, 3\n  iteraciones internas)\n- La interpretación de outliers en Acapulco post-Otis\n  (conocimiento local del equipo)\n\n\n\n\n\n\nTipModelo a seguir\n\n\n\nHay una filosofía explícita de uso, prompts reproducibles, decisiones justificadas con conocimiento de contexto, y una sección de lo que deliberadamente no se delegó. Este tipo de registro corresponde al nivel de uso estratégico en la rúbrica. Además, el equipo demuestra capacidad analítica."
   },
   {
     "objectID": "rubrica20.html",
