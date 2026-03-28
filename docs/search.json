@@ -126,6 +126,48 @@
     "text": "7 Causas de descalificación técnica\n\nNo puede renderizarse con uv run quarto render index.qmd.\nUtiliza datos sintéticos o no verificables.\nLas visualizaciones son imágenes estáticas.\nEl repositorio es privado o el tablero no es accesible públicamente.\nNo incluye las secciones obligatorias.\nIncluye HTML o CSS personalizados que alteren el estilo base de Quarto.\n\n\nEste reglamento es un documento vivo. Cualquier actualización será comunicada por los canales oficiales del hackatón."
   },
   {
+    "objectID": "mentorias.html",
+    "href": "mentorias.html",
+    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "section": "",
+    "text": "Antes del corte que definirá a los 20 equipos finalistas, cada equipo tendrá una única sesión de 30 minutos por Zoom con una o dos personas expertas. La organización agendará a cada equipo en una sesión específica.\nEl propósito es orientar la historia que están construyendo: ¿su narrativa es clara?, ¿los datos respaldan lo que quieren contar?, ¿el enfoque es viable y relevante?\n\n\n\nUna conversación para fortalecer tu historia y tu enfoque narrativo.\nUn espacio para recibir retroalimentación sobre la coherencia entre tu pregunta, tus datos y tu ODS.\nUna oportunidad para afinar tu bosquejo antes de la entrega final.\n\n\n\n\n\nNo es soporte técnico para código, tableros ni herramientas.\nLa persona mentora no resuelve problemas técnicos ni te dice qué gráficas usar.\nNo te dice qué hacer; te ayuda a ver con más claridad lo que tú ya estás construyendo."
+  },
+  {
+    "objectID": "mentorias.html#qué-son-las-mentorías",
+    "href": "mentorias.html#qué-son-las-mentorías",
+    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "section": "",
+    "text": "Antes del corte que definirá a los 20 equipos finalistas, cada equipo tendrá una única sesión de 30 minutos por Zoom con una o dos personas expertas. La organización agendará a cada equipo en una sesión específica.\nEl propósito es orientar la historia que están construyendo: ¿su narrativa es clara?, ¿los datos respaldan lo que quieren contar?, ¿el enfoque es viable y relevante?\n\n\n\nUna conversación para fortalecer tu historia y tu enfoque narrativo.\nUn espacio para recibir retroalimentación sobre la coherencia entre tu pregunta, tus datos y tu ODS.\nUna oportunidad para afinar tu bosquejo antes de la entrega final.\n\n\n\n\n\nNo es soporte técnico para código, tableros ni herramientas.\nLa persona mentora no resuelve problemas técnicos ni te dice qué gráficas usar.\nNo te dice qué hacer; te ayuda a ver con más claridad lo que tú ya estás construyendo."
+  },
+  {
+    "objectID": "mentorias.html#fechas-y-horarios",
+    "href": "mentorias.html#fechas-y-horarios",
+    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "section": "Fechas y horarios",
+    "text": "Fechas y horarios\nLas mentorías se realizan por videollamada (Zoom) en tres sesiones durante la Semana 5:\n\n\n\nSesión\nDía\nHorario\n\n\n\n\nS01\nMartes 7 de abril\n18:00 a 20:00 h\n\n\nS02\nMiércoles 8 de abril\n18:00 a 20:00 h\n\n\nS03\nViernes 10 de abril\n12:00 a 14:00 h\n\n\n\nLa asignación de equipo, sesión y horario se publicará. Por cuestiones de logística, no es posible realizar cambios de sesión ni de horario."
+  },
+  {
+    "objectID": "mentorias.html#qué-deben-preparar",
+    "href": "mentorias.html#qué-deben-preparar",
+    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "section": "¿Qué deben preparar?",
+    "text": "¿Qué deben preparar?\nCada equipo debe llegar a la mentoría con una presentación breve de 3 diapositivas (puede ser PDF, Google Slides o similar). No se requiere un tablero funcional ni gráficas interactivas. Es un bosquejo, no un producto terminado.\n\nContenido sugerido por diapositiva\nDiapositiva 1 — Equipo y ODS\n\nNombre del equipo e integrantes (breve).\nODS elegido(s) y por qué les importa.\n\nDiapositiva 2 — Pregunta, datos y enfoque\n\n¿Cuál es la pregunta que guía su historia?\n¿Qué quieren visibilizar o demostrar con datos?\n¿Qué fuentes de datos están considerando y cómo se relacionan con su pregunta y su ODS?\n\nDiapositiva 3 — Dudas o puntos de orientación\n\n¿En qué parte de su historia sienten que necesitan más claridad?\n¿Hay algo que no estén seguros de cómo enfocar?\n\n\n\nResumen rápido\n\n\n\nSí traer\nNo es necesario\n\n\n\n\nPresentación de 3 diapositivas\nTablero funcional\n\n\nPregunta o problema central claro\nGráficas interactivas\n\n\nLista de fuentes de datos\nCódigo terminado\n\n\nDudas concretas sobre el enfoque\nDiseño visual final"
+  },
+  {
+    "objectID": "mentorias.html#asistencia-obligatoria",
+    "href": "mentorias.html#asistencia-obligatoria",
+    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "section": "Asistencia obligatoria",
+    "text": "Asistencia obligatoria\nDebe presentarse al menos 1 integrante del equipo a la sesión de mentoría. La inasistencia será tomada en cuenta en la evaluación para pasar a la fase final."
+  },
+  {
+    "objectID": "mentorias.html#recomendaciones-finales",
+    "href": "mentorias.html#recomendaciones-finales",
+    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "section": "Recomendaciones finales",
+    "text": "Recomendaciones finales\n\nRevisen la rúbrica de corte antes de la mentoría, en particular los módulos B (datos) y C (storytelling). Su sesión será más productiva si ya tienen claro qué se evalúa: Rúbrica de corte.\nSean concretos. Tienen 30 minutos: lleguen con una historia clara, no con una lluvia de ideas.\nSe recomienda que esté presente todo el equipo. La inasistencia se considerará en la evaluación.\nTomen notas. La retroalimentación es para ustedes; aprovéchenla para ajustar antes de la entrega.\n\n\n¿Dudas? Escríbenos a hackods@ier.unam.mx"
+  },
+  {
     "objectID": "comunicacion.html",
     "href": "comunicacion.html",
     "title": "Código de Conducta del Grupo de Telegram HackODS",

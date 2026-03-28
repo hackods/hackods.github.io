@@ -1,0 +1,88 @@
+---
+title: "Mentorías de primera etapa · Prepara tu sesión"
+---
+
+
+## ¿Qué son las mentorías?
+
+Antes del corte que definirá a los **20 equipos finalistas**, cada equipo tendrá **una única sesión de 30 minutos por Zoom** con una o dos personas expertas. La organización agendará a cada equipo en una sesión específica.
+
+El propósito es **orientar la historia que están construyendo**: ¿su narrativa es clara?, ¿los datos respaldan lo que quieren contar?, ¿el enfoque es viable y relevante?
+
+### Lo que la mentoría **sí** es
+
+- Una conversación para **fortalecer tu historia y tu enfoque narrativo**.
+- Un espacio para recibir **retroalimentación sobre la coherencia** entre tu pregunta, tus datos y tu ODS.
+- Una oportunidad para **afinar tu bosquejo** antes de la entrega final.
+
+### Lo que la mentoría **no** es
+
+- No es soporte técnico para código, tableros ni herramientas.
+- La persona mentora **no resuelve problemas técnicos** ni te dice qué gráficas usar.
+- **No te dice qué hacer**; te ayuda a ver con más claridad lo que tú ya estás construyendo.
+
+---
+
+## Fechas y horarios
+
+Las mentorías se realizan por **videollamada (Zoom)** en tres sesiones durante la Semana 5:
+
+| Sesión | Día               | Horario         |
+|--------|--------------------|-----------------|
+| S01    | Martes 7 de abril  | 18:00 a 20:00 h |
+| S02    | Miércoles 8 de abril | 18:00 a 20:00 h |
+| S03    | Viernes 10 de abril | 12:00 a 14:00 h |
+
+La **asignación de equipo, sesión y horario** se publicará. Por cuestiones de logística, **no es posible realizar cambios de sesión ni de horario**.
+
+---
+
+## ¿Qué deben preparar?
+
+Cada equipo debe llegar a la mentoría con una **presentación breve de 3 diapositivas** (puede ser PDF, Google Slides o similar). No se requiere un tablero funcional ni gráficas interactivas. Es un **bosquejo**, no un producto terminado.
+
+### Contenido sugerido por diapositiva
+
+**Diapositiva 1 — Equipo y ODS**
+
+- Nombre del equipo e integrantes (breve).
+- ODS elegido(s) y por qué les importa.
+
+**Diapositiva 2 — Pregunta, datos y enfoque**
+
+- ¿Cuál es la pregunta que guía su historia?
+- ¿Qué quieren visibilizar o demostrar con datos?
+- ¿Qué fuentes de datos están considerando y cómo se relacionan con su pregunta y su ODS?
+
+**Diapositiva 3 — Dudas o puntos de orientación**
+
+- ¿En qué parte de su historia sienten que necesitan más claridad?
+- ¿Hay algo que no estén seguros de cómo enfocar?
+
+### Resumen rápido
+
+| Sí traer | No es necesario |
+|---|---|
+| Presentación de 3 diapositivas | Tablero funcional |
+| Pregunta o problema central claro | Gráficas interactivas |
+| Lista de fuentes de datos | Código terminado |
+| Dudas concretas sobre el enfoque | Diseño visual final |
+
+---
+
+## Asistencia obligatoria
+
+Debe presentarse **al menos 1 integrante** del equipo a la sesión de mentoría. **La inasistencia será tomada en cuenta en la evaluación para pasar a la fase final.**
+
+---
+
+## Recomendaciones finales
+
+1. **Revisen la rúbrica de corte** antes de la mentoría, en particular los módulos B (datos) y C (storytelling). Su sesión será más productiva si ya tienen claro qué se evalúa: [Rúbrica de corte](rubrica20.qmd).
+2. **Sean concretos.** Tienen 30 minutos: lleguen con una historia clara, no con una lluvia de ideas.
+3. **Se recomienda que esté presente todo el equipo.** La inasistencia se considerará en la evaluación.
+4. **Tomen notas.** La retroalimentación es para ustedes; aprovéchenla para ajustar antes de la entrega.
+
+---
+
+**¿Dudas?** Escríbenos a [hackods@ier.unam.mx](mailto:hackods@ier.unam.mx)

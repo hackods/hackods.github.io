@@ -21,6 +21,8 @@ website:
         href: calendario.qmd
       - text: "Capacitación"
         href: capacitacion.qmd
+      - text: "Mentorías"
+        href: mentorias.qmd
       - text: "Política de IA"
         href: declaratoriaIA.qmd
     tools:
