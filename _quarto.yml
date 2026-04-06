@@ -22,7 +22,11 @@ website:
       - text: "Capacitación"
         href: capacitacion.qmd
       - text: "Mentorías"
-        href: mentorias.qmd
+        menu:
+          - text: "Mentorías"
+            href: mentorias.qmd
+          - text: "Calendario de mentorías"
+            href: calendario-mentorias.qmd
       - text: "Política de IA"
         href: declaratoriaIA.qmd
     tools:

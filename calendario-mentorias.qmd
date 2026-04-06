@@ -1,0 +1,120 @@
+---
+title: "Calendario de mentorías"
+---
+
+```{=html}
+<style>
+table tbody tr:has(td:first-child strong) {
+  border-top: 2.5px solid #888 !important;
+}
+table tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+table tbody tr:nth-child(even) {
+  background-color: transparent !important;
+}
+h4 {
+  margin-top: 2.5rem !important;
+}
+</style>
+```
+
+Cada equipo tiene **una sesión de 30 minutos por Zoom** con personas mentoras. Busca tu equipo y acude puntualmente a la sala y horario asignados.
+
+---
+
+#### S01 — Martes 7 de abril · 18:00–20:00
+
+::: {.table-hover .table-striped .table-sm .table-bordered}
+| Hora | Sala | Equipo | Personas mentoras |
+|------|------|--------|-------------------|
+| **18:00** | Sala 1 | 2, 3 datos | Yvonne Dávalos Dunnig, Elva Margarita Cervantes Ochoa |
+| | Sala 2 | Abejas Astutas | Olivia Hernandez Cruz, Luis C0rona Gochi |
+| | Sala 3 | AJOLOHACKS | Jorge Alejandro Wong Loya, Rubén Sahagún Angulo |
+| | Sala 4 | Aprendices de Foote | Nicté Yasmín Luna Medina, Alexis Levy |
+| | Sala 5 | Ardillas por doquier | Gustavo Santos Raga, Daniela Lizeth Diaz Menchaca |
+| | Sala 6 | Ashira | Ruth A. Dávila Figueroa, Cecilia Rodríguez Gómez |
+| **18:30** | Sala 1 | Bayesian Boys | Susana Casy Téllez Ballesteros, César Antonio Ponce Diego |
+| | Sala 2 | Biovia | Jackeline Bucio García, Benjamin Santamaria Beltran |
+| | Sala 3 | Bladerunners | César Alberto Liera Grijalva, Alexis Levy |
+| | Sala 4 | Cachorritos | María de la Luz Trasfi Mosqueda, Cecilia Rodríguez Gómez |
+| | Sala 5 | Canopus | Jesús Capistrán Martínez |
+| | Sala 6 | Cloudhackers | Miguel Ángel Hernández Torres |
+| **19:00** | Sala 1 | Codigo guinda | Robert Hernández Martínez, Leonardo Ledesma Domínguez |
+| | Sala 2 | Data4change | Dulce Karen Juárez Herrera, Daniela Lizeth Diaz Menchaca |
+| | Sala 3 | DatofilODS | Yilen Gómez Maqueo Chew, Jesús Capistrán Martínez |
+| | Sala 4 | Delete Sin Where | Teresa de Jesús Cruz Apanco, Miguel Ángel Hernández Torres |
+| | Sala 5 | DERRE | Omar Alejandro Solís Garza, César Antonio Ponce Diego |
+| | Sala 6 | El Panopticon Verde | Ricardo Torres Mendoza, Benjamin Santamaria Beltran |
+| **19:30** | Sala 1 | GeoHackers | María de Lourdes Becerra Zavala, Yilen Gómez Maqueo Chew |
+| | Sala 2 | GreenByte | Ariadna Esmeralda Avila Garcia, Teresa de Jesús Cruz Apanco |
+| | Sala 3 | Huerfanitos UTM | Miriam Verónica Cruz Salas, Omar Alejandro Solís Garza |
+| | Sala 4 | KLJ | Celeste Morales Santiago, Ricardo Torres Mendoza |
+| | Sala 5 | Krustaceo Kaskarudo | Dulce Karen Juárez Herrera, Leonardo Ledesma Domínguez |
+:::
+
+---
+
+#### S02 — Miércoles 8 de abril · 18:00–20:00
+
+::: {.table-hover .table-striped .table-sm .table-bordered}
+| Hora | Sala | Equipo | Personas mentoras |
+|------|------|--------|-------------------|
+| **18:00** | Sala 1 | Las sismolocas | Christian Sohlenkamp, Elva Margarita Cervantes Ochoa |
+| | Sala 2 | LED | Laura Patricia Olguín Pérez, Luis C0rona Gochi |
+| | Sala 3 | LIA | Mirna Vazquez Rosas Landa, Rubén Sahagún Angulo |
+| | Sala 4 | linuxitOS | Jorge Alejandro Wong Loya, Miriam Verónica Cruz Salas |
+| | Sala 5 | Lobo Ensambladores | Gustavo Santos Raga, César Alberto Liera Grijalva |
+| | Sala 6 | Los .py | Ruth A. Dávila Figueroa, María de la Luz Trasfi Mosqueda |
+| **18:30** | Sala 1 | Los bits | Mariano López de Haro, Cecilia Rodríguez Gómez |
+| | Sala 2 | Los cuadernos | Susana Casy Téllez Ballesteros, César Alberto Liera Grijalva |
+| | Sala 3 | Los Outliers | Laura Patricia Olguín Pérez, María de la Luz Trasfi Mosqueda |
+| | Sala 4 | Los pi-.14 mosqueteros | Jackeline Bucio García, Jesús Capistrán Martínez |
+| | Sala 5 | Los tres guayaberos | Mirna Vazquez Rosas Landa, César Antonio Ponce Diego |
+| | Sala 6 | Marea de datODS | Celeste Morales Santiago, Benjamin Santamaria Beltran |
+| **19:00** | Sala 1 | MAYAI | Kevin Alquicira Hernández, Daniela Lizeth Diaz Menchaca |
+| | Sala 2 | Nomos MX | Mariano López de Haro, Leonardo Ledesma Domínguez |
+| | Sala 3 | Ocelote analítico | Christian Sohlenkamp, Mirna Vazquez Rosas Landa |
+| | Sala 4 | ODS.fit | Alexis Levy, Celeste Morales Santiago |
+| | Sala 5 | ODSiosos | Laura Patricia Olguín Pérez, Miguel Ángel Hernández Torres |
+| | Sala 6 | OpenHV | Jackeline Bucio García, Jesús Capistrán Martínez |
+| **19:30** | Sala 1 | Orangers | María de Lourdes Becerra Zavala, Ricardo Torres Mendoza |
+| | Sala 2 | PatosClimáticODS | Nicté Yasmín Luna Medina, Laura Patricia Olguín Pérez |
+| | Sala 3 | PCABoys | Ariadna Esmeralda Avila Garcia, Jackeline Bucio García |
+| | Sala 4 | pixis | Dulce Karen Juárez Herrera, Leonardo Ledesma Domínguez |
+:::
+
+---
+
+#### S03 — Viernes 10 de abril · 12:00–14:00
+
+::: {.table-hover .table-striped .table-sm .table-bordered}
+| Hora | Sala | Equipo | Personas mentoras |
+|------|------|--------|-------------------|
+| **12:00** | Sala 1 | Prometeos | Julia Tagüeña Parga, Daniela Lizeth Diaz Menchaca |
+| | Sala 2 | PseudoBiomedicos | José Gilberto Parra Leyva, María de la Luz Trasfi Mosqueda |
+| | Sala 3 | Pumatécnicos | Susana Casy Téllez Ballesteros, Mirna Vazquez Rosas Landa |
+| | Sala 4 | PumitasPrime | Luis C0rona Gochi, Celeste Morales Santiago |
+| | Sala 5 | Salubrista | Ariadna Esmeralda Avila Garcia, Benjamin Santamaria Beltran |
+| | Sala 6 | Samsan Tech | Yilen Gómez Maqueo Chew, Jesús Capistrán Martínez |
+| **12:30** | Sala 1 | Scytale | Julia Tagüeña Parga, Leonardo Ledesma Domínguez |
+| | Sala 2 | Skywalkers | José Gilberto Parra Leyva, Mirna Vazquez Rosas Landa |
+| | Sala 3 | Team Power Semilas de maíz azul | Ruth A. Dávila Figueroa, Celeste Morales Santiago |
+| | Sala 4 | TherianODS | Yilen Gómez Maqueo Chew, Benjamin Santamaria Beltran |
+| | Sala 5 | Tilines | Miguel Ángel Hernández Torres |
+| | Sala 6 | Tlamatipohua | María de la Luz Trasfi Mosqueda |
+| **13:00** | Sala 1 | Trio tristeza | Araceli Nava Godinez, Ricardo Torres Mendoza |
+| | Sala 2 | Typers | Juana Elizabeth Medina Alvarez, Cecilia Rodríguez Gómez |
+| | Sala 3 | Undefined | Julia Tagüeña Parga, César Alberto Liera Grijalva |
+| | Sala 4 | UPIIT Machine | Teresa de Jesús Cruz Apanco, César Antonio Ponce Diego |
+| | Sala 5 | Utopía 2030 | José Gilberto Parra Leyva, Daniela Lizeth Diaz Menchaca |
+| | Sala 6 | Van der Waals | Omar Alejandro Solís Garza, Miguel Ángel Hernández Torres |
+| **13:30** | Sala 1 | Voces ODS 2030 | Kevin Alquicira Hernández, Christian Sohlenkamp |
+| | Sala 2 | Wpower | Robert Hernández Martínez, Gustavo Santos Raga |
+| | Sala 3 | XGBros | Juana Elizabeth Medina Alvarez, Elva Margarita Cervantes Ochoa |
+| | Sala 4 | YácataX | Nicté Yasmín Luna Medina, Rubén Sahagún Angulo |
+:::
+
+---
+
+**Recuerda:** La asistencia es obligatoria (mínimo 1 integrante). Revisa la página de [Mentorías](mentorias.qmd) para saber qué preparar.
