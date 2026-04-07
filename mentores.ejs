@@ -1,0 +1,26 @@
+<%# mentores.ejs %>
+<div class="list grid quarto-listing-cols-3">
+  <% for (const item of items) { %>
+    <div class="g-col-1 listing-item">
+      <div class="quarto-grid-item card h-100 card-left">
+        <p class="card-img-top">
+          <img src="<%= item.image %>" class="thumbnail-image card-img" style="height: <%= item['image-height'] %>;">
+        </p>
+        
+        <div class="card-body post-contents">
+          <h5 class="no-anchor card-title listing-title" style="font-weight: bold; text-transform: uppercase;">
+            <%= item.title %>
+          </h5>
+          
+          <div class="card-subtitle listing-subtitle" style="color: #666; margin-bottom: 5px;">
+            <%= item.cargo %>
+          </div>
+          
+          <div class="card-text listing-description" style="font-style: italic; font-size: 0.9em;">
+            <%= item.adscripcion %>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% } %>
+</div>

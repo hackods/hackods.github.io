@@ -1,0 +1,13 @@
+---
+title: "Comunidad de mentores"
+listing:
+  contents: datos_mentores.yml
+  type: grid
+  fields: [image, title, cargo, adscripcion]
+  field-display-names:
+    title: "Nombre"
+    cargo: "Cargo"
+    adscripcion: "Adscripción"
+  grid-columns: 3
+  image-height: 250px
+---

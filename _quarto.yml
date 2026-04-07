@@ -27,6 +27,8 @@ website:
             href: mentorias.qmd
           - text: "Calendario de mentorías"
             href: calendario-mentorias.qmd
+          - text: "Comunidad"
+            href: comunidad_mentorias.qmd
       - text: "Política de IA"
         href: declaratoriaIA.qmd
     tools:
