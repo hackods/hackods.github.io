@@ -1,0 +1,303 @@
+[
+  {
+    "objectID": "tableros.html",
+    "href": "tableros.html",
+    "title": "Reglamento de Tableros — HackODS 2026",
+    "section": "",
+    "text": "Versión: 0.1 Fecha: febrero de 2026 Contacto: hackods@ier.unam.mx"
+  },
+  {
+    "objectID": "tableros.html#herramientas-obligatorias",
+    "href": "tableros.html#herramientas-obligatorias",
+    "title": "Reglamento de Tableros — HackODS 2026",
+    "section": "1 Herramientas obligatorias",
+    "text": "1 Herramientas obligatorias\n\n\n\nHerramienta\nUso\n\n\n\n\nQuarto\nGeneración del tablero (formato dashboard)\n\n\nPython\nProcesamiento y análisis de datos (se recomienda Miniconda)\n\n\nPlotly\nTodas las visualizaciones interactivas\n\n\nuv\nGestión del entorno y dependencias\n\n\n\nNo se permite el uso de otras herramientas de desarrollo."
+  },
+  {
+    "objectID": "tableros.html#datos-abiertos",
+    "href": "tableros.html#datos-abiertos",
+    "title": "Reglamento de Tableros — HackODS 2026",
+    "section": "2 Datos abiertos",
+    "text": "2 Datos abiertos\nSe adopta la definición de la Open Definition: un dato es abierto si cualquier persona puede acceder a él, usarlo, modificarlo y redistribuirlo libremente.\nUn conjunto de datos es válido si:\n\nEs de acceso público y gratuito.\nTiene una licencia explícita que permita su reutilización.\nProviene de una fuente verificable e institucional.\n\n\n2.1 Fuentes recomendadas\n\nPortal de Datos Abiertos UNAM\ndatos.gob.mx\nINEGI\nCEPALSTAT\nONU Stats / SDG Indicators\nOur World in Data\nBanco Mundial — Open Data\nPNUD — Human Development Data\n\nSe pueden utilizar otras fuentes siempre que cumplan con la definición anterior y queden documentadas.\nEstá prohibido utilizar datos sintéticos o generados por IA."
+  },
+  {
+    "objectID": "tableros.html#estructura-del-tablero",
+    "href": "tableros.html#estructura-del-tablero",
+    "title": "Reglamento de Tableros — HackODS 2026",
+    "section": "3 Estructura del tablero",
+    "text": "3 Estructura del tablero\nEl tablero debe tener las siguientes secciones:\nEN PROCESO…"
+  },
+  {
+    "objectID": "tableros.html#requisitos-del-código",
+    "href": "tableros.html#requisitos-del-código",
+    "title": "Reglamento de Tableros — HackODS 2026",
+    "section": "4 Requisitos del código",
+    "text": "4 Requisitos del código\n\nTodo el código Python debe estar contenido en el archivo .qmd.\nLas gráficas se deben generar en el importadas como imágenes estáticas.\n\n\n4.1 Documentación de fuentes de datos\nCada conjunto de datos debe documentarse con: nombre, organismo, URL de descarga, licencia y fecha de consulta."
+  },
+  {
+    "objectID": "tableros.html#repositorio-y-entrega",
+    "href": "tableros.html#repositorio-y-entrega",
+    "title": "Reglamento de Tableros — HackODS 2026",
+    "section": "5 Repositorio y entrega",
+    "text": "5 Repositorio y entrega\n\nEl repositorio debe ser público en GitHub.\nEl tablero debe estar publicado en GitHub Pages.\nEl entorno debe gestionarse con uv.\nEl proyecto debe ser reproducible con uv run quarto render index.qmd.\nLa versión final del tablero debe estar en la rama main."
+  },
+  {
+    "objectID": "tableros.html#licencia",
+    "href": "tableros.html#licencia",
+    "title": "Reglamento de Tableros — HackODS 2026",
+    "section": "6 Licencia",
+    "text": "6 Licencia\nEl proyecto debe usar la licencia CC BY-NC 4.0. Más información: creativecommons.org/licenses/by-nc/4.0/deed.es"
+  },
+  {
+    "objectID": "tableros.html#causas-de-descalificación-técnica",
+    "href": "tableros.html#causas-de-descalificación-técnica",
+    "title": "Reglamento de Tableros — HackODS 2026",
+    "section": "7 Causas de descalificación técnica",
+    "text": "7 Causas de descalificación técnica\n\nNo puede renderizarse con uv run quarto render index.qmd.\nUtiliza datos sintéticos o no verificables.\nLas visualizaciones son imágenes estáticas.\nEl repositorio es privado o el tablero no es accesible públicamente.\nNo incluye las secciones obligatorias.\nIncluye HTML o CSS personalizados que alteren el estilo base de Quarto.\n\n\nEste reglamento es un documento vivo. Cualquier actualización será comunicada por los canales oficiales del hackatón."
+  },
+  {
+    "objectID": "mentorias.html",
+    "href": "mentorias.html",
+    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "section": "",
+    "text": "Antes del corte que definirá a los 20 equipos finalistas, cada equipo tendrá una única sesión de 30 minutos por Zoom con una o dos personas expertas. La organización agendará a cada equipo en una sesión específica.\nEl propósito es orientar la historia que están construyendo: ¿su narrativa es clara?, ¿los datos respaldan lo que quieren contar?, ¿el enfoque es viable y relevante?\n\n\n\nUna conversación para fortalecer tu historia y tu enfoque narrativo.\nUn espacio para recibir retroalimentación sobre la coherencia entre tu pregunta, tus datos y tu ODS.\nUna oportunidad para afinar tu bosquejo antes de la entrega final.\n\n\n\n\n\nNo es soporte técnico para código, tableros ni herramientas.\nLa persona mentora no resuelve problemas técnicos ni te dice qué gráficas usar.\nNo te dice qué hacer; te ayuda a ver con más claridad lo que tú ya estás construyendo."
+  },
+  {
+    "objectID": "mentorias.html#qué-son-las-mentorías",
+    "href": "mentorias.html#qué-son-las-mentorías",
+    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "section": "",
+    "text": "Antes del corte que definirá a los 20 equipos finalistas, cada equipo tendrá una única sesión de 30 minutos por Zoom con una o dos personas expertas. La organización agendará a cada equipo en una sesión específica.\nEl propósito es orientar la historia que están construyendo: ¿su narrativa es clara?, ¿los datos respaldan lo que quieren contar?, ¿el enfoque es viable y relevante?\n\n\n\nUna conversación para fortalecer tu historia y tu enfoque narrativo.\nUn espacio para recibir retroalimentación sobre la coherencia entre tu pregunta, tus datos y tu ODS.\nUna oportunidad para afinar tu bosquejo antes de la entrega final.\n\n\n\n\n\nNo es soporte técnico para código, tableros ni herramientas.\nLa persona mentora no resuelve problemas técnicos ni te dice qué gráficas usar.\nNo te dice qué hacer; te ayuda a ver con más claridad lo que tú ya estás construyendo."
+  },
+  {
+    "objectID": "mentorias.html#fechas-y-horarios",
+    "href": "mentorias.html#fechas-y-horarios",
+    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "section": "Fechas y horarios",
+    "text": "Fechas y horarios\nLas mentorías se realizan por videollamada (Zoom) en tres sesiones durante la Semana 5:\n\n\n\nSesión\nDía\nHorario\n\n\n\n\nS01\nMartes 7 de abril\n18:00 a 20:00 h\n\n\nS02\nMiércoles 8 de abril\n18:00 a 20:00 h\n\n\nS03\nViernes 10 de abril\n12:00 a 14:00 h\n\n\n\nLa asignación de equipo, sesión y horario se publicará. Por cuestiones de logística, no es posible realizar cambios de sesión ni de horario."
+  },
+  {
+    "objectID": "mentorias.html#qué-deben-preparar",
+    "href": "mentorias.html#qué-deben-preparar",
+    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "section": "¿Qué deben preparar?",
+    "text": "¿Qué deben preparar?\nCada equipo debe llegar a la mentoría con una presentación breve de 3 diapositivas (puede ser PDF, Google Slides o similar). No se requiere un tablero funcional ni gráficas interactivas. Es un bosquejo, no un producto terminado.\n\nContenido sugerido por diapositiva\nDiapositiva 1 — Equipo y ODS\n\nNombre del equipo e integrantes (breve).\nODS elegido(s) y por qué les importa.\n\nDiapositiva 2 — Pregunta, datos y enfoque\n\n¿Cuál es la pregunta que guía su historia?\n¿Qué quieren visibilizar o demostrar con datos?\n¿Qué fuentes de datos están considerando y cómo se relacionan con su pregunta y su ODS?\n\nDiapositiva 3 — Dudas o puntos de orientación\n\n¿En qué parte de su historia sienten que necesitan más claridad?\n¿Hay algo que no estén seguros de cómo enfocar?\n\n\n\nResumen rápido\n\n\n\nSí traer\nNo es necesario\n\n\n\n\nPresentación de 3 diapositivas\nTablero funcional\n\n\nPregunta o problema central claro\nGráficas interactivas\n\n\nLista de fuentes de datos\nCódigo terminado\n\n\nDudas concretas sobre el enfoque\nDiseño visual final"
+  },
+  {
+    "objectID": "mentorias.html#asistencia-obligatoria",
+    "href": "mentorias.html#asistencia-obligatoria",
+    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "section": "Asistencia obligatoria",
+    "text": "Asistencia obligatoria\nDebe presentarse al menos 1 integrante del equipo a la sesión de mentoría. La inasistencia será tomada en cuenta en la evaluación para pasar a la fase final."
+  },
+  {
+    "objectID": "mentorias.html#recomendaciones-finales",
+    "href": "mentorias.html#recomendaciones-finales",
+    "title": "Mentorías de primera etapa · Prepara tu sesión",
+    "section": "Recomendaciones finales",
+    "text": "Recomendaciones finales\n\nRevisen la rúbrica de corte antes de la mentoría, en particular los módulos B (datos) y C (storytelling). Su sesión será más productiva si ya tienen claro qué se evalúa: Rúbrica de corte.\nSean concretos. Tienen 30 minutos: lleguen con una historia clara, no con una lluvia de ideas.\nSe recomienda que esté presente todo el equipo. La inasistencia se considerará en la evaluación.\nTomen notas. La retroalimentación es para ustedes; aprovéchenla para ajustar antes de la entrega.\n\n\n¿Dudas? Escríbenos a hackods@ier.unam.mx"
+  },
+  {
+    "objectID": "declaratoriaIA.html",
+    "href": "declaratoriaIA.html",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "",
+    "text": "En el HackODS UNAM 2026 no prohibimos el uso de herramientas de inteligencia artificial generativa. Consideramos que estas herramientas forman parte del ecosistema de trabajo contemporáneo y que aprender a integrarlas con criterio es una competencia profesional valiosa.\nSin embargo, el objetivo del hackathon es evaluar la capacidad analítica de cada equipo: su capacidad de formular preguntas relevantes, tomar decisiones informadas sobre datos, y construir una narrativa que conecte los Objetivos de Desarrollo Sostenible con problemáticas reales. Ninguna herramienta sustituye eso.\nPor lo tanto, nuestra política se resume en:\n\nNo nos importa si usaron IA. Nos importa que piensen."
+  },
+  {
+    "objectID": "declaratoriaIA.html#postura-del-hackods-sobre-la-ia",
+    "href": "declaratoriaIA.html#postura-del-hackods-sobre-la-ia",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "",
+    "text": "En el HackODS UNAM 2026 no prohibimos el uso de herramientas de inteligencia artificial generativa. Consideramos que estas herramientas forman parte del ecosistema de trabajo contemporáneo y que aprender a integrarlas con criterio es una competencia profesional valiosa.\nSin embargo, el objetivo del hackathon es evaluar la capacidad analítica de cada equipo: su capacidad de formular preguntas relevantes, tomar decisiones informadas sobre datos, y construir una narrativa que conecte los Objetivos de Desarrollo Sostenible con problemáticas reales. Ninguna herramienta sustituye eso.\nPor lo tanto, nuestra política se resume en:\n\nNo nos importa si usaron IA. Nos importa que piensen."
+  },
+  {
+    "objectID": "declaratoriaIA.html#herramientas-permitidas",
+    "href": "declaratoriaIA.html#herramientas-permitidas",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "2 Herramientas permitidas",
+    "text": "2 Herramientas permitidas\nLos equipos pueden usar cualquier herramienta de IA generativa, incluyendo pero no limitado a:\n\nAsistentes de código\nChatbots generativos \nHerramientas de corrección y edición de texto"
+  },
+  {
+    "objectID": "declaratoriaIA.html#reglas-obligatorias",
+    "href": "declaratoriaIA.html#reglas-obligatorias",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "3 Reglas obligatorias",
+    "text": "3 Reglas obligatorias\n\n3.1 Archivo ai-log.md\nCada equipo debe incluir un archivo ai-log.md en la raíz de su repositorio. Este archivo documenta de manera transparente cómo se usaron herramientas de IA durante el hackathon.\nEl archivo debe contener como mínimo:\n\nHerramientas utilizadas: lista de las herramientas de IA empleadas.\nRegistro de uso: entradas individuales para cada interacción significativa, con:\n\nla fecha,\nla tarea delegada,\nel prompt,\nel resultado obtenido y\nlas modificaciones que realizó el equipo.\n\nDecisiones propias: para cada entrada, una explicación de por qué se aceptó, rechazó o modificó la salida de la IA.\n\n\n\n\n\n\n\nAusencia del ai-log.md\n\n\n\nLa ausencia del archivo ai-log.md en el repositorio resultará en una penalización en la evaluación, independientemente de si el equipo usó IA o no. En caso de no haber usado herramientas de IA, el archivo debe indicar explícitamente: “El equipo NOMBRE_DEL_EQUIPO no utilizó herramientas de inteligencia artificial generativa durante el hackathon.”\n\n\n\n\n3.2 Reproducibilidad ante todo\nTodo código generado con asistencia de IA debe:\n\nEjecutarse correctamente en el pipeline del proyecto.\nSeguir las convenciones de estilo del equipo (sin mezcla de estilos provenientes de distintos prompts).\nEstar documentado con comentarios que demuestren comprensión.\n\n\n\n3.3 Narrativa propia\nLa narrativa del tablero —los textos que contextualizan los datos, conectan las variables con los ODS y formulan argumentos— debe ser producto del trabajo intelectual del equipo. Puede usarse IA como herramienta de revisión o retroalimentación, pero el contenido narrativo final debe reflejar la voz y el criterio del equipo.\n\nLa capacidad de responder con solidez forma parte de la evaluación."
+  },
+  {
+    "objectID": "declaratoriaIA.html#rúbrica-integración-estratégica-de-herramientas",
+    "href": "declaratoriaIA.html#rúbrica-integración-estratégica-de-herramientas",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "4 Rúbrica: Integración estratégica de herramientas",
+    "text": "4 Rúbrica: Integración estratégica de herramientas\nEl uso de IA se evalúa como una dimensión independiente en la rúbrica del hackathon. Cuando el equipo usa la IA, se evalúa cómo se integró en el proceso de trabajo.\n\n\n\n\n\n\n\n\nNivel\nDescriptor\nPuntaje\n\n\n\n\nUso estratégico\nLa IA fue un acelerador, no un sustituto. Hay una filosofía explícita de uso, los prompts son reproducibles, y las decisiones propias están documentadas en el archivo ai-log.md como se describe en el punto 3.1 de esta declaratoria.\n7-10\n\n\nUso funcional\nLa IA se usó para tareas específicas y delimitadas. El equipo puede explicar qué delegó y por qué. Hay registro claro en el archivo ai-log.md pero la reflexión sobre las decisiones es limitada.\n4-6\n\n\nDelegación pasiva\nLa IA generó el contenido con mínima intervención del equipo. La narrativa es genérica, el código presenta inconsistencias de estilo y el archivo ai-log.md es vago o superficial.\n1-3"
+  },
+  {
+    "objectID": "declaratoriaIA.html#ejemplos-de-ai-log.md",
+    "href": "declaratoriaIA.html#ejemplos-de-ai-log.md",
+    "title": "Declaratoria y Reglamento de Uso de IA",
+    "section": "5 Ejemplos de ai-log.md",
+    "text": "5 Ejemplos de ai-log.md\nA continuación presentamos tres ejemplos para un proyecto hipotético: un tablero sobre el ODS 6 (Agua Limpia y Saneamiento) con datos de CONAGUA. Los tres equipos usan IA; la diferencia está en cómo la usan y documentan.\n\n5.1 Ejemplo: Delegación pasiva\n# AI Log - Equipo Aqua\n\n## Herramientas utilizadas\n- ChatGPT 4o\n\n## Uso general\nUsamos ChatGPT para ayudarnos con el código del tablero\ny con algunas partes de la narrativa. También nos ayudó\ncon las gráficas.\n\n\n\n\n\n\n¿Por qué este log es insuficiente?\n\n\n\nNo hay detalle de tareas específicas, no hay registro de decisiones, no hay trazabilidad del proceso. Un juez no puede distinguir qué hizo el equipo de qué hizo la IA. Este tipo de registro corresponde al nivel de delegación pasiva en la rúbrica.\n\n\n\n\n5.2 Ejemplo: Uso funcional\n# AI Log - Equipo Hidro\n\n## Herramientas\n- Claude (claude.ai)\n- GitHub Copilot\n\n## Registro de uso\n\n### 2026-03-15 | Claude | Limpieza de datos\n- **Tarea**: Teníamos el CSV de CONAGUA con columnas mal\n  nombradas y valores faltantes. Le pedimos a Claude que\n  nos generara un script de limpieza.\n- **Resultado**: Nos dio un pipeline con pandas que\n  renombraba columnas y hacía imputación con la mediana.\n- **Modificación**: Cambiamos la imputación por\n  interpolación temporal porque nuestros datos son series\n  de tiempo mensuales. La mediana no tenía sentido aquí.\n\n### 2026-03-15 | Copilot | Visualización\n- **Tarea**: Autocompletado para generar el código base\n  de un mapa interactivo con plotly express.\n- **Resultado**: Generó la estructura básica del mapa\n  con px.choropleth.\n- **Modificación**: Ajustamos la paleta de colores y\n  agregamos etiquetas manuales para los estados con\n  mayor estrés hídrico.\n\n### 2026-03-16 | Claude | Depuración\n- **Tarea**: El render de Quarto fallaba con un error que\n   no entendíamos. Pegamos el error en Claude.\n- **Resultado**: Identificó un error en uso de comillas.\n- **Modificación**: Ninguna, la solución fue directa.\n\n\n\n\n\n\nBuen registro, espacio para crecer\n\n\n\nHay trazabilidad clara y una decisión técnica propia (interpolación temporal sobre mediana). Sin embargo, la IA participó en casi todas las tareas técnicas. Un juez exploraría qué tanto domina el equipo su propio pipeline. Este tipo de registro corresponde al nivel de uso funcional en la rúbrica.\n\n\n\n\n5.3 Ejemplo: Uso estratégico\n# AI Log - Equipo Cuenca\n\n## Herramientas\n- Claude (claude.ai)\n- GitHub Copilot (VS Code)\n\n## Filosofía de uso\nDecidimos usar IA exclusivamente para tareas mecánicas y\nde exploración inicial. La narrativa, la selección de\nvariables y las decisiones editoriales fueron 100% del\nequipo. Nuestro criterio: si la tarea requiere\nconocimiento del contexto hídrico de Guerrero, la\nhacemos nosotros.\n\n## Registro de uso \n\n### 2026-03-15 | Claude | Exploración de estructura\n- **Tarea**: Le pedimos 3 opciones de layout para un\n  tablero de Quarto con 4 secciones temáticas.\n- **Prompt**: \"Dame 3 estructuras de layout en Quarto\n  dashboard para un proyecto con 4 secciones: contexto\n  geográfico, acceso a agua, calidad del agua, y\n  tendencia temporal\"\n- **Resultado**: Nos dio layouts con tabs, sidebar y\n  scroll vertical.\n- **Decisión**: Elegimos sidebar porque nuestro usuario\n  objetivo  necesita\n  navegar entre secciones sin perder el contexto del mapa\n  principal. \n\n### 2026-03-15 | Copilot | Boilerplate de gráficas\n- **Tarea**: Generar código base para 6 gráficas en\n  plotly.\n- **Resultado**: Templates funcionales para bar, line,\n  choropleth, scatter, heatmap, y funnel.\n- **Decisión**: Descartamos 3 de las 6. El heatmap no\n  comunicaba bien la estacionalidad (probamos y era\n  confuso). El scatter no era apropiado para datos\n  categóricos por municipio. Nos quedamos con bar, line\n  y choropleth. Toda la personalización visual (paleta\n  basada en identidad del ODS 6, etiquetas en español,\n  anotaciones contextuales) fue manual.\n\n### 2026-03-16 | Claude | Revisión de narrativa\n- **Tarea**: Le pedimos que criticara nuestro borrador de\n  narrativa de la sección de acceso a agua.\n- **Prompt**: \"Critica este texto como si fueras un editor\n  de datos. ¿La narrativa conecta bien los datos con el\n  argumento? ¿Hay saltos lógicos?\"\n- **Resultado**: Señaló que no conectábamos el dato de\n  cobertura municipal con el argumento de desigualdad\n  regional.\n- **Decisión**: Agregamos un párrafo puente con el\n  coeficiente de Gini de acceso hídrico que ya teníamos\n  calculado pero no habíamos integrado. El texto final\n  es completamente nuestro, la IA solo fungió como\n  revisor crítico.\n\n### NO usamos IA para hacer lo siguiente:\n- La selección de las 4 variables clave (revisión de\n  literatura y discusión en equipo)\n- La narrativa del tablero (redacción propia, 3\n  iteraciones internas)\n- La interpretación de outliers en Acapulco post-Otis\n  (conocimiento local del equipo)\n\n\n\n\n\n\nModelo a seguir\n\n\n\nHay una filosofía explícita de uso, prompts reproducibles, decisiones justificadas con conocimiento de contexto, y una sección de lo que deliberadamente no se delegó. Este tipo de registro corresponde al nivel de uso estratégico en la rúbrica. Además, el equipo demuestra capacidad analítica."
+  },
+  {
+    "objectID": "comunicacion.html",
+    "href": "comunicacion.html",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "",
+    "text": "Con el fin de mantener un espacio ordenado, respetuoso, seguro y útil para todas las personas participantes, se establecen los siguientes lineamientos de convivencia y comunicación dentro del grupo oficial de Telegram del HackODS."
+  },
+  {
+    "objectID": "comunicacion.html#canal-oficial-de-comunicación",
+    "href": "comunicacion.html#canal-oficial-de-comunicación",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "1. Canal oficial de comunicación",
+    "text": "1. Canal oficial de comunicación\nEl grupo es el único canal de atención para dudas generales sobre el Hackatón.\n\nToda consulta deberá realizarse dentro del grupo.\nNo se dará seguimiento a mensajes directos enviados a integrantes del comité organizador.\nEn caso de recibir mensajes privados, estos no serán respondidos y se borrarán, con el fin de asegurar transparencia y equidad en la atención."
+  },
+  {
+    "objectID": "comunicacion.html#horarios-de-atención",
+    "href": "comunicacion.html#horarios-de-atención",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "2. Horarios de atención",
+    "text": "2. Horarios de atención\nEl comité organizador brindará acompañamiento en el grupo en los siguientes términos:\n\nHorario de atención: de las 9:00 a las 19:00 horas (hora del centro de México), únicamente en días hábiles.\nFines de semana: no habrá atención activa.\nLos mensajes enviados fuera de horario serán atendidos al siguiente día hábil.\n\nAgradecemos su cooperación para permitir una gestión ordenada del evento."
+  },
+  {
+    "objectID": "comunicacion.html#uso-responsable-del-grupo",
+    "href": "comunicacion.html#uso-responsable-del-grupo",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "3. Uso responsable del grupo",
+    "text": "3. Uso responsable del grupo\nPara mantener la utilidad del espacio:\n\nEvitar mensajes repetidos.\nLeer mensajes fijados y preguntas frecuentes antes de consultar.\nMantener las conversaciones sólo relacionadas con el HackODS.\nEvitar el uso de emojis, stickers o mensajes que dificulten el seguimiento.\n\nSugerencia: Se recomienda silenciar (mute) las notificaciones del grupo y revisarlo periódicamente."
+  },
+  {
+    "objectID": "comunicacion.html#protección-de-datos-personales",
+    "href": "comunicacion.html#protección-de-datos-personales",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "4. Protección de datos personales",
+    "text": "4. Protección de datos personales\nPara cuidar la seguridad de todas las personas:\n\nNo compartir datos personales en el grupo (teléfonos, correos, documentos, comprobantes de pago, etcétera).\nNo publicar información sensible propia ni de terceros.\nCualquier envío de información personal deberá realizarse exclusivamente por medio del correo oficial del HackODS."
+  },
+  {
+    "objectID": "comunicacion.html#respeto-y-convivencia",
+    "href": "comunicacion.html#respeto-y-convivencia",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "5. Respeto y convivencia",
+    "text": "5. Respeto y convivencia\nEste es un espacio profesional y colaborativo. Se espera:\n\nTrato respetuoso en todo momento.\nLenguaje adecuado e inclusivo.\nCero tolerancia a conductas de acoso, discriminación, agresión o bromas discriminatorias u ofensivas.\n\nEl comité organizador podrá:\n\nEliminar mensajes inapropiados.\nEmitir advertencias.\nRetirar del grupo a quien incumpla reiteradamente estos lineamientos."
+  },
+  {
+    "objectID": "comunicacion.html#difusión-y-contenido",
+    "href": "comunicacion.html#difusión-y-contenido",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "6. Difusión y contenido",
+    "text": "6. Difusión y contenido\nDentro del grupo:\n\nEvitar spam, publicidad o promoción no relacionada con el Hackatón.\nNo compartir enlaces externos sin contexto, no verificados o que puedan poner en peligro la seguridad del grupo.\nNo enviar archivos pesados sin que hayan sido solicitados."
+  },
+  {
+    "objectID": "comunicacion.html#carácter-informativo-del-grupo",
+    "href": "comunicacion.html#carácter-informativo-del-grupo",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "7. Carácter informativo del grupo",
+    "text": "7. Carácter informativo del grupo\nEl grupo se utilizará para:\n\nAvisos oficiales del HackODS.\nResolución de dudas generales.\nRecordatorios logísticos.\nInformación relevante para participantes.\n\nPara temas individuales o sensibles, se deberá utilizar el correo oficial del evento."
+  },
+  {
+    "objectID": "comunicacion.html#aceptación-de-lineamientos",
+    "href": "comunicacion.html#aceptación-de-lineamientos",
+    "title": "Código de Conducta del Grupo de Telegram HackODS",
+    "section": "8. Aceptación de lineamientos",
+    "text": "8. Aceptación de lineamientos\nLa permanencia en este grupo implica la aceptación de este Código de Conducta.\nAgradecemos su colaboración para mantener este espacio ordenado, útil y respetuoso para toda la comunidad HackODS."
+  },
+  {
+    "objectID": "calendario.html",
+    "href": "calendario.html",
+    "title": "Calendario capacitación",
+    "section": "",
+    "text": "Semana 1 ・ 2 - 6 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 2\nIntroducción, dinámica\nDr. Luis Miguel de la Cruz Salas y Dr. Guillermo Barrios\nIGf-UNAM, IER-UNAM\n18:00 a 20:00 h\n\n\nMar 3\nMéxico y la Agenda 2030, UNESCO\nMtro. Adolfo Rodríguez\nUNESCO México\n18:00 a 20:00 h\n\n\nJue 5\nInstalación Python, Jupyter\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\n\n\n\n\n\n\n\n\n\nSemana 2 ・ 9 - 13 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 9\nTaller datos INEGI\nMtra. Teresa De Jesús Cruz Apanco\nINEGI\n18:00 a 20:00 h\n\n\nMar 10\nPortal de Datos Abiertos UNAM\nMtra. Laura Olguin, Lic. Omar Solís\nPortal de Datos Abiertos UNAM\n18:00 a 20:00 h\n\n\nJue 12\nManejo de datos con Pandas\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\nVie 13\nNotion *\nIng. Ximena Cruz\n\n17:00 a 18:30 h\n\n\n\n\n\n\n\n\n\n\n\nSemana 3 ・ 16 - 20 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nMar 17\nAlianzas para alcanzar los ODS\nIng. Mariana Elizabeth Peña Laureano\nSDSN Youth\n18:00 a 20:00 h\n\n\nMié 18\nDiseño UX/UI\nIng. Miguel Ángel Vela Rosas\nInstituto de Geofísica UNAM\n18:00 a 20:00 h\n\n\nJue 19\nVisualización con Plotly\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\nVie 20\nLibera historias de datos: continúa el ciclo de conocimiento abierto\nDra. Jackeline Bucio García\nCoordinación de Universidad Abierta y Educación Digital, UNAM\n17:00 a 18:30 h\n\n\n\n\n\n\n\n\n\n\n\nSemana 4 ・ 23 - 27 mar\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 23\nGit y GitHub\nLic. Josafat Jimenez\nGitHub Campus Expert\n18:00 a 20:00 h\n\n\nMar 24\nStorytelling\nDr. Luis Miguel de la Cruz Salas\nInstituto de Geofísica UNAM\n18:00 a 20:00 h\n\n\nJue 26\nQuarto para tableros\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\n\n\n\n\n\n\n\n\n\nVacaciones ・ 30 mar – 5 abr\n\n\n\nSEMANA DE DESCANSO\n\n\n\n\n\n\n\n\nSemana 5 ・ 6 - 10 abr\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 6\nLIBRE\n–\n–\n–\n\n\nMar 7\n1er etapa mentoría S01\n\n\n18:00 a 20:00 h\n\n\nMie 8\n1er etapa mentoría S02\n\n\n18:00 a 20:00 h\n\n\nJue 9\nMi primer tablero en GitHub Pages\nDr. Guillermo Barrios del Valle\nInstituto de Energías Renovables UNAM\n18:00 a 20:00 h\n\n\nVie 10\n1er etapa mentoría S03\n\n\n12:00 a 14:00 h\n\n\n\n\n\n\n\n\n\n\n\nSemana 6 ・ 13 - 17 abr\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nActividad\nPonente\nAfiliación\nHorario\n\n\n\n\nLun 13\nTaller de Pitch\nDra. Candy Flores-Gracia\nEmprendedora\n18:00 a 20:00 h\n\n\nMar 14\nDe los datos a la acción: cómo convertir métricas en comportamientos sostenibles\nMtra. Sandra Alejo\nUtel\n18:00 a 20:00 h\n\n\nJue 16\nCierre de capacitación y dudas\n\n\n18:00 a 20:00 h"
+  },
+  {
+    "objectID": "calendario-mentorias.html",
+    "href": "calendario-mentorias.html",
+    "title": "Calendario de mentorías",
+    "section": "",
+    "text": "Cada equipo tiene una sesión de 30 minutos por Zoom con personas mentoras. Busca tu equipo y acude puntualmente a la sala y horario asignados.\n\n\nS01 — Martes 7 de abril · 18:00–20:00\n\n\n\n\n\n\n\n\n\n\nHora\nSala\nEquipo\nPersonas mentoras\n\n\n\n\n18:00\nSala 1\n2, 3 datos\nYvonne Dávalos Dunnig, Elva Margarita Cervantes Ochoa\n\n\n\nSala 2\nAbejas Astutas\nOlivia Hernandez Cruz, Luis C0rona Gochi\n\n\n\nSala 3\nAJOLOHACKS\nJorge Alejandro Wong Loya, Rubén Sahagún Angulo\n\n\n\nSala 4\nAprendices de Foote\nNicté Yasmín Luna Medina, Alexis Levy\n\n\n\nSala 5\nArdillas por doquier\nGustavo Santos Raga, Daniela Lizeth Diaz Menchaca\n\n\n\nSala 6\nAshira\nRuth A. Dávila Figueroa, Cecilia Rodríguez Gómez\n\n\n18:30\nSala 1\nBayesian Boys\nSusana Casy Téllez Ballesteros, César Antonio Ponce Diego\n\n\n\nSala 2\nBiovia\nJackeline Bucio García, Benjamin Santamaria Beltran\n\n\n\nSala 3\nBladerunners\nCésar Alberto Liera Grijalva, Alexis Levy\n\n\n\nSala 4\nCachorritos\nMaría de la Luz Trasfi Mosqueda, Cecilia Rodríguez Gómez\n\n\n\nSala 5\nCanopus\nJesús Capistrán Martínez\n\n\n\nSala 6\nCloudhackers\nMiguel Ángel Hernández Torres\n\n\n19:00\nSala 1\nCodigo guinda\nRobert Hernández Martínez, Leonardo Ledesma Domínguez\n\n\n\nSala 2\nData4change\nDulce Karen Juárez Herrera, Daniela Lizeth Diaz Menchaca\n\n\n\nSala 3\nDatofilODS\nYilen Gómez Maqueo Chew, Jesús Capistrán Martínez\n\n\n\nSala 4\nDelete Sin Where\nTeresa de Jesús Cruz Apanco, Miguel Ángel Hernández Torres\n\n\n\nSala 5\nDERRE\nOmar Alejandro Solís Garza, César Antonio Ponce Diego\n\n\n\nSala 6\nEl Panopticon Verde\nRicardo Torres Mendoza, Benjamin Santamaria Beltran\n\n\n19:30\nSala 1\nGeoHackers\nMaría de Lourdes Becerra Zavala, Yilen Gómez Maqueo Chew\n\n\n\nSala 2\nGreenByte\nAriadna Esmeralda Avila Garcia, Teresa de Jesús Cruz Apanco\n\n\n\nSala 3\nHuerfanitos UTM\nMiriam Verónica Cruz Salas, Omar Alejandro Solís Garza\n\n\n\nSala 4\nKLJ\nCeleste Morales Santiago, Ricardo Torres Mendoza\n\n\n\nSala 5\nKrustaceo Kaskarudo\nDulce Karen Juárez Herrera, Leonardo Ledesma Domínguez\n\n\n\n\n\n\n\nS02 — Miércoles 8 de abril · 18:00–20:00\n\n\n\n\n\n\n\n\n\n\nHora\nSala\nEquipo\nPersonas mentoras\n\n\n\n\n18:00\nSala 1\nLas sismolocas\nChristian Sohlenkamp, Elva Margarita Cervantes Ochoa\n\n\n\nSala 2\nLED\nLaura Patricia Olguín Pérez, Luis C0rona Gochi\n\n\n\nSala 3\nLIA\nMirna Vazquez Rosas Landa, Rubén Sahagún Angulo\n\n\n\nSala 4\nlinuxitOS\nJorge Alejandro Wong Loya, Miriam Verónica Cruz Salas\n\n\n\nSala 5\nLobo Ensambladores\nGustavo Santos Raga, César Alberto Liera Grijalva\n\n\n\nSala 6\nLos .py\nRuth A. Dávila Figueroa, María de la Luz Trasfi Mosqueda\n\n\n\nSala 7\nMAN - Mundo, análisis y naturaleza\nOmar Alejandro Solís Garza, Cecilia Rodríguez Gómez\n\n\n\nSala 8\nLogiDataAET\nDaniela Lizeth Diaz Menchaca, Jesús Capistrán Martínez\n\n\n18:30\nSala 1\nLos bits\nMariano López de Haro, Cecilia Rodríguez Gómez\n\n\n\nSala 2\nLos cuadernos\nSusana Casy Téllez Ballesteros, César Alberto Liera Grijalva\n\n\n\nSala 3\nLos Outliers\nLaura Patricia Olguín Pérez, María de la Luz Trasfi Mosqueda\n\n\n\nSala 4\nLos pi-.14 mosqueteros\nJackeline Bucio García, Jesús Capistrán Martínez\n\n\n\nSala 5\nLos tres guayaberos\nMirna Vazquez Rosas Landa, César Antonio Ponce Diego\n\n\n\nSala 6\nMarea de datODS\nCeleste Morales Santiago, Benjamin Santamaria Beltran\n\n\n19:00\nSala 1\nMAYAI\nKevin Alquicira Hernández, Daniela Lizeth Diaz Menchaca\n\n\n\nSala 2\nNomos MX\nMariano López de Haro, Leonardo Ledesma Domínguez\n\n\n\nSala 3\nOcelote analítico\nChristian Sohlenkamp, Mirna Vazquez Rosas Landa\n\n\n\nSala 4\nODS.fit\nAlexis Levy, Celeste Morales Santiago\n\n\n\nSala 5\nODSiosos\nLaura Patricia Olguín Pérez, Miguel Ángel Hernández Torres\n\n\n\nSala 6\nOpenHV\nJackeline Bucio García, Jesús Capistrán Martínez\n\n\n19:30\nSala 1\nOrangers\nMaría de Lourdes Becerra Zavala, Ricardo Torres Mendoza\n\n\n\nSala 2\nPatosClimáticODS\nNicté Yasmín Luna Medina, Laura Patricia Olguín Pérez\n\n\n\nSala 3\nPCABoys\nAriadna Esmeralda Avila Garcia, Jackeline Bucio García\n\n\n\nSala 4\npixis\nDulce Karen Juárez Herrera, Leonardo Ledesma Domínguez\n\n\n\nSala 5\nGeo-Ciencia 360\nCésar Antonio Ponce Diego, Mirna Vazquez Rosas Landa\n\n\n\nSala 6\nEmprendeIA\nBenjamin Santamaria Beltran, Miguel Ángel Hernández Torres\n\n\n\n\n\n\n\nS03 — Viernes 10 de abril · 12:00–14:00\n\n\n\n\n\n\n\n\n\n\nHora\nSala\nEquipo\nPersonas mentoras\n\n\n\n\n12:00\nSala 1\nPrometeos\nJulia Tagüeña Parga, Daniela Lizeth Diaz Menchaca\n\n\n\nSala 2\nPseudoBiomedicos\nJosé Gilberto Parra Leyva, María de la Luz Trasfi Mosqueda\n\n\n\nSala 3\nPumatécnicos\nSusana Casy Téllez Ballesteros, Mirna Vazquez Rosas Landa\n\n\n\nSala 4\nPumitasPrime\nLuis C0rona Gochi, Celeste Morales Santiago\n\n\n\nSala 5\nSalubrista\nAriadna Esmeralda Avila Garcia, Benjamin Santamaria Beltran\n\n\n\nSala 6\nSamsan Tech\nYilen Gómez Maqueo Chew, Jesús Capistrán Martínez\n\n\n12:30\nSala 1\nScytale\nJulia Tagüeña Parga, Leonardo Ledesma Domínguez\n\n\n\nSala 2\nSkywalkers\nJosé Gilberto Parra Leyva, Mirna Vazquez Rosas Landa\n\n\n\nSala 3\nTeam Power Semilas de maíz azul\nRuth A. Dávila Figueroa, Celeste Morales Santiago\n\n\n\nSala 4\nTherianODS\nYilen Gómez Maqueo Chew, Benjamin Santamaria Beltran\n\n\n\nSala 5\nTilines\nMiguel Ángel Hernández Torres\n\n\n\nSala 6\nTlamatipohua\nMaría de la Luz Trasfi Mosqueda\n\n\n13:00\nSala 1\nTrio tristeza\nAraceli Nava Godinez, Ricardo Torres Mendoza\n\n\n\nSala 2\nTypers\nJuana Elizabeth Medina Alvarez, Cecilia Rodríguez Gómez\n\n\n\nSala 3\nUndefined\nJulia Tagüeña Parga, César Alberto Liera Grijalva\n\n\n\nSala 4\nUPIIT Machine\nTeresa de Jesús Cruz Apanco, César Antonio Ponce Diego\n\n\n\nSala 5\nUtopía 2030\nJosé Gilberto Parra Leyva, Daniela Lizeth Diaz Menchaca\n\n\n\nSala 6\nVan der Waals\nOmar Alejandro Solís Garza, Miguel Ángel Hernández Torres\n\n\n\nSala 7\nEcoTribu Digital\nLeonardo Ledesma Domínguez, Celeste Morales Santiago\n\n\n\nSala 8\nTlahtoa Data\nBenjamin Santamaria Beltran, Mirna Vazquez Rosas Landa\n\n\n13:30\nSala 1\nVoces ODS 2030\nKevin Alquicira Hernández, Christian Sohlenkamp\n\n\n\nSala 2\nWpower\nRobert Hernández Martínez, Gustavo Santos Raga\n\n\n\nSala 3\nXGBros\nJuana Elizabeth Medina Alvarez, Elva Margarita Cervantes Ochoa\n\n\n\nSala 4\nYácataX\nNicté Yasmín Luna Medina, Rubén Sahagún Angulo\n\n\n\nSala 5\nEquipo 8\nMiriam Verónica Cruz Salas, César Alberto Liera Grijalva\n\n\n\nSala 6\nImpacto OLH\nAlexis Levy, Teresa de Jesús Cruz Apanco\n\n\n\nSala 7\nUtel Horizon\nJosé Gilberto Parra Leyva, Ricardo Torres Mendoza\n\n\n\n\n\nRecuerda: La asistencia es obligatoria (mínimo 1 integrante). Revisa la página de Mentorías para saber qué preparar."
+  },
+  {
+    "objectID": "capacitacion.html",
+    "href": "capacitacion.html",
+    "title": "Capacitación",
+    "section": "",
+    "text": "View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n\n\n\n    View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n\n\n\n  Download PDF File\n   \n    Unable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "capacitacion.html#presentaciones",
+    "href": "capacitacion.html#presentaciones",
+    "title": "Capacitación",
+    "section": "",
+    "text": "View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n\n\n\n    View slides in full screen\n       \n      \n    \n  \n    View slides in full screen\n       \n      \n    \n  \n\n\n\n  Download PDF File\n   \n    Unable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "comunidad_mentorias.html",
+    "href": "comunidad_mentorias.html",
+    "title": "Comunidad de mentores",
+    "section": "",
+    "text": "Alexis Levy\n\n\n\n\nCargo\n\n\nGerente Técnica\n\n\n\n\nAdscripción\n\n\nSUMe (Sustentabilidad para México)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAraceli Nava Godinez\n\n\n\n\nCargo\n\n\nJefa del departamento para Comunidades Sustentables\n\n\n\n\nAdscripción\n\n\nDGACO UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAriadna Esmeralda Avila Garcia\n\n\n\n\nCargo\n\n\nCoordinadora de Responsabilidad Social Universitaria\n\n\n\n\nAdscripción\n\n\nUABCS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Santamaria Beltran\n\n\n\n\nCargo\n\n\nData Analyst Mid-senior\n\n\n\n\nAdscripción\n\n\nBravos Energia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCecilia Rodríguez Gómez\n\n\n\n\nCargo\n\n\nInvestigadora\n\n\n\n\nAdscripción\n\n\nInstituto de Geofísica, UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCeleste Morales Santiago\n\n\n\n\nCargo\n\n\nSecretaria de gestión tecnológica y vinculación\n\n\n\n\nAdscripción\n\n\nIER\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCésar Alberto Liera Grijalva\n\n\n\n\nCargo\n\n\nTécnico académico de tiempo completo\n\n\n\n\nAdscripción\n\n\nUNAM ENES Mérida\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCésar Antonio Ponce Diego\n\n\n\n\nCargo\n\n\nEgresado\n\n\n\n\nAdscripción\n\n\nFacultad de Química, UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristian Sohlenkamp\n\n\n\n\nCargo\n\n\nInvestigador Titular\n\n\n\n\nAdscripción\n\n\nCentro de Ciencias Genómicas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDaniela Lizeth Diaz Menchaca\n\n\n\n\nCargo\n\n\nEgresada\n\n\n\n\nAdscripción\n\n\nLicenciatura\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDulce Karen Juárez Herrera\n\n\n\n\nCargo\n\n\nEgresada\n\n\n\n\nAdscripción\n\n\nFacultad de Ciencias - UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElva Margarita Cervantes Ochoa\n\n\n\n\nCargo\n\n\nDocente\n\n\n\n\nAdscripción\n\n\nUniversidad Autónoma de Baja California\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGustavo Santos Raga\n\n\n\n\nCargo\n\n\nTécnico Académico TIT B\n\n\n\n\nAdscripción\n\n\nInstituto de Energías Renovables\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJackeline Bucio García\n\n\n\n\nCargo\n\n\nProfesora Asociada C, tiempo completo\n\n\n\n\nAdscripción\n\n\nCUAED\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJesús Capistrán Martínez\n\n\n\n\nCargo\n\n\nPosdoctorante\n\n\n\n\nAdscripción\n\n\nBUAP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJorge Alejandro Wong Loya\n\n\n\n\nCargo\n\n\nProfesor titular C\n\n\n\n\nAdscripción\n\n\nInstituto de Energías Renovables UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJosé Gilberto Parra Leyva\n\n\n\n\nCargo\n\n\nJefe de Departamento\n\n\n\n\nAdscripción\n\n\nDirección General de Repositorios Universitarios\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuana Elizabeth Medina Alvarez\n\n\n\n\nCargo\n\n\nCoordinadora de Investigación\n\n\n\n\nAdscripción\n\n\nUniversidad Politécnica de Altamira\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJulia Tagüeña Parga\n\n\n\n\nCargo\n\n\nInvestigadora Emérita\n\n\n\n\nAdscripción\n\n\nUNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKevin Alquicira Hernández\n\n\n\n\nCargo\n\n\nTécnico Académico Titular A. T.C.\n\n\n\n\nAdscripción\n\n\nInstituto de Energías Renovables\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaura Patricia Olguín Pérez\n\n\n\n\nCargo\n\n\nCoordinadora de Colecciones y Datos de Investigación\n\n\n\n\nAdscripción\n\n\nDGRU, UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLeonardo Ledesma Domínguez\n\n\n\n\nCargo\n\n\nDirector de Programa en Inteligencia Artificial y Ciencia de Datos\n\n\n\n\nAdscripción\n\n\nTecnológico de Monterrey\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuis Corona Gochi\n\n\n\n\nCargo\n\n\nSecretario de Posgrado e Investigación\n\n\n\n\nAdscripción\n\n\nUNAM-FMVZ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaría de la Luz Trasfi Mosqueda\n\n\n\n\nCargo\n\n\nAdministrador ejecutivo y Docente\n\n\n\n\nAdscripción\n\n\nUniversidad Autónoma de Yucatán\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaría de Lourdes Becerra Zavala\n\n\n\n\nCargo\n\n\nDocente\n\n\n\n\nAdscripción\n\n\nFacultad de Antropología, UV\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMariano López de Haro\n\n\n\n\nCargo\n\n\nInvestigador Titular CC\n\n\n\n\nAdscripción\n\n\nInstituto de Energías Renovables U.N.A.M.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMiguel Ángel Hernández Torres\n\n\n\n\nCargo\n\n\nPresidente\n\n\n\n\nAdscripción\n\n\nGuardianes de la Biodiverciudad A.C.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMiriam Verónica Cruz Salas\n\n\n\n\nCargo\n\n\nPosdoctorante\n\n\n\n\nAdscripción\n\n\nInstituto de Energías Renovables UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMirna Vazquez Rosas Landa\n\n\n\n\nCargo\n\n\nInvestigador Asociado C\n\n\n\n\nAdscripción\n\n\nInstituto de Ciencias del Mar y Limnologia, UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNancy Merary Jiménez Martínez\n\n\n\n\nCargo\n\n\nInvestigadora titular AA\n\n\n\n\nAdscripción\n\n\nCRIM, UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNicté Yasmín Luna Medina\n\n\n\n\nCargo\n\n\nTécnica Académica de la Unidad de Comunicación de la Ciencia\n\n\n\n\nAdscripción\n\n\nInstituto de Energías Renovables\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOlivia Hernandez Cruz\n\n\n\n\nCargo\n\n\nProfesor tiempo parcial\n\n\n\n\nAdscripción\n\n\nPuebla\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOmar Alejandro Solís Garza\n\n\n\n\nCargo\n\n\nCoordinador de Desarrollo Tecnológico\n\n\n\n\nAdscripción\n\n\nDGRU, UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRicardo Torres Mendoza\n\n\n\n\nCargo\n\n\nProfesor Titular A Tiempo Completo definitivo\n\n\n\n\nAdscripción\n\n\nFacultad de Ingeniería\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobert Hernández Martínez\n\n\n\n\nCargo\n\n\nAcadémico\n\n\n\n\nAdscripción\n\n\nUNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRubén Sahagún Angulo\n\n\n\n\nCargo\n\n\nProfesor Investigador Titular C TC\n\n\n\n\nAdscripción\n\n\nUAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuth A. Dávila Figueroa\n\n\n\n\nCargo\n\n\nProfesora Asociada\n\n\n\n\nAdscripción\n\n\nCentro de Investigación y Docencia Económicas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSusana Casy Téllez Ballesteros\n\n\n\n\nCargo\n\n\nProfesora de tiempo completo\n\n\n\n\nAdscripción\n\n\nFacultad de Ingeniería, UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeresa de Jesús Cruz Apanco\n\n\n\n\nCargo\n\n\nDirectora de Información y Estudios Diferenciales e Interseccionales\n\n\n\n\nAdscripción\n\n\nINEGI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYilen Gómez Maqueo Chew\n\n\n\n\nCargo\n\n\nInvestigadora Titular B\n\n\n\n\nAdscripción\n\n\nInstituto de Astronomía UNAM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYvonne Dávalos Dunnig\n\n\n\n\nCargo\n\n\nCoordinación de vinculación y proyectos para jóvenes\n\n\n\n\nAdscripción\n\n\nRevista de la Universidad de México\n\n\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bienvenida al HackODS UNAM 2026",
+    "section": "",
+    "text": "Bienvenidas y bienvenidos al primer hackatón de la UNAM dedicado a convertir datos abiertos en narrativas visuales sobre los Objetivos de Desarrollo Sostenible (ODS).\nEn este sitio encontrarás toda la información necesaria para el desarrollo de tu proyecto: desde el reglamento de tableros hasta las herramientas y fuentes de datos que utilizarás durante el hackatón."
+  },
+  {
+    "objectID": "index.html#contacto",
+    "href": "index.html#contacto",
+    "title": "Bienvenida al HackODS UNAM 2026",
+    "section": "Contacto",
+    "text": "Contacto\nSitio oficial: hackods.unam.mx\nCorreo: hackods@ier.unam.mx"
+  },
+  {
+    "objectID": "rubrica20.html",
+    "href": "rubrica20.html",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "",
+    "text": "Nota\n\n\n\nEntrega: viernes 10 de abril mediante fork en GitHub\nResultados: domingo 12 de abril"
+  },
+  {
+    "objectID": "rubrica20.html#datos-del-equipo",
+    "href": "rubrica20.html#datos-del-equipo",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Datos del equipo",
+    "text": "Datos del equipo\n\n\n\nCampo\nValor\n\n\n\n\nNombre del equipo\n\n\n\nURL del repositorio\n\n\n\nODS elegidos\n\n\n\nEvaluador/a\n\n\n\nFecha de evaluación"
+  },
+  {
+    "objectID": "rubrica20.html#modulo-a",
+    "href": "rubrica20.html#modulo-a",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Módulo A · Cumplimiento técnico del repositorio",
+    "text": "Módulo A · Cumplimiento técnico del repositorio\n\n\n\n\n\n\nImportante\n\n\n\nUmbral de descalificación automática. Si el equipo obtiene menos de 3 puntos en este módulo, no se evalúan los módulos B, C y D y el equipo queda fuera.\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\nDescripción\nPts\n\n\n\n\nA1\nLicencia CC BY-SA\nArchivo LICENSE o declaración explícita en el README\n0 / 1\n\n\nA2\nREADME completo\nContiene nombre del equipo, integrantes (descripción), ODS elegido(s) y descripción breve del proyecto\n0 / 1\n\n\nA3\nMetadatos de los datos\nFuente, fecha de descarga, licencia y descripción de variables por dataset\n0 / 1\n\n\nA4\nEstructura de carpetas\nExisten datos/ scripts/ dashboard/\n0 / 1\n\n\nA5\nDeclaratoria de uso de IA\nArchivo presente usando la plantilla oficial de HackODS (no texto libre)\n0 / 1"
+  },
+  {
+    "objectID": "rubrica20.html#modulo-b",
+    "href": "rubrica20.html#modulo-b",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Módulo B · Selección y calidad de datos",
+    "text": "Módulo B · Selección y calidad de datos\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\n0\n1\n2\n3\n\n\n\n\nB1\nPertinencia — Los datos son coherentes con el ODS\nSin relación\nRelación débil\nRelación clara\nMúltiples fuentes complementarias\n\n\nB2\nVerificabilidad de la fuente — Fuentes públicas y confiables\nSin fuente\nMencionada, no verificable\nPública verificada\nOficial con URL (INEGI, ONU, datos.gob.mx)\n\n\nB3\nJustificación de la selección — Explican por qué estos datos\nSin justificación\nSuperficial\nRazonada\nPensamiento crítico evidente\n\n\n\nNotas módulo B:\n\nDOCUMENTAR EN EL README"
+  },
+  {
+    "objectID": "rubrica20.html#modulo-c",
+    "href": "rubrica20.html#modulo-c",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Módulo C · Esbozo narrativo — storytelling",
+    "text": "Módulo C · Esbozo narrativo — storytelling\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\n0\n1\n2\n3\n\n\n\n\nC1\nPregunta o problema central — Pregunta clara que guía el tablero\nAusente\nVaga o muy amplia\nEspecífica y relevante\nEspecífica, relevante y con perspectiva novedosa\n\n\nC2\nCoherencia narrativa — Coherencia entre ODS, datos e historia\nSin coherencia\nParcial / confusa\nRazonable\nLos datos sostienen la historia\n\n\nC3\nPotencial de impacto — Visibiliza un problema real en México\nSin potencial\nPoco claro\nMuy general\nRelevancia y audiencia clara\n\n\n\nNotas módulo C\n\nCada equipo debe documentar en el README su pregunta o problema central."
+  },
+  {
+    "objectID": "rubrica20.html#modulo-d",
+    "href": "rubrica20.html#modulo-d",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Módulo D · Prototipo Tablero",
+    "text": "Módulo D · Prototipo Tablero\n\n\n\n\n\n\n\n\n\n\n\n#\nCriterio\n0\n1\n2\n3\n\n\n\n\nD0\nExistencia de un .qmd o un .ipynb\nNo existe ninguno\nExiste .ipynb\nExiste .qmd\n—\n\n\nD1\nAvance visual — Al menos una visualización\nSin visualización\nGráfica de prueba\nUna vizualización con datos reales\nDos o más visualizaciones coherentes\n\n\nD2\nEstructura — Estructura o maquetado del tablero\nSin estructura\nEstructura con secciones\nEstructura con narrativa\nEstructura con narrativa y secciones\n\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nSi D0 = 0, los criterios D1 y D2 se puntúan automáticamente como 0.\n\n\nNotas módulo D:\n\nSi no entregan el qmd, se pueden entregar las visualizaciones en una libreta de Jupyter. La estructura con secciones y la estructura con narrativa pueden estar contenidas en una libreta de Jupyter en el repositorio y ser especificado en el README."
+  },
+  {
+    "objectID": "rubrica20.html#retro",
+    "href": "rubrica20.html#retro",
+    "title": "Rúbrica de corte · HackODS UNAM 2026",
+    "section": "Retroalimentación escrita al equipo",
+    "text": "Retroalimentación escrita al equipo\n\n\n\n\n\n\nNota\n\n\n\nLa retroalimentación del corte de los 20 equipos se entregará a cada equipo solo bajo petición y al termino del HackODS."
+  }
+]
