@@ -2,6 +2,7 @@
 title: "Comunidad de mentores"
 listing:
   contents: datos_mentores.yml
+  page-size: 50
   type: grid
   fields: [image, title, cargo, adscripcion]
   field-display-names:
