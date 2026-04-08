@@ -10,5 +10,5 @@ listing:
     cargo: "Cargo"
     adscripcion: "Adscripción"
   grid-columns: 3
-  image-height: 250px
+  image-height: 330px
 ---
