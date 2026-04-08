@@ -59,5 +59,18 @@ title: Calendario capacitación
 |-----|-----------|---------|------------|---------|
 | **Lun 13** | Taller de Pitch | Dra. Candy Flores-Gracia  | Emprendedora | 18:00 a 20:00 h |
 | **Mar 14** | De los datos a la acción: cómo convertir métricas en comportamientos sostenibles |  Mtra. Sandra Alejo | Utel | 18:00 a 20:00 h |
-| **Jue 16** | Cierre de capacitación y dudas  |   |   | 18:00 a 20:00 h |
+| **Mar 14** | **Cierre de entrega del primer tablero.** |  |  | 22:00 h |
+| **Mié 15 – Vie 17** | Evaluación por comité  |   |  |  |
+| **Jue 16** | Capacitación Google AI |   | Google | 18:00 a 20:00 h |
+| **Vie 17** | **Publicación de los 20 equipos finalistas** |   |   |  |
+:::
+
+::: {.callout-note title="Semana 7 ・ 20 - 25 abr — Mentorías y evento final" icon=false}
+| Día | Actividad | Ponente | Afiliación | Horario |
+|-----|-----------|---------|------------|---------|
+| **Lun 20** | 2da etapa de mentoría (20 finalistas) |   |   |  |
+| **Mar 21** | 2da etapa de mentoría (20 finalistas) |   |   |  |
+| **Mié 22** | 2da etapa de mentoría (20 finalistas) |   |   |  |
+| **Jue 23** | Evento final presencial |   |   |  |
+| **Vie 24** | Evento final presencial |   |   |  |
 :::
