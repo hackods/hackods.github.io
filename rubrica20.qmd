@@ -1,6 +1,6 @@
 ---
 title: "Rúbrica de corte · HackODS UNAM 2026"
-subtitle: "Evaluación 50 → 20 equipos"
+subtitle: "Evaluación 76 → 20 equipos"
 format:
   html:
     toc: true
