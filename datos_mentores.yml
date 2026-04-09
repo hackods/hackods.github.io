@@ -9,7 +9,7 @@
   adscripcion: "DGACO UNAM"
 
 - title: "Ariadna Esmeralda Avila Garcia"
-  image: fotos_mentores/ariadna_avila.jpeg
+  image: fotos_mentores/ariadna_avila.png
   cargo: "Coordinadora de Responsabilidad Social Universitaria"
   adscripcion: "UABCS"
 
@@ -44,9 +44,9 @@
   adscripcion: "Centro de Ciencias Genómicas"
 
 - title: "Daniela Lizeth Diaz Menchaca"
-  image: fotos_mentores/default.png
+  image: fotos_mentores/daniela_diaz.png
   cargo: "Egresada"
-  adscripcion: "Licenciatura"
+  adscripcion: "Facultad de Química"
 
 - title: "Dulce Karen Juárez Herrera"
   image: fotos_mentores/default.png
@@ -79,9 +79,9 @@
   adscripcion: "Instituto de Energías Renovables UNAM"
 
 - title: "José Gilberto Parra Leyva"
-  image: fotos_mentores/default.png
-  cargo: "Jefe de Departamento"
-  adscripcion: "Dirección General de Repositorios Universitarios"
+  image: fotos_mentores/jose_parra.jpeg
+  cargo: "Jefe del Departamento de Datos de Investigación"
+  adscripcion: "Dirección General de Repositorios Universitarios, UNAM"
 
 - title: "Juana Elizabeth Medina Alvarez"
   image: fotos_mentores/default.png
@@ -109,19 +109,19 @@
   adscripcion: "Tecnológico de Monterrey"
 
 - title: "Luis Corona Gochi"
-  image: fotos_mentores/default.png
-  cargo: "Secretario de Posgrado e Investigación"
-  adscripcion: "UNAM-FMVZ"
+  image: fotos_mentores/luis_corona.png
+  cargo: "Profesor Titular"
+  adscripcion: "Facultad de Medicina Veterinaria y Zootecnia-UNAM"
 
 - title: "María de la Luz Trasfi Mosqueda"
-  image: fotos_mentores/default.png
+  image: fotos_mentores/maria_trasfi.jpg
   cargo: "Administrador ejecutivo y Docente"
   adscripcion: "Universidad Autónoma de Yucatán"
 
 - title: "María de Lourdes Becerra Zavala"
-  image: fotos_mentores/default.png
+  image: fotos_mentores/maria_becerra.jpg
   cargo: "Docente"
-  adscripcion: "Facultad de Antropología, UV"
+  adscripcion: "Facultad de Antropología, Universidad Veracruzana"
 
 - title: "Mariano López de Haro"
   image: fotos_mentores/default.png
@@ -174,9 +174,9 @@
   adscripcion: "UNAM"
 
 - title: "Rubén Sahagún Angulo"
-  image: fotos_mentores/default.png
+  image: fotos_mentores/ruben_sahagun.png 
   cargo: "Profesor Investigador Titular C TC"
-  adscripcion: "UAM"
+  adscripcion: "División de Ciencias y Artes para el Diseño. UAM Azcapotzalco"
 
 - title: "Ruth A. Dávila Figueroa"
   image: fotos_mentores/default.png
@@ -184,7 +184,7 @@
   adscripcion: "Centro de Investigación y Docencia Económicas"
 
 - title: "Susana Casy Téllez Ballesteros"
-  image: fotos_mentores/default.png
+  image: fotos_mentores/susana_tellez.jpg
   cargo: "Profesora de tiempo completo"
   adscripcion: "Facultad de Ingeniería, UNAM"
 
@@ -194,7 +194,7 @@
   adscripcion: "INEGI"
 
 - title: "Yilen Gómez Maqueo Chew"
-  image: fotos_mentores/default.png
+  image: fotos_mentores/yilen_gomez.jpg
   cargo: "Investigadora Titular B"
   adscripcion: "Instituto de Astronomía UNAM"
 
