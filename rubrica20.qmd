@@ -1,6 +1,6 @@
 ---
 title: "Rúbrica de corte · HackODS UNAM 2026"
-subtitle: "Evaluación 50 → 20 equipos"
+subtitle: "Evaluación 76 → 20 equipos"
 format:
   html:
     toc: true
@@ -10,9 +10,9 @@ format:
 
 ::: {.callout-note}
 
-**Entrega:** viernes 10 de abril mediante fork en GitHub 
+**Entrega:** martes 14 de abril mediante fork en GitHub,  22:00 horas
 
-**Resultados:** domingo 12 de abril 
+**Resultados:** viernes 17 de abril 
 
 :::
 
