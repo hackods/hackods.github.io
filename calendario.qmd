@@ -70,8 +70,6 @@ title: Calendario capacitación
 | Día | Actividad | Ponente | Afiliación | Horario |
 |-----|-----------|---------|------------|---------|
 | **Lun 20** | 2da etapa de mentoría (20 finalistas) |   |   |  |
-| **Mar 21** | 2da etapa de mentoría (20 finalistas) |   |   |  |
-| **Mié 22** | 2da etapa de mentoría (20 finalistas) |   |   |  |
 | **Jue 23** | Evento final presencial |   |   |  |
 | **Vie 24** | Evento final presencial |   |   |  |
 :::
