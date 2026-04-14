@@ -61,7 +61,8 @@ title: Calendario capacitación
 | **Mar 14** | De los datos a la acción: cómo convertir métricas en comportamientos sostenibles |  Mtra. Sandra Alejo | Utel | 18:00 a 20:00 h |
 | **Mar 14** | **Cierre de entrega del primer tablero.** |  |  | 22:00 h |
 | **Mié 15 – Vie 17** | Evaluación por comité  |   |  |  |
-| **Jue 16** | Capacitación Google AI |   | Google | 18:00 a 20:00 h |
+| **Mié 15** | Build with AI de Google |   | Google | 18:00 a 18:30 h |
+| **Vie 17** | Build with AI de Google |   | Google | 18:00 a 20:00 h |
 | **Vie 17** | **Publicación de los 20 equipos finalistas** |   |   |  |
 :::
 
