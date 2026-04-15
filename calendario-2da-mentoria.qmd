@@ -1,0 +1,55 @@
+---
+title: "Calendario de 2da mentoría"
+---
+
+```{=html}
+<style>
+table tbody tr:has(td:first-child strong) {
+  border-top: 2.5px solid #888 !important;
+}
+table tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+table tbody tr:nth-child(even) {
+  background-color: transparent !important;
+}
+h4 {
+  margin-top: 2.5rem !important;
+}
+</style>
+```
+
+Cada equipo tiene **una sesión de 45 minutos por Zoom** con personas mentoras. Busca tu equipo y acude puntualmente a la sala y horario asignados.
+
+---
+
+#### Lunes 20 de abril · 18:00–19:45
+
+::: {.table-hover .table-striped .table-sm .table-bordered}
+| Hora | Sala | Equipo | Personas mentoras |
+|------|------|--------|-------------------|
+| **18:00** | Sala 1 | E1 | María de la Luz Trasfi Mosqueda, Ariadna Esmeralda Ávila Garcia |
+| | Sala 2 | E2 | Juana Elizabeth Medina Álvarez, Yilen Gómez Maqueo Chew |
+| | Sala 3 | E3 | Daniela Lizeth Diaz Menchaca, Celeste Morales Santiago |
+| | Sala 4 | E4 | Laura Patricia Olguín Pérez |
+| | Sala 5 | E5 | Jorge Alejandro Wong Loya |
+| | Sala 6 | E6 | Gustavo Santos Raga |
+| | Sala 7 | E7 | José Gilberto Parra Leyva |
+| | Sala 8 | E8 | César Alberto Liera Grijalva |
+| | Sala 9 | E9 | César Antonio Ponce Diego |
+| | Sala 10 | E10 | [Persona mentora por confirmar] |
+| **19:00** | Sala 1 | E11 | Robert Hernández Martínez, [Persona mentora por confirmar] |
+| | Sala 2 | E12 | María de Lourdes Becerra Zavala, [Persona mentora por confirmar] |
+| | Sala 3 | E13 | Elva Margarita Cervantes Ochoa, [Persona mentora por confirmar] |
+| | Sala 4 | E14 | Fabiola De Bray Sanchez |
+| | Sala 5 | E15 | Miriam Verónica Cruz Salas |
+| | Sala 6 | E16 | Kevin Alquicira Hernández |
+| | Sala 7 | E17 | Cecilia Rodríguez Gómez |
+| | Sala 8 | E18 | Ruth A. Dávila Figueroa |
+| | Sala 9 | E19 | Dulce Karen Juárez Herrera |
+| | Sala 10 | E20 | [Persona mentora por confirmar] |
+:::
+
+---
+
+**Recuerda:** La asistencia es obligatoria (mínimo 1 integrante). Revisa la página de [Mentorías](mentorias.qmd) para saber qué preparar.
