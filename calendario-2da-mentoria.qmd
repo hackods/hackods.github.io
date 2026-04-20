@@ -28,28 +28,28 @@ Cada equipo tiene **una sesión de 45 minutos por Zoom** con personas mentoras. 
 ::: {.table-hover .table-striped .table-sm .table-bordered}
 | Hora | Sala | Equipo | Personas mentoras |
 |------|------|--------|-------------------|
-| **18:00 a 18:45** | Sala 1 | E1 | María de la Luz Trasfi Mosqueda, Ariadna Esmeralda Ávila Garcia |
-| | Sala 2 | E2 | Juana Elizabeth Medina Álvarez, Yilen Gómez Maqueo Chew |
-| | Sala 3 | E3 | Daniela Lizeth Diaz Menchaca, Celeste Morales Santiago |
-| | Sala 4 | E4 | Laura Patricia Olguín Pérez, Erik Carbajal Degante |
-| | Sala 5 | E5 | Jorge Alejandro Wong Loya, Miguel Angel Vela Rosas |
-| | Sala 6 | E6 | Gustavo Santos Raga, Omar Alejandro Solís Garza |
-| | Sala 7 | E7 | José Gilberto Parra Leyva, Olivia Hernandez Cruz |
-| | Sala 8 | E8 | César Alberto Liera Grijalva, Julia Tagüeña Parga |
-| | Sala 9 | E9 | César Antonio Ponce Diego, Yvonne Dávalos Dunnig |
-| | Sala 10 | E10 | Jackeline Bucio García, Jesús Capistrán Martínez |
-| **19:00 a 19:45** | Sala 1 | E11 | Robert Hernández Martínez, Yareni Annalie Domínguez Delgado |
-| | Sala 2 | E12 | María de Lourdes Becerra Zavala, Julia Tagüeña Parga |
-| | Sala 3 | E13 | Elva Margarita Cervantes Ochoa, [Persona mentora por confirmar] |
-| | Sala 4 | E14 | Fabiola De Bray Sanchez, [Persona mentora por confirmar] |
-| | Sala 5 | E15 | Miriam Verónica Cruz Salas, [Persona mentora por confirmar] |
-| | Sala 6 | E16 | Kevin Alquicira Hernández, [Persona mentora por confirmar] |
-| | Sala 7 | E17 | Cecilia Rodríguez Gómez, [Persona mentora por confirmar] |
-| | Sala 8 | E18 | Ruth A. Dávila Figueroa, [Persona mentora por confirmar] |
-| | Sala 9 | E19 | Dulce Karen Juárez Herrera, [Persona mentora por confirmar] |
-| | Sala 10 | E20 | Leonardo Ledesma Domínguez, [Persona mentora por confirmar] |
+| **18:00 a 18:45** | Sala 1 | 2, 3 datos | María de la Luz Trasfi Mosqueda, Ariadna Esmeralda Ávila Garcia |
+| | Sala 2 | Abejas Astutas | Juana Elizabeth Medina Álvarez, Yilen Gómez Maqueo Chew |
+| | Sala 3 | ASHIRA | Daniela Lizeth Diaz Menchaca, Celeste Morales Santiago |
+| | Sala 4 | Bladerunners | Laura Patricia Olguín Pérez, Erik Carbajal Degante |
+| | Sala 5 | Código Guinda | Jorge Alejandro Wong Loya, Miguel Angel Vela Rosas |
+| | Sala 6 | DatofilODS | Gustavo Santos Raga, Omar Alejandro Solís Garza |
+| | Sala 7 | DERRE | José Gilberto Parra Leyva, Olivia Hernandez Cruz |
+| | Sala 8 | EmprendeIA | César Alberto Liera Grijalva, Julia Tagüeña Parga |
+| | Sala 9 | HuerfanitosUTM | César Antonio Ponce Diego, Yvonne Dávalos Dunnig |
+| | Sala 10 | linuxitOS | Jackeline Bucio García, Jesús Capistrán Martínez |
+| **19:00 a 19:45** | Sala 1 | Lobo Ensambladores | Robert Hernández Martínez, Yareni Annalie Domínguez Delgado |
+| | Sala 2 | MareaDeDatODS | María de Lourdes Becerra Zavala, Julia Tagüeña Parga |
+| | Sala 3 | PatosClimaticODS | Elva Margarita Cervantes Ochoa, [Persona mentora por confirmar] |
+| | Sala 4 | PCABoys | Fabiola De Bray Sanchez, [Persona mentora por confirmar] |
+| | Sala 5 | Pumatécnicos | Miriam Verónica Cruz Salas, [Persona mentora por confirmar] |
+| | Sala 6 | Tlamatipohua | Kevin Alquicira Hernández, [Persona mentora por confirmar] |
+| | Sala 7 | Trío tristeza | Cecilia Rodríguez Gómez, [Persona mentora por confirmar] |
+| | Sala 8 | typers | Ruth A. Dávila Figueroa, [Persona mentora por confirmar] |
+| | Sala 9 | UPIIT Machine | Dulce Karen Juárez Herrera, [Persona mentora por confirmar] |
+| | Sala 10 | Voces ODS 2030 | Leonardo Ledesma Domínguez, [Persona mentora por confirmar] |
 :::
 
 ---
 
-**Recuerda:** La asistencia es obligatoria (mínimo 1 integrante). Revisa la página de [Mentorías](mentorias.qmd) para saber qué preparar.
+**Recuerda:** La asistencia es obligatoria (mínimo 1 integrante).
