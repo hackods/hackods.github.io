@@ -19,9 +19,7 @@ website:
             href: rubrica20.qmd
       - text: "Calendario"
         href: calendario.qmd
-      - text: "Capacitación"
-        href: capacitacion.qmd
-      - text: "Mentorías"
+      - text: "Mentorías y capacitación"
         menu:
           - text: "Mentorías"
             href: mentorias.qmd
@@ -31,8 +29,12 @@ website:
             href: calendario-2da-mentoria.qmd
           - text: "Comunidad"
             href: comunidad_mentorias.qmd
+          - text: "Capacitación"
+            href: capacitacion.qmd
       - text: "Política de IA"
         href: declaratoriaIA.qmd
+      - text: "Finalistas"
+        href: finalistas.qmd
     tools:
       - icon: github
         href: https://github.com/hackods/hackods.github.io
