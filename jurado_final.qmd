@@ -8,6 +8,6 @@ listing:
   field-display-names:
     title: "Nombre"
     adscripcion: "Adscripción"
-  grid-columns: 4
+  grid-columns: 3
   image-height: 330px
 ---
