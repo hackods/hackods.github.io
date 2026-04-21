@@ -33,8 +33,12 @@ website:
             href: capacitacion.qmd
       - text: "Política de IA"
         href: declaratoriaIA.qmd
-      - text: "Finalistas"
-        href: finalistas.qmd
+      - text: "Evento final"
+        menu:
+          - text: "Finalistas"
+            href: finalistas.qmd
+          - text: "Jurado"
+            href: jurado_final.qmd
     tools:
       - icon: github
         href: https://github.com/hackods/hackods.github.io

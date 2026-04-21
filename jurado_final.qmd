@@ -1,0 +1,13 @@
+---
+title: "Integrantes del Jurado"
+listing:
+  contents: datos_jurado.yml
+  page-size: 50
+  type: grid
+  fields: [image, title, cargo, adscripcion]
+  field-display-names:
+    title: "Nombre"
+    adscripcion: "Adscripción"
+  grid-columns: 3
+  image-height: 330px
+---
