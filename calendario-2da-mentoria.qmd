@@ -40,13 +40,13 @@ Cada equipo tiene **una sesión de 45 minutos por Zoom** con personas mentoras. 
 | | Sala 10 | linuxitOS | Jackeline Bucio García, Jesús Capistrán Martínez |
 | **19:00 a 19:45** | Sala 1 | Lobo Ensambladores | Robert Hernández Martínez, Yareni Annalie Domínguez Delgado |
 | | Sala 2 | MareaDeDatODS | María de Lourdes Becerra Zavala, Julia Tagüeña Parga |
-| | Sala 3 | PatosClimaticODS | Elva Margarita Cervantes Ochoa |
+| | Sala 3 | PatosClimaticODS | Elva Margarita Cervantes Ochoa, Celeste Morales Santiago |
 | | Sala 4 | PCABoys | Fabiola De Bray Sanchez, Miguel Angel Vela Rosas |
-| | Sala 5 | Pumatécnicos | Miriam Verónica Cruz Salas |
-| | Sala 6 | Tlamatipohua | Kevin Alquicira Hernández |
-| | Sala 7 | Trío tristeza | Cecilia Rodríguez Gómez |
-| | Sala 8 | typers | Ruth A. Dávila Figueroa |
-| | Sala 9 | UPIIT Machine | Dulce Karen Juárez Herrera |
+| | Sala 5 | Pumatécnicos | Miriam Verónica Cruz Salas, Yilen Gómez Maqueo Chew |
+| | Sala 6 | Tlamatipohua | Kevin Alquicira Hernández, Daniela Lizeth Diaz Menchaca |
+| | Sala 7 | Trío tristeza | Cecilia Rodríguez Gómez, José Gilberto Parra Leyva |
+| | Sala 8 | typers | Ruth A. Dávila Figueroa, Ariadna Esmeralda Ávila Garcia |
+| | Sala 9 | UPIIT Machine | Dulce Karen Juárez Herrera, César Antonio Ponce Diego |
 | | Sala 10 | Voces ODS 2030 | Leonardo Ledesma Domínguez |
 :::
 
