@@ -1,0 +1,45 @@
+---
+title: "Programa del evento final"
+subtitle: "HackODS UNAM 2026"
+---
+
+::: {.callout-note}
+**Lugar:** Auditorio Marcos Moshinsky, Instituto de Ciencias Nucleares.
+:::
+
+::: {.callout-important title="Jueves 23 de abril de 2026" icon=false}
+| Horario | Actividad |
+|:---|:---|
+| 8:00 | Preparación de las mesas de trabajo de los equipos. |
+| 10:00 – 11:00 | Registro e instalación de equipos. |
+| 11:00 | Inicio de trabajo. |
+| 14:00 – 15:00 | Comida. |
+| 15:00 en adelante | Equipos continúan trabajando. |
+| 18:00 | Límite de asesorías técnicas. |
+| 19:00 | Salida del Auditorio de participantes que lo requieran. |
+| 19:00 en adelante | Pernocta de participantes que se hayan registrado. |
+:::
+
+::: {.callout-tip title="Viernes 24 de abril de 2026" icon=false}
+| Horario | Actividad |
+|:---|:---|
+| 8:00 | Equipos continúan trabajando. |
+| 10:00 – 10:30 | Entrega de tableros finales. |
+| 10:30 – 11:00 | Desayuno. |
+| 11:00 – 12:00 | Pitch de tableros. |
+| 12:00 – 12:30 | UTEL. |
+<!-- | 12:30 – 13:00 | IBERDROLA. | -->
+| 13:15 – 14:00 | Networking con comunidades aliadas. |
+| 14:00 – 14:30 | Premiación y clausura. |
+:::
+
+::: {.callout-warning}
+La evaluación por parte de los jueces será de **12:00 a 14:00 h**.
+:::
+
+## Presidium
+
+- Dra. María Soledad Funes Argüello
+- Dr. José Luis Macía Vázquez
+- Dr. Miguel Robles Pérez
+

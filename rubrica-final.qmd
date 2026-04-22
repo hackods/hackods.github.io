@@ -1,0 +1,97 @@
+---
+title: "Rúbrica del Evento Final · HackODS UNAM 2026"
+subtitle: "Evaluación de los 20 equipos finalistas"
+format:
+  html:
+    toc: true
+    toc-title: "Secciones"
+    toc-depth: 2
+---
+
+::: {.callout-important}
+**Requisito indispensable:** los repositorios deben haber sido transferidos a la organización [HackODS](https://github.com/hackods) en GitHub para poder ser evaluados. Los equipos cuyos repositorios no hayan sido transferidos a la organización no serán considerados.
+:::
+
+::: {.callout-note}
+**Notas para la instrumentación**
+
+**Sobre la escala:** 1 al 4, salvo en los criterios de calidad técnica, que son de todo o nada.
+:::
+
+---
+
+## Calidad técnica
+
+La evaluación de esta sección se realiza de manera automática mediante un script que clona los repositorios transferidos a la organización HackODS y revisa cada criterio. Suma **40 puntos** distribuidos entre siete criterios. Cada criterio se otorga completo o no se otorga: **no hay puntajes parciales**.
+
+| # | Criterio | Descripción | Pts |
+|---|---|---|:---:|
+| T1 | **uv** — reproducibilidad del entorno | Se utiliza `uv` para crear y documentar el ambiente virtual. | 0 / 4 |
+| T2 | **`index.qmd`** — el tablero vive en la ruta esperada | Existe el archivo `dashboard/index.qmd`. Se pierde cuando el archivo está en otra ruta o no existe. | 0 / 8 |
+| T3 | **Render** — el tablero se renderiza sin errores | `uv run quarto render dashboard/index.qmd` termina correctamente sin errores. | 0 / 4 |
+| T4 | **Salida en `docs/`** — el render produce el HTML esperado | Tras el render, existe `docs/index.html`. | 0 / 4 |
+| T5 | **Formato dashboard** — el HTML renderizado es un Quarto dashboard | El HTML renderizado es un tablero de Quarto. | 0 / 8 |
+| T6 | **md-only** — la prosa de `index.qmd` está en markdown/Quarto puro | No se utiliza HTML ni Java en el tablero. | 0 / 8 |
+| T7 | **Licencia Creative Commons** — el repositorio declara una licencia CC | Existe `LICENSE` o `COPYING` (con o sin extensión) en la raíz del repositorio con una licencia CC. | 0 / 4 |
+
+: Subtotal Calidad técnica **/ 40**
+
+---
+
+## Creatividad
+
+Para cada criterio se indica qué significa, cómo se nota cuando está bien logrado y cómo se nota cuando falla. Así los jueces calibran contra ejemplos, no contra definiciones abstractas.
+
+| # | Criterio | Descripción | Pts |
+|---|---|---|:---:|
+| C1 | **Ángulo narrativo** — el encuadre del problema no es el obvio | **Se nota cuando:** un equipo, en vez de mapear "acceso a agua potable", analiza las horas que mujeres rurales dedican al día a acarrear agua. Reencuadra desde género y tiempo. <br> **Falla cuando:** el título es "Indicadores del ODS X en México" y replica lo que ya publica INEGI o CONEVAL sin reinterpretación. | 1 – 4 |
+| C2 | **Hilo conductor** — hay principio, medio y cierre | **Se nota cuando:** la estructura se lee como "esto pasa → por esto pasa → esto se puede hacer", y el orden no es intercambiable. <br> **Falla cuando:** al abrir hay ocho o más gráficas simultáneas, o un menú lateral con pestañas equivalentes y sin jerarquía entre ellas. | 1 – 4 |
+| C3 | **Originalidad visual** — las formas elegidas están justificadas, no son adorno | **Se nota cuando:** usan una rejilla de mapas pequeños para las 32 entidades, una línea de tiempo con anotaciones, un diagrama de flujos para mostrar movimientos migratorios, o una metáfora visual coherente con el tema. <br> **Falla cuando:** todo el tablero son tres barras, dos pasteles y un número gigante; se ve que salió de una plantilla sin modificar. | 1 – 4 |
+| C4 | **Momento memorable** — queda una idea al salir | **Se nota cuando:** puedes resumir el tablero en una frase concreta, por ejemplo: "los municipios con más pobreza energética son justo los de mayor radiación solar del país". <br> **Falla cuando:** recuerdas "había muchos datos" pero ninguna idea específica. | 1 – 4 |
+
+: Subtotal Creatividad **/ 16**
+
+---
+
+## Impacto
+
+| # | Criterio | Descripción | Pts |
+|---|---|---|:---:|
+| I1 | **Pertinencia territorial y social** — contexto mexicano concreto | **Se nota cuando:** especifica "Zona Metropolitana del Valle de México, 2019–2024, colonias con marginación alta según CONEVAL". <br> **Falla cuando:** dice "México" a secas sin desagregar; o peor, usan datos de otro país como aproximación sin declararlo. | 1 – 4 |
+| I2 | **Calidad de la evidencia** — fuentes, cortes y limitaciones declaradas | **Se nota cuando:** existe una sección "Sobre los datos" con fuente, año, cobertura y limitaciones reconocidas (por ejemplo: "subregistro conocido en comunidades indígenas"). <br> **Falla cuando:** no hay fuentes visibles, mezclan años sin aclarar, o dicen "datos públicos de internet". | 1 – 4 |
+| I3 | **Visibilización de lo invisible** — revela algo no evidente | **Se nota cuando:** cruza dos variables que normalmente no se miran juntas (por ejemplo, deserción escolar contra cobertura de transporte público) y muestra un patrón nuevo. <br> **Falla cuando:** reproduce un hallazgo ya publicado ("México tiene X% de pobreza") sin agregar una capa propia. | 1 – 4 |
+| I4 | **Precisión geográfica** — la escala territorial es la adecuada para hacer visible el problema | **Se nota cuando:** baja al nivel donde el problema realmente vive (municipio, colonia, localidad, cuenca, área protegida, ruta de transporte) y justifica por qué ese es el corte correcto. <br> **Falla cuando:** se queda en el promedio nacional o estatal cuando el problema es claramente local; o fragmenta a una escala tan fina que el patrón se pierde en el ruido. | 1 – 4 |
+| I5 | **Identificación de poblaciones afectadas** — queda claro quiénes viven el problema | **Se nota cuando:** el tablero desagrega por los atributos que importan para el problema en cuestión (edad, género, lengua indígena, nivel socioeconómico, condición de discapacidad, actividad económica) y muestra cómo se distribuye entre ellos. <br> **Falla cuando:** presenta solo totales agregados que ocultan qué grupos están más expuestos; o desagrega por variables irrelevantes para el fenómeno. | 1 – 4 |
+
+: Subtotal Impacto **/ 20**
+
+---
+
+## Accesibilidad y diseño
+
+| # | Criterio | Descripción | Pts |
+|---|---|---|:---:|
+| A1 | **Jerarquía visual** — la mirada sabe a dónde ir primero | **Se nota cuando:** al abrir el tablero, se distingue de inmediato qué es título, qué es dato importante y qué es detalle secundario; los espacios vacíos ayudan, no estorban. <br> **Falla cuando:** todo compite por atención — varias familias tipográficas, bordes en cada recuadro, colores saturados en todos lados. | 1 – 4 |
+| A2 | **Consistencia de sistema** — el lenguaje visual es estable | **Se nota cuando:** un mismo color significa lo mismo a lo largo de todo el tablero; los íconos conservan su significado. <br> **Falla cuando:** en una gráfica el azul representa a mujeres, en la siguiente el azul es Ciudad de México, y en la tercera el azul es el año 2024. | 1 – 4 |
+| A3 | **Curva de entrada** — se entiende rápido | **Se nota cuando:** en alrededor de un minuto sabes de qué va, para quién es y qué propone. <br> **Falla cuando:** tienes que manipular filtros o explorar pestañas para entender siquiera el propósito del tablero. | 1 – 4 |
+
+: Subtotal Accesibilidad y diseño **/ 12**
+
+---
+
+## El pitch
+
+::: {.callout-important}
+**Duración:** 2 minutos, y se interrumpe al cumplirse el tiempo. Lo presenta el equipo (puede ser una sola persona) y pueden apoyarse en una parte del tablero, sin navegarlo ni usar otra ayuda visual.
+
+**Uso:** el puntaje del pitch se utiliza como criterio de desempate entre equipos que queden igualados en las secciones anteriores.
+:::
+
+| # | Criterio | Descripción | Pts |
+|---|---|---|:---:|
+| P1 | **Contexto** — ¿De qué trata y por qué importa? | **4:** queda claro de inmediato: qué problema, dónde ocurre y a quién afecta. <br> **1:** no se alcanza a entender de qué trata. | 1 – 4 |
+| P2 | **Momento memorable** — ¿Qué hallazgo queda grabado? | **4:** comunica un hallazgo concreto y sorprendente, en una frase que se puede repetir al salir. <br> **1:** no hay hallazgo identificable; solo enumera gráficas o funciones. | 1 – 4 |
+| P3 | **Llamado a la acción** — ¿Qué sigue después del tablero? | **4:** dice con precisión a quién le sirve este tablero y para qué decisión o conversación. <br> **1:** no hay llamado, o cierra con "se requiere más investigación". | 1 – 4 |
+| P4 | **Tiempo** — ¿Aprovecharon los dos minutos? | **4:** usan el tiempo con holgura: cierran cerca de los dos minutos, con ritmo parejo entre las tres partes. <br> **1:** son interrumpidos a los 2 minutos antes de llegar al llamado a la acción, o terminan muy por debajo del tiempo. | 1 – 4 |
+
+: Subtotal Pitch **/ 16**

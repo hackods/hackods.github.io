@@ -39,6 +39,10 @@ website:
             href: finalistas.qmd
           - text: "Jurado"
             href: jurado_final.qmd
+          - text: "Rúbrica final"
+            href: rubrica-final.qmd
+          - text: "Programa"
+            href: calendario-final.qmd
     tools:
       - icon: github
         href: https://github.com/hackods/hackods.github.io
