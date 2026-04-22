@@ -4,7 +4,7 @@ subtitle: "HackODS UNAM 2026"
 ---
 
 ::: {.callout-note}
-**Lugar:** Auditorio Marcos Moshinsky, Instituto de Ciencias Nucleares.
+**Lugar:** Auditorio Marcos Moshinsky, Instituto de Ciencias Nucleares, Ciudad Universitaria, UNAM, Ciudad de México.
 :::
 
 ::: {.callout-important title="Jueves 23 de abril de 2026" icon=false}
