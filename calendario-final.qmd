@@ -28,7 +28,6 @@ subtitle: "HackODS UNAM 2026"
 | 10:30 – 11:00 | Desayuno. |
 | 11:00 – 12:00 | Pitch de tableros. |
 | 12:00 – 12:30 | UTEL. |
-<!-- | 12:30 – 13:00 | IBERDROLA. | -->
 | 13:15 – 14:00 | Networking con comunidades aliadas. |
 | 14:00 – 14:30 | Premiación y clausura. |
 :::
@@ -39,7 +38,7 @@ La evaluación por parte de los jueces será de **12:00 a 14:00 h**.
 
 ## Presidium
 
-- Dra. María Soledad Funes Argüello
-- Dr. José Luis Macía Vázquez
-- Dr. Miguel Robles Pérez
+- Dra. María Soledad Funes Argüello — Coordinadora de la Investigación Científica, UNAM.
+- Dr. José Luis Macía Vázquez — Director del Instituto de Geofísica, UNAM.
+- Dr. Miguel Robles Pérez — Director del Instituto de Energías Renovables, UNAM.
 
