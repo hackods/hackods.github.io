@@ -9,7 +9,7 @@ format:
 ---
 
 ::: {.callout-important}
-**Requisito indispensable:** los repositorios deben haber sido transferidos a la organización [HackODS](https://github.com/hackods) en GitHub para poder ser evaluados. Los equipos cuyos repositorios no hayan sido transferidos a la organización no serán considerados.
+**Requisito indispensable:** los repositorios deben haber sido transferidos a la organización [HackODS](https://github.com/hackods) en GitHub para poder ser evaluados. La transferencia se realizará el **viernes 24 de abril**, de 10:00 a 10:30, durante la *entrega de tableros finales* establecida en el [programa del evento final](calendario-final.qmd). Los equipos cuyos repositorios no hayan sido transferidos a la organización en ese horario no serán considerados.
 :::
 
 ::: {.callout-note}
