@@ -87,12 +87,11 @@ h3 a:hover {
   flex-direction: column;
 }
 #listing-podio h3 {
+  min-height: 2.4em;
   margin-bottom: 0.75rem;
 }
 #listing-podio h3 .medalla {
-  display: block;
-  font-size: 0.85em;
-  margin-bottom: 0.15em;
+  margin-right: 0.25em;
 }
 #listing-podio .grid > div > p {
   flex: 1;
