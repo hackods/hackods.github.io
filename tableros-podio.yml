@@ -1,12 +1,18 @@
 - equipo: LinuxitOS
   medalla: "🥇"
   url: https://hackods.github.io/HackODS2026_linuxitOS/
+  imagen: img/tableros/linuxitos.png
+  integrantes: Jesús Sebastián Vázquez Zarco, Alejandra Naomi Muciño Hernández, Victor Federico Caldera Arellano
   order: 1
 - equipo: Trio Tristeza
   medalla: "🥈"
   url: https://hackods.github.io/HackODS2026_TrioTristeza/
+  imagen: img/tableros/trio-tristeza.png
+  integrantes: Arturo Herrera Diaz, Luis Donaldo Martinez Torres, Eduardo Levi Leon Garcia
   order: 2
 - equipo: Abejas Astutas
   medalla: "🥉"
   url: https://hackods.github.io/HackODS2026_AbejasAstutas/
+  imagen: img/tableros/abejas-astutas.png
+  integrantes: Adán Gael Salgado Ortega, Anthony Soto Vazquez, Kimberly Ramirez Becerril
   order: 3
