@@ -3,7 +3,7 @@
   const repo = 'https://github.com/hackods/' + item.url.replace('https://hackods.github.io/', '').replace(/\/$/, '');
 %>
 <div class="g-col-12 g-col-md-4">
-<h3><%- item.medalla %> <a href="<%- item.url %>"><%- item.equipo %></a></h3>
+<h3><span class="medalla"><%- item.medalla %></span><a href="<%- item.url %>"><%- item.equipo %></a></h3>
 <a class="tablero-thumb" href="<%- item.url %>" target="_blank"><img src="<%- item.imagen %>" alt="<%- item.equipo %>" loading="lazy"></a>
 <% if (item.integrantes) { %><span class="integrantes"><%- item.integrantes %></span><% } %>
 <a class="repo-link" href="<%- repo %>" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a>
