@@ -78,10 +78,46 @@ h3 a:hover {
   display: none;
 }
 
-/* Alinear los h3 del podio aunque los nombres tengan distinto largo. */
-h3:has(+ .tablero-thumb) {
+/* Cada tarjeta del podio es una columna flex para alinear visualmente las tres
+   (mismo alto de título, mismo alto de miniatura, repositorio pegado al fondo).
+   Quarto envuelve thumb + integrantes + repo-link dentro de un <p>, así que
+   ese <p> también tiene que ser flex-column. */
+#listing-podio .grid > div {
+  display: flex;
+  flex-direction: column;
+}
+#listing-podio h3 {
   min-height: 2.4em;
   margin-bottom: 0.75rem;
+}
+#listing-podio .grid > div > p {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+}
+#listing-podio .tablero-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+}
+#listing-podio .tablero-thumb img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+#listing-podio .integrantes {
+  margin-top: 0.75rem;
+}
+#listing-podio .repo-link {
+  margin-top: auto;
+  padding-top: 0.75rem;
 }
 
 /* Miniaturas estáticas para las menciones. */
