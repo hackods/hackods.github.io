@@ -1,14 +1,160 @@
 ---
-title: "Bienvenida al HackODS UNAM 2026"
-subtitle: "El primer hackatón de la UNAM para transformar datos abiertos en soluciones sostenibles"
+title: "Tableros ganadores — HackODS UNAM 2026"
+subtitle: "Las 20 narrativas visuales más destacadas del primer hackatón de la UNAM"
+page-layout: full
 ---
 
-Bienvenidas y bienvenidos al primer hackatón de la UNAM dedicado a convertir datos abiertos en narrativas visuales sobre los **Objetivos de Desarrollo Sostenible (ODS)**.
+## 🏆 Podio
 
-En este sitio encontrarás toda la información necesaria para el desarrollo de tu proyecto: desde el reglamento de tableros hasta las herramientas y fuentes de datos que utilizarás durante el hackatón.
+::: {.grid}
 
-## Contacto
+::: {.g-col-12 .g-col-md-4}
+### 🥇 [LinuxitOS](https://hackods.github.io/HackODS2026_linuxitOS/)
 
-Sitio oficial: [hackods.unam.mx](https://www.hackods.unam.mx/)
+<div class="tablero-embed">
+  <iframe src="https://hackods.github.io/HackODS2026_linuxitOS/" loading="lazy"></iframe>
+</div>
+:::
 
-Correo: [hackods@ier.unam.mx](mailto:hackods@ier.unam.mx)
+::: {.g-col-12 .g-col-md-4}
+### 🥈 [Trio Tristeza](https://hackods.github.io/HackODS2026_TrioTristeza/)
+
+<div class="tablero-embed">
+  <iframe src="https://hackods.github.io/HackODS2026_TrioTristeza/" loading="lazy"></iframe>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 🥉 [Abejas Astutas](https://hackods.github.io/HackODS2026_AbejasAstutas/)
+
+<div class="tablero-embed">
+  <iframe src="https://hackods.github.io/HackODS2026_AbejasAstutas/" loading="lazy"></iframe>
+</div>
+:::
+
+:::
+
+## Finalistas
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/bladerunners.png" alt="Bladerunners" loading="lazy">
+</a>
+**Bladerunners**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/codigo-guinda.png" alt="Código Guinda" loading="lazy">
+</a>
+**Código Guinda**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/datofilods.png" alt="DatofilODS" loading="lazy">
+</a>
+**DatofilODS**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/derre.png" alt="DERRE" loading="lazy">
+</a>
+**DERRE**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/emprendeia.png" alt="EmprendeIA" loading="lazy">
+</a>
+**EmprendeIA**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/huerfanitosutm.png" alt="HuerfanitosUTM" loading="lazy">
+</a>
+**HuerfanitosUTM**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/linuxitos.png" alt="linuxitOS" loading="lazy">
+</a>
+**linuxitOS**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/lobo-ensambladores.png" alt="Lobo Ensambladores" loading="lazy">
+</a>
+**Lobo Ensambladores**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/mareadedatods.png" alt="MareaDeDatODS" loading="lazy">
+</a>
+**MareaDeDatODS**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/patosclimaticods.png" alt="PatosClimaticODS" loading="lazy">
+</a>
+**PatosClimaticODS**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/pcaboys.png" alt="PCABoys" loading="lazy">
+</a>
+**PCABoys**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/pumatecnicos.png" alt="Pumatécnicos" loading="lazy">
+</a>
+**Pumatécnicos**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/tlamatipohua.png" alt="Tlamatipohua" loading="lazy">
+</a>
+**Tlamatipohua**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/trio-tristeza.png" alt="Trío tristeza" loading="lazy">
+</a>
+**Trío tristeza**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/typers.png" alt="Typers" loading="lazy">
+</a>
+**Typers**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/upiit-machine.png" alt="UPIIT Machine" loading="lazy">
+</a>
+**UPIIT Machine**
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-3}
+<a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank">
+  <img src="img/tableros/voces-ods-2030.png" alt="Voces ODS 2030" loading="lazy">
+</a>
+**Voces ODS 2030**
+:::
+
+:::

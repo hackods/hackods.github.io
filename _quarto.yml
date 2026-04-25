@@ -9,40 +9,43 @@ website:
   navbar:
     logo: img/logo.png
     left:
-      - text: "Reglamentos"
+      - text: "Tableros ganadores"
+        href: index.qmd
+      - text: "2026"
         menu:
-          # - text: "Tableros"
-          #   href: tableros.qmd
+          - text: "Bienvenida 2026"
+            href: 2026/bienvenida-2026.qmd
+          - text: "---"
           - text: "Comunicación"
-            href: comunicacion.qmd
-          - text: "Rúbrica 20 equipes"
-            href: rubrica20.qmd
-      - text: "Calendario"
-        href: calendario.qmd
-      - text: "Mentorías y capacitación"
-        menu:
+            href: 2026/comunicacion.qmd
+          - text: "Rúbrica 20 equipos"
+            href: 2026/rubrica20.qmd
+          - text: "---"
+          - text: "Calendario"
+            href: 2026/calendario.qmd
+          - text: "---"
           - text: "Mentorías"
-            href: mentorias.qmd
+            href: 2026/mentorias.qmd
           - text: "1ra mentoría"
-            href: calendario-mentorias.qmd
+            href: 2026/calendario-mentorias.qmd
           - text: "2da mentoría"
-            href: calendario-2da-mentoria.qmd
+            href: 2026/calendario-2da-mentoria.qmd
           - text: "Comunidad"
-            href: comunidad_mentorias.qmd
+            href: 2026/comunidad_mentorias.qmd
           - text: "Capacitación"
-            href: capacitacion.qmd
-      - text: "Política de IA"
-        href: declaratoriaIA.qmd
-      - text: "Evento final"
-        menu:
+            href: 2026/capacitacion.qmd
+          - text: "---"
+          - text: "Política de IA"
+            href: 2026/declaratoriaIA.qmd
+          - text: "---"
           - text: "Finalistas"
-            href: finalistas.qmd
+            href: 2026/finalistas.qmd
           - text: "Jurado"
-            href: jurado_final.qmd
+            href: 2026/jurado_final.qmd
           - text: "Rúbrica final"
-            href: rubrica-final.qmd
+            href: 2026/rubrica-final.qmd
           - text: "Programa"
-            href: calendario-final.qmd
+            href: 2026/calendario-final.qmd
     tools:
       - icon: github
         href: https://github.com/hackods/hackods.github.io

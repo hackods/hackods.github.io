@@ -13,3 +13,44 @@ h1, h2, h3, h4 { font-family: Kusanagi; }
 .listing-description strong {
   display: none;
 }
+
+/* Vista previa en vivo escalada: el iframe se renderiza a ancho amplio
+   y se comprime visualmente para que el tablero mantenga su maqueta. */
+.tablero-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 64%;
+  overflow: hidden;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+.tablero-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 333.333%;
+  height: 333.333%;
+  transform: scale(0.3);
+  transform-origin: 0 0;
+  border: 0;
+  pointer-events: auto;
+}
+
+/* Miniaturas estáticas para las menciones. */
+.tablero-thumb {
+  display: block;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.tablero-thumb:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.tablero-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
