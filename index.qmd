@@ -16,6 +16,7 @@ listing:
     filter-ui: false
 ---
 
+El primer hackatón de la UNAM para transformar datos abiertos en historias que visibilizan.
 
 ::: {#podio}
 :::
