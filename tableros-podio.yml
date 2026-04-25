@@ -1,0 +1,12 @@
+- equipo: LinuxitOS
+  medalla: "🥇"
+  url: https://hackods.github.io/HackODS2026_linuxitOS/
+  order: 1
+- equipo: Trio Tristeza
+  medalla: "🥈"
+  url: https://hackods.github.io/HackODS2026_TrioTristeza/
+  order: 2
+- equipo: Abejas Astutas
+  medalla: "🥉"
+  url: https://hackods.github.io/HackODS2026_AbejasAstutas/
+  order: 3

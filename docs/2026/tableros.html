@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>HackODS UNAM 2026 – HackODS</title>
+<title>Reglamento de Tableros — HackODS 2026 – HackODS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-38309d0228dff5934ad7b4ee075bc70a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-54a09f4d7b641ff685c4fad961fdf5c1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-38309d0228dff5934ad7b4ee075bc70a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-38309d0228dff5934ad7b4ee075bc70a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-54a09f4d7b641ff685c4fad961fdf5c1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-38309d0228dff5934ad7b4ee075bc70a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No se han encontrado resultados",
@@ -58,98 +56,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-podio .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-equipo','listing-medalla','listing-url','listing-order',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-equipo","listing-medalla","listing-url","listing-order"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-podio'] = new List('listing-podio', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-finalistas .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-equipo','listing-url','listing-imagen','listing-order',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-equipo","listing-url","listing-imagen","listing-order"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-finalistas'] = new List('listing-finalistas', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -318,11 +230,11 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/logo.png" alt="" class="navbar-logo light-content">
-    <img src="./img/logo.png" alt="" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/logo.png" alt="" class="navbar-logo light-content">
+    <img src="../img/logo.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">HackODS</span>
     </a>
   </div>
@@ -332,7 +244,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Tableros ganadores</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -341,64 +253,64 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
         <li>
-    <a class="dropdown-item" href="./2026/bienvenida-2026.html">
+    <a class="dropdown-item" href="../2026/bienvenida-2026.html">
  <span class="dropdown-text">Bienvenida 2026</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./2026/comunicacion.html">
+    <a class="dropdown-item" href="../2026/comunicacion.html">
  <span class="dropdown-text">Comunicación</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./2026/rubrica20.html">
+    <a class="dropdown-item" href="../2026/rubrica20.html">
  <span class="dropdown-text">Rúbrica 20 equipos</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./2026/calendario.html">
+    <a class="dropdown-item" href="../2026/calendario.html">
  <span class="dropdown-text">Calendario</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./2026/mentorias.html">
+    <a class="dropdown-item" href="../2026/mentorias.html">
  <span class="dropdown-text">Mentorías</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./2026/calendario-mentorias.html">
+    <a class="dropdown-item" href="../2026/calendario-mentorias.html">
  <span class="dropdown-text">1ra mentoría</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./2026/calendario-2da-mentoria.html">
+    <a class="dropdown-item" href="../2026/calendario-2da-mentoria.html">
  <span class="dropdown-text">2da mentoría</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./2026/comunidad_mentorias.html">
+    <a class="dropdown-item" href="../2026/comunidad_mentorias.html">
  <span class="dropdown-text">Comunidad</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./2026/capacitacion.html">
+    <a class="dropdown-item" href="../2026/capacitacion.html">
  <span class="dropdown-text">Capacitación</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./2026/declaratoriaIA.html">
+    <a class="dropdown-item" href="../2026/declaratoriaIA.html">
  <span class="dropdown-text">Política de IA</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./2026/finalistas.html">
+    <a class="dropdown-item" href="../2026/finalistas.html">
  <span class="dropdown-text">Finalistas</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./2026/jurado_final.html">
+    <a class="dropdown-item" href="../2026/jurado_final.html">
  <span class="dropdown-text">Jurado</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./2026/rubrica-final.html">
+    <a class="dropdown-item" href="../2026/rubrica-final.html">
  <span class="dropdown-text">Rúbrica final</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./2026/calendario-final.html">
+    <a class="dropdown-item" href="../2026/calendario-final.html">
  <span class="dropdown-text">Programa</span></a>
   </li>  
     </ul>
@@ -413,22 +325,22 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">HackODS UNAM 2026</h1>
+<h1 class="title">Reglamento de Tableros — HackODS 2026</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -440,97 +352,123 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-podio" class="quarto-listing quarto-listing-container-custom">
-<div class="grid">
-<div class="g-col-12 g-col-md-4">
-<h3 class="anchored">
-🥇 <a href="https://hackods.github.io/HackODS2026_linuxitOS/">LinuxitOS</a>
-</h3>
-<div class="tablero-embed">
-<iframe src="https://hackods.github.io/HackODS2026_linuxitOS/" loading="lazy">
-</iframe>
-</div>
-<p><a class="repo-link" href="https://github.com/hackods/HackODS2026_linuxitOS" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<h3 class="anchored">
-🥈 <a href="https://hackods.github.io/HackODS2026_TrioTristeza/">Trio Tristeza</a>
-</h3>
-<div class="tablero-embed">
-<iframe src="https://hackods.github.io/HackODS2026_TrioTristeza/" loading="lazy">
-</iframe>
-</div>
-<p><a class="repo-link" href="https://github.com/hackods/HackODS2026_TrioTristeza" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<h3 class="anchored">
-🥉 <a href="https://hackods.github.io/HackODS2026_AbejasAstutas/">Abejas Astutas</a>
-</h3>
-<div class="tablero-embed">
-<iframe src="https://hackods.github.io/HackODS2026_AbejasAstutas/" loading="lazy">
-</iframe>
-</div>
-<p><a class="repo-link" href="https://github.com/hackods/HackODS2026_AbejasAstutas" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-</div>
-<div class="listing-no-matching d-none">No hay resultados</div>
-</div>
-<section id="finalistas" class="level2">
-<h2 class="anchored" data-anchor-id="finalistas">Finalistas</h2>
-<div id="listing-finalistas" class="quarto-listing quarto-listing-container-custom">
-<div class="grid">
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_2_3datos/" target="_blank"><img src="img/tableros/2-3-datos.png" alt="2-3 Datos" loading="lazy"></a> <strong class="tablero-name">2-3 Datos</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_2_3datos" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/hackods2026-ashira/" target="_blank"><img src="img/tableros/ashira.png" alt="Ashira" loading="lazy"></a> <strong class="tablero-name">Ashira</strong> <a class="repo-link" href="https://github.com/hackods/hackods2026-ashira" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_Bladerunners/" target="_blank"><img src="img/tableros/bladerunners.png" alt="Bladerunners" loading="lazy"></a> <strong class="tablero-name">Bladerunners</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_Bladerunners" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_CodigoGuinda/" target="_blank"><img src="img/tableros/codigo-guinda.png" alt="Código Guinda" loading="lazy"></a> <strong class="tablero-name">Código Guinda</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_CodigoGuinda" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_datofilODS/" target="_blank"><img src="img/tableros/datofilods.png" alt="DatofilODS" loading="lazy"></a> <strong class="tablero-name">DatofilODS</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_datofilODS" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_DERRE/" target="_blank"><img src="img/tableros/derre.png" alt="DERRE" loading="lazy"></a> <strong class="tablero-name">DERRE</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_DERRE" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_EmprendeIA_ods/" target="_blank"><img src="img/tableros/emprendeia.png" alt="EmprendeIA" loading="lazy"></a> <strong class="tablero-name">EmprendeIA</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_EmprendeIA_ods" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_HuerfanitosUTM/" target="_blank"><img src="img/tableros/huerfanitosutm.png" alt="HuerfanitosUTM" loading="lazy"></a> <strong class="tablero-name">HuerfanitosUTM</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_HuerfanitosUTM" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_MareaDeDatODS/" target="_blank"><img src="img/tableros/mareadedatods.png" alt="MareaDeDatODS" loading="lazy"></a> <strong class="tablero-name">MareaDeDatODS</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_MareaDeDatODS" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_PatosClimaticODS/" target="_blank"><img src="img/tableros/patosclimaticods.png" alt="PatosClimaticODS" loading="lazy"></a> <strong class="tablero-name">PatosClimaticODS</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_PatosClimaticODS" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_PCABoys/" target="_blank"><img src="img/tableros/pcaboys.png" alt="PCABoys" loading="lazy"></a> <strong class="tablero-name">PCABoys</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_PCABoys" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_Pumatecnicos/" target="_blank"><img src="img/tableros/pumatecnicos.png" alt="Pumatécnicos" loading="lazy"></a> <strong class="tablero-name">Pumatécnicos</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_Pumatecnicos" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_Tlamatipohua/" target="_blank"><img src="img/tableros/tlamatipohua.png" alt="Tlamatipohua" loading="lazy"></a> <strong class="tablero-name">Tlamatipohua</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_Tlamatipohua" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_typers/" target="_blank"><img src="img/tableros/typers.png" alt="Typers" loading="lazy"></a> <strong class="tablero-name">Typers</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_typers" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_UPIITMachine/" target="_blank"><img src="img/tableros/upiit-machine.png" alt="UPIIT Machine" loading="lazy"></a> <strong class="tablero-name">UPIIT Machine</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_UPIITMachine" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_VocesODS2030/" target="_blank"><img src="img/tableros/voces-ods-2030.png" alt="Voces ODS 2030" loading="lazy"></a> <strong class="tablero-name">Voces ODS 2030</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_VocesODS2030" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
-</div>
-</div>
-<div class="listing-no-matching d-none">No hay resultados</div>
-</div>
+<p><strong>Versión:</strong> 0.1 <strong>Fecha:</strong> febrero de 2026 <strong>Contacto:</strong> hackods@ier.unam.mx</p>
+<hr>
+<section id="herramientas-obligatorias" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="herramientas-obligatorias"><span class="header-section-number">1</span> Herramientas obligatorias</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Herramienta</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://quarto.org/">Quarto</a></td>
+<td>Generación del tablero (formato <code>dashboard</code>)</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.python.org/">Python</a></td>
+<td>Procesamiento y análisis de datos (se recomienda <a href="https://docs.anaconda.com/miniconda/">Miniconda</a>)</td>
+</tr>
+<tr class="odd">
+<td><a href="https://plotly.com/python/">Plotly</a></td>
+<td>Todas las visualizaciones interactivas</td>
+</tr>
+<tr class="even">
+<td><a href="https://docs.astral.sh/uv/">uv</a></td>
+<td>Gestión del entorno y dependencias</td>
+</tr>
+</tbody>
+</table>
+<p>No se permite el uso de otras herramientas de desarrollo.</p>
+<hr>
+</section>
+<section id="datos-abiertos" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="datos-abiertos"><span class="header-section-number">2</span> Datos abiertos</h2>
+<p>Se adopta la definición de la <a href="https://opendefinition.org/od/2.1/es/">Open Definition</a>: un dato es abierto si cualquier persona puede acceder a él, usarlo, modificarlo y redistribuirlo libremente.</p>
+<p>Un conjunto de datos es válido si:</p>
+<ul>
+<li>Es de <strong>acceso público y gratuito</strong>.</li>
+<li>Tiene una <strong>licencia explícita</strong> que permita su reutilización.</li>
+<li>Proviene de una <strong>fuente verificable e institucional</strong>.</li>
+</ul>
+<section id="fuentes-recomendadas" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="fuentes-recomendadas"><span class="header-section-number">2.1</span> Fuentes recomendadas</h3>
+<ul>
+<li><a href="https://datosabiertos.unam.mx/">Portal de Datos Abiertos UNAM</a></li>
+<li><a href="https://datos.gob.mx/">datos.gob.mx</a></li>
+<li><a href="https://www.inegi.org.mx/">INEGI</a></li>
+<li><a href="https://statistics.cepal.org/">CEPALSTAT</a></li>
+<li><a href="https://unstats.un.org/sdgs/dataportal">ONU Stats / SDG Indicators</a></li>
+<li><a href="https://ourworldindata.org/">Our World in Data</a></li>
+<li><a href="https://data.worldbank.org/">Banco Mundial — Open Data</a></li>
+<li><a href="https://hdr.undp.org/data-center">PNUD — Human Development Data</a></li>
+</ul>
+<p>Se pueden utilizar otras fuentes siempre que cumplan con la definición anterior y queden documentadas.</p>
+<p><strong>Está prohibido</strong> utilizar datos sintéticos o generados por IA.</p>
+<hr>
+</section>
+</section>
+<section id="estructura-del-tablero" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="estructura-del-tablero"><span class="header-section-number">3</span> Estructura del tablero</h2>
+<p>El tablero debe tener las siguientes secciones:</p>
+<p>EN PROCESO…</p>
+<!-- El tablero debe construirse como una **narrativa con datos**. Debe incluir las siguientes secciones obligatorias:
 
+| Sección | Rol |
+|---|---|
+| **Contexto** | ODS y metas que aborda, audiencia objetivo |
+| **La Gran Idea** | Afirmación central que los datos sostienen |
+| **La tensión** | Problema o brecha que el tablero visibiliza |
+| **La evidencia** | Visualizaciones interactivas que construyen el argumento |
+| **La resolución** | Conclusión en prosa que responde la tensión |
+| **Fuentes de datos** | Procedencia de todos los datos utilizados |
+| **Aviso legal** | Licencia del proyecto y descargo de responsabilidad |
+
+--- -->
+</section>
+<section id="requisitos-del-código" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="requisitos-del-código"><span class="header-section-number">4</span> Requisitos del código</h2>
+<ul>
+<li>Todo el código Python debe estar contenido en el archivo <code>.qmd</code>.</li>
+<li>Las gráficas se deben generar en el importadas como imágenes estáticas.</li>
+</ul>
+<section id="documentación-de-fuentes-de-datos" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="documentación-de-fuentes-de-datos"><span class="header-section-number">4.1</span> Documentación de fuentes de datos</h3>
+<p>Cada conjunto de datos debe documentarse con: nombre, organismo, URL de descarga, licencia y fecha de consulta.</p>
+<hr>
+</section>
+</section>
+<section id="repositorio-y-entrega" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="repositorio-y-entrega"><span class="header-section-number">5</span> Repositorio y entrega</h2>
+<ul>
+<li>El repositorio debe ser <strong>público</strong> en GitHub.</li>
+<li>El tablero debe estar <strong>publicado en GitHub Pages</strong>.</li>
+<li>El entorno debe gestionarse con <a href="https://docs.astral.sh/uv/">uv</a>.</li>
+<li>El proyecto debe ser reproducible con <code>uv run quarto render index.qmd</code>.</li>
+<li>La versión final del tablero debe estar en la rama <code>main</code>.</li>
+</ul>
+<hr>
+</section>
+<section id="licencia" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="licencia"><span class="header-section-number">6</span> Licencia</h2>
+<p>El proyecto debe usar la licencia <strong>CC BY-NC 4.0</strong>. Más información: <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.es">creativecommons.org/licenses/by-nc/4.0/deed.es</a></p>
+<hr>
+</section>
+<section id="causas-de-descalificación-técnica" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="causas-de-descalificación-técnica"><span class="header-section-number">7</span> Causas de descalificación técnica</h2>
+<ul>
+<li>No puede renderizarse con <code>uv run quarto render index.qmd</code>.</li>
+<li>Utiliza datos sintéticos o no verificables.</li>
+<li>Las visualizaciones son imágenes estáticas.</li>
+<li>El repositorio es privado o el tablero no es accesible públicamente.</li>
+<li>No incluye las secciones obligatorias.</li>
+<li>Incluye HTML o CSS personalizados que alteren el estilo base de Quarto.</li>
+</ul>
+<hr>
+<p><em>Este reglamento es un documento vivo. Cualquier actualización será comunicada por los canales oficiales del hackatón.</em></p>
 
 
 </section>

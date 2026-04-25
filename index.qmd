@@ -1,14 +1,26 @@
 ---
-title: "Bienvenida al HackODS UNAM 2026"
-subtitle: "El primer hackatón de la UNAM para transformar datos abiertos en soluciones sostenibles"
+title: "HackODS UNAM 2026"
+page-layout: full
+listing:
+  - id: podio
+    contents: tableros-podio.yml
+    template: _podio.ejs
+    sort: "order"
+    sort-ui: false
+    filter-ui: false
+  - id: finalistas
+    contents: tableros-finalistas.yml
+    template: _finalistas.ejs
+    sort: "order"
+    sort-ui: false
+    filter-ui: false
 ---
 
-Bienvenidas y bienvenidos al primer hackatón de la UNAM dedicado a convertir datos abiertos en narrativas visuales sobre los **Objetivos de Desarrollo Sostenible (ODS)**.
 
-En este sitio encontrarás toda la información necesaria para el desarrollo de tu proyecto: desde el reglamento de tableros hasta las herramientas y fuentes de datos que utilizarás durante el hackatón.
+::: {#podio}
+:::
 
-## Contacto
+## Finalistas
 
-Sitio oficial: [hackods.unam.mx](https://www.hackods.unam.mx/)
-
-Correo: [hackods@ier.unam.mx](mailto:hackods@ier.unam.mx)
+::: {#finalistas}
+:::

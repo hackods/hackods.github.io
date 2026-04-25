@@ -1,0 +1,13 @@
+<div class="grid">
+<% for (const item of items) {
+  const repo = 'https://github.com/hackods/' + item.url.replace('https://hackods.github.io/', '').replace(/\/$/, '');
+%>
+<div class="g-col-12 g-col-md-4">
+<h3><%- item.medalla %> <a href="<%- item.url %>"><%- item.equipo %></a></h3>
+<div class="tablero-embed">
+<iframe src="<%- item.url %>" loading="lazy"></iframe>
+</div>
+<a class="repo-link" href="<%- repo %>" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a>
+</div>
+<% } %>
+</div>
