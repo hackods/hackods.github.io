@@ -46,6 +46,16 @@ h2::after {
   background: var(--accent);
 }
 
+/* Nota meta debajo del eyebrow (e.g. "en orden alfabético"). */
+.section-note {
+  display: block;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--ink-muted);
+}
+
 /* Acento único: enlaces en gris por defecto, guinda al hover.
    Las únicas piezas con color permanente son los nombres de equipo del podio. */
 a {
@@ -68,39 +78,10 @@ h3 a:hover {
   display: none;
 }
 
-/* Vista previa en vivo escalada: el iframe se renderiza a ancho amplio
-   y se comprime visualmente para que el tablero mantenga su maqueta. */
-.tablero-embed {
-  position: relative;
-  width: 100%;
-  padding-bottom: 64%;
-  overflow: hidden;
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
-  background: #f8f9fa;
-  margin-top: auto;
-}
-
-/* Alinear los cards del podio aunque los títulos tengan distinto largo. */
-.grid > [class*="g-col-"]:has(.tablero-embed) {
-  display: flex;
-  flex-direction: column;
-}
-h3:has(+ .tablero-embed),
-h3:has(+ p + .tablero-embed) {
+/* Alinear los h3 del podio aunque los nombres tengan distinto largo. */
+h3:has(+ .tablero-thumb) {
   min-height: 2.4em;
   margin-bottom: 0.75rem;
-}
-.tablero-embed iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 333.333%;
-  height: 333.333%;
-  transform: scale(0.3);
-  transform-origin: 0 0;
-  border: 0;
-  pointer-events: auto;
 }
 
 /* Miniaturas estáticas para las menciones. */
@@ -121,10 +102,17 @@ h3:has(+ p + .tablero-embed) {
   display: block;
 }
 
-/* Nombre del equipo + link al repo apilados debajo de cada miniatura. */
+/* Nombre del equipo + integrantes + link al repo apilados debajo de cada miniatura. */
 .tablero-name {
   display: block;
   margin-top: 0.5rem;
+}
+.integrantes {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--ink-muted);
 }
 .repo-link {
   display: inline-flex;

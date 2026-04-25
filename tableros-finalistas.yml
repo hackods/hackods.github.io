@@ -1,64 +1,80 @@
 - equipo: 2-3 Datos
   url: https://hackods.github.io/HackODS2026_2_3datos/
   imagen: img/tableros/2-3-datos.png
+  integrantes: Daniela Lira Huerta, Jose David Chavez Tipa, Margarita Reyes Trujillo
   order: 1
 - equipo: Ashira
   url: https://hackods.github.io/hackods2026-ashira/
   imagen: img/tableros/ashira.png
+  integrantes: Melisa Asharet Arano Bejarano, Roberto Jhoshua Alegre Ventura, Israel Martínez Jiménez
   order: 2
 - equipo: Bladerunners
   url: https://hackods.github.io/HackODS2026_Bladerunners/
   imagen: img/tableros/bladerunners.png
+  integrantes: Luis Fernando Martínez Moreno, Guadalupe Herrera Barragán, Ana Lydia Herrera Macías
   order: 3
 - equipo: Código Guinda
   url: https://hackods.github.io/HackODS2026_CodigoGuinda/
   imagen: img/tableros/codigo-guinda.png
+  integrantes: José Francisco Pérez Ramón, Jaretzy Pérez Ramón, Elias Montejo Hernández
   order: 4
 - equipo: DatofilODS
   url: https://hackods.github.io/HackODS2026_datofilODS/
   imagen: img/tableros/datofilods.png
+  integrantes: Alma Diana Herrera Ortiz, Santiago Botero Sierra, Daniel Mondragon Tapia
   order: 5
 - equipo: DERRE
   url: https://hackods.github.io/HackODS2026_DERRE/
   imagen: img/tableros/derre.png
+  integrantes: Emilio Axel Salas Palacios, Claudio Flores Guzmán, Angel Noel Pérez Martínez
   order: 6
 - equipo: EmprendeIA
   url: https://hackods.github.io/HackODS2026_EmprendeIA_ods/
   imagen: img/tableros/emprendeia.png
+  integrantes: Aljendro Valentin Saldaña Mendez, Eduardo Francisco Peñaloza Uribe, Tetsu Nicolas Osnaya Quevedo
   order: 7
 - equipo: HuerfanitosUTM
   url: https://hackods.github.io/HackODS2026_HuerfanitosUTM/
   imagen: img/tableros/huerfanitosutm.png
+  integrantes: Mario Enrique Ramirez Gallardo, Irving Tristan Perez Zurita, Dante Neil Martinez Jimenez
   order: 8
 - equipo: MareaDeDatODS
   url: https://hackods.github.io/HackODS2026_MareaDeDatODS/
   imagen: img/tableros/mareadedatods.png
+  integrantes: Utrera Hernández Sophia Alejandra, Vera Rodríguez Luis Enrique, Zepeda Saéz Zack David
   order: 9
 - equipo: PatosClimaticODS
   url: https://hackods.github.io/HackODS2026_PatosClimaticODS/
   imagen: img/tableros/patosclimaticods.png
+  integrantes: Miguel Ángel Brito Liévano
   order: 10
 - equipo: PCABoys
   url: https://hackods.github.io/HackODS2026_PCABoys/
   imagen: img/tableros/pcaboys.png
+  integrantes: Carlo Kiliano Ferrera Guadarrama, Aldo Sebastian Altamirano Vazquez, Jose Julian Perez Bustamante
   order: 11
 - equipo: Pumatécnicos
   url: https://hackods.github.io/HackODS2026_Pumatecnicos/
   imagen: img/tableros/pumatecnicos.png
+  integrantes: José Eduardo Pérez Castillo, Marco Antonio Pérez Castillo, Mariangely López González
   order: 12
 - equipo: Tlamatipohua
   url: https://hackods.github.io/HackODS2026_Tlamatipohua/
   imagen: img/tableros/tlamatipohua.png
+  integrantes: Milena Fernanda Rivera Hernández, Carlos Olamendi Rincón, Alejandro Cerda Barroso
   order: 13
 - equipo: Typers
   url: https://hackods.github.io/HackODS2026_typers/
   imagen: img/tableros/typers.png
+  integrantes: Cano García Enrique Emiliano, Cruz Mendoza Valentina Ayelen, Rodríguez Barrera Valeria Vianey
   order: 14
 - equipo: UPIIT Machine
   url: https://hackods.github.io/HackODS2026_UPIITMachine/
   imagen: img/tableros/upiit-machine.png
+  integrantes: Elisa Naomi Alvarado Sanchez, Ricardo Polock Suarez Geovani, Bryan Hernandez Alvarez
   order: 15
 - equipo: Voces ODS 2030
   url: https://hackods.github.io/HackODS2026_VocesODS2030/
   imagen: img/tableros/voces-ods-2030.png
+  integrantes: Carlos Alberto Villa Tobon
   order: 16

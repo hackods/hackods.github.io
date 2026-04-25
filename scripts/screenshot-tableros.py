@@ -3,11 +3,11 @@
 # requires-python = ">=3.11"
 # dependencies = ["playwright>=1.40"]
 # ///
-"""Capture screenshots of every finalista declared in tableros-finalistas.yml.
+"""Capture screenshots of every tablero declared in podio + finalistas YAMLs.
 
-El podio se renderiza con iframes en vivo, así que no requiere PNG.
-Para cada finalista carga `url` con Playwright (Chrome del sistema), espera
-a que la red quede inactiva y guarda la captura en `imagen`.
+Para cada entrada carga `url` con Playwright (Chrome del sistema), espera a
+que la red quede inactiva y guarda la captura en `imagen`. Las entradas sin
+`imagen` se omiten.
 
 Uso:
     uv run scripts/screenshot-tableros.py            # todos
@@ -27,7 +27,7 @@ from pathlib import Path
 from playwright.sync_api import TimeoutError as PWTimeout, sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
-SOURCES = [ROOT / "tableros-finalistas.yml"]
+SOURCES = [ROOT / "tableros-podio.yml", ROOT / "tableros-finalistas.yml"]
 WIDTH, HEIGHT = 1400, 900
 NAV_TIMEOUT_MS = 45_000  # tope duro por si una página nunca se aquieta
 SETTLE_MS = 2_000  # margen post-resize para que bslib + plotly terminen de pintar
