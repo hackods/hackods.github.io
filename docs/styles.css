@@ -7,8 +7,62 @@
   font-style: normal;
 }
 
-body { font-family: 'Inter', sans-serif; }
-h1, h2, h3, h4 { font-family: Kusanagi; }
+:root {
+  --accent: #9d2449; /* guinda UNAM */
+  --ink: #212529;
+  --ink-muted: #6c757d;
+  --rule: #e9ecef;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--ink);
+}
+h1, h2, h3, h4 {
+  font-family: Kusanagi;
+  color: var(--ink);
+}
+
+/* "Finalistas" como eyebrow editorial: pequeño, en mayúsculas,
+   con mucho aire arriba y un hairline guinda que reemplaza el borde de Lux. */
+h2 {
+  font-size: 1rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: none;
+  position: relative;
+}
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2.5rem;
+  height: 1px;
+  background: var(--accent);
+}
+
+/* Acento único: enlaces en gris por defecto, guinda al hover.
+   Las únicas piezas con color permanente son los nombres de equipo del podio. */
+a {
+  color: var(--ink);
+  text-decoration-color: var(--rule);
+}
+a:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+h3 a {
+  color: var(--accent);
+}
+h3 a:hover {
+  color: var(--accent);
+  opacity: 0.75;
+}
 
 .listing-description strong {
   display: none;
@@ -24,6 +78,18 @@ h1, h2, h3, h4 { font-family: Kusanagi; }
   border: 1px solid #dee2e6;
   border-radius: 8px;
   background: #f8f9fa;
+  margin-top: auto;
+}
+
+/* Alinear los cards del podio aunque los títulos tengan distinto largo. */
+.grid > [class*="g-col-"]:has(.tablero-embed) {
+  display: flex;
+  flex-direction: column;
+}
+h3:has(+ .tablero-embed),
+h3:has(+ p + .tablero-embed) {
+  min-height: 2.4em;
+  margin-bottom: 0.75rem;
 }
 .tablero-embed iframe {
   position: absolute;
@@ -53,4 +119,25 @@ h1, h2, h3, h4 { font-family: Kusanagi; }
   width: 100%;
   height: auto;
   display: block;
+}
+
+/* Nombre del equipo + link al repo apilados debajo de cada miniatura. */
+.tablero-name {
+  display: block;
+  margin-top: 0.5rem;
+}
+.repo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  text-decoration: none;
+}
+.repo-link:hover {
+  color: var(--accent);
+}
+.repo-link i {
+  font-size: 0.95em;
 }

@@ -2,16 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Tableros ganadores — HackODS UNAM 2026 – HackODS</title>
+<title>HackODS UNAM 2026 – HackODS</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -28,21 +25,24 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-98d9c202d1d7b1e7e2a6013c353fb38d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8834a30dd0d3652b5e2295e46b997285.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-98d9c202d1d7b1e7e2a6013c353fb38d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-38309d0228dff5934ad7b4ee075bc70a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-54a09f4d7b641ff685c4fad961fdf5c1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-38309d0228dff5934ad7b4ee075bc70a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No se han encontrado resultados",
@@ -58,7 +58,93 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-podio .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-equipo','listing-medalla','listing-url','listing-order',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-equipo","listing-medalla","listing-url","listing-order"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-podio'] = new List('listing-podio', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-finalistas .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-equipo','listing-url','listing-imagen','listing-order',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-equipo","listing-url","listing-imagen","listing-order"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-finalistas'] = new List('listing-finalistas', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -337,8 +423,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tableros ganadores — HackODS UNAM 2026</h1>
-<p class="subtitle lead">Las 20 narrativas visuales más destacadas del primer hackatón de la UNAM</p>
+<h1 class="title">HackODS UNAM 2026</h1>
 </div>
 
 
@@ -355,84 +440,97 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="podio" class="level2">
-<h2 class="anchored" data-anchor-id="podio">🏆 Podio</h2>
+<div id="listing-podio" class="quarto-listing quarto-listing-container-custom">
 <div class="grid">
-<section id="linuxitos" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="linuxitos">🥇 <a href="https://hackods.github.io/HackODS2026_linuxitOS/">LinuxitOS</a></h3>
+<div class="g-col-12 g-col-md-4">
+<h3 class="anchored">
+🥇 <a href="https://hackods.github.io/HackODS2026_linuxitOS/">LinuxitOS</a>
+</h3>
 <div class="tablero-embed">
-<p><iframe src="https://hackods.github.io/HackODS2026_linuxitOS/" loading="lazy"></iframe></p>
+<iframe src="https://hackods.github.io/HackODS2026_linuxitOS/" loading="lazy">
+</iframe>
 </div>
-</section>
-<section id="trio-tristeza" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="trio-tristeza">🥈 <a href="https://hackods.github.io/HackODS2026_TrioTristeza/">Trio Tristeza</a></h3>
+<p><a class="repo-link" href="https://github.com/hackods/HackODS2026_linuxitOS" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
+</div>
+<div class="g-col-12 g-col-md-4">
+<h3 class="anchored">
+🥈 <a href="https://hackods.github.io/HackODS2026_TrioTristeza/">Trio Tristeza</a>
+</h3>
 <div class="tablero-embed">
-<p><iframe src="https://hackods.github.io/HackODS2026_TrioTristeza/" loading="lazy"></iframe></p>
+<iframe src="https://hackods.github.io/HackODS2026_TrioTristeza/" loading="lazy">
+</iframe>
 </div>
-</section>
-<section id="abejas-astutas" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="abejas-astutas">🥉 <a href="https://hackods.github.io/HackODS2026_AbejasAstutas/">Abejas Astutas</a></h3>
+<p><a class="repo-link" href="https://github.com/hackods/HackODS2026_TrioTristeza" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
+</div>
+<div class="g-col-12 g-col-md-4">
+<h3 class="anchored">
+🥉 <a href="https://hackods.github.io/HackODS2026_AbejasAstutas/">Abejas Astutas</a>
+</h3>
 <div class="tablero-embed">
-<p><iframe src="https://hackods.github.io/HackODS2026_AbejasAstutas/" loading="lazy"></iframe></p>
+<iframe src="https://hackods.github.io/HackODS2026_AbejasAstutas/" loading="lazy">
+</iframe>
 </div>
-</section>
+<p><a class="repo-link" href="https://github.com/hackods/HackODS2026_AbejasAstutas" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
-</section>
+</div>
+<div class="listing-no-matching d-none">No hay resultados</div>
+</div>
 <section id="finalistas" class="level2">
 <h2 class="anchored" data-anchor-id="finalistas">Finalistas</h2>
+<div id="listing-finalistas" class="quarto-listing quarto-listing-container-custom">
 <div class="grid">
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/bladerunners.png" alt="Bladerunners" loading="lazy"> </a> <strong>Bladerunners</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_2_3datos/" target="_blank"><img src="img/tableros/2-3-datos.png" alt="2-3 Datos" loading="lazy"></a> <strong class="tablero-name">2-3 Datos</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_2_3datos" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/codigo-guinda.png" alt="Código Guinda" loading="lazy"> </a> <strong>Código Guinda</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/hackods2026-ashira/" target="_blank"><img src="img/tableros/ashira.png" alt="Ashira" loading="lazy"></a> <strong class="tablero-name">Ashira</strong> <a class="repo-link" href="https://github.com/hackods/hackods2026-ashira" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/datofilods.png" alt="DatofilODS" loading="lazy"> </a> <strong>DatofilODS</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_Bladerunners/" target="_blank"><img src="img/tableros/bladerunners.png" alt="Bladerunners" loading="lazy"></a> <strong class="tablero-name">Bladerunners</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_Bladerunners" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/derre.png" alt="DERRE" loading="lazy"> </a> <strong>DERRE</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_CodigoGuinda/" target="_blank"><img src="img/tableros/codigo-guinda.png" alt="Código Guinda" loading="lazy"></a> <strong class="tablero-name">Código Guinda</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_CodigoGuinda" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/emprendeia.png" alt="EmprendeIA" loading="lazy"> </a> <strong>EmprendeIA</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_datofilODS/" target="_blank"><img src="img/tableros/datofilods.png" alt="DatofilODS" loading="lazy"></a> <strong class="tablero-name">DatofilODS</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_datofilODS" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/huerfanitosutm.png" alt="HuerfanitosUTM" loading="lazy"> </a> <strong>HuerfanitosUTM</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_DERRE/" target="_blank"><img src="img/tableros/derre.png" alt="DERRE" loading="lazy"></a> <strong class="tablero-name">DERRE</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_DERRE" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/linuxitos.png" alt="linuxitOS" loading="lazy"> </a> <strong>linuxitOS</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_EmprendeIA_ods/" target="_blank"><img src="img/tableros/emprendeia.png" alt="EmprendeIA" loading="lazy"></a> <strong class="tablero-name">EmprendeIA</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_EmprendeIA_ods" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/lobo-ensambladores.png" alt="Lobo Ensambladores" loading="lazy"> </a> <strong>Lobo Ensambladores</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_HuerfanitosUTM/" target="_blank"><img src="img/tableros/huerfanitosutm.png" alt="HuerfanitosUTM" loading="lazy"></a> <strong class="tablero-name">HuerfanitosUTM</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_HuerfanitosUTM" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/mareadedatods.png" alt="MareaDeDatODS" loading="lazy"> </a> <strong>MareaDeDatODS</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_MareaDeDatODS/" target="_blank"><img src="img/tableros/mareadedatods.png" alt="MareaDeDatODS" loading="lazy"></a> <strong class="tablero-name">MareaDeDatODS</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_MareaDeDatODS" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/patosclimaticods.png" alt="PatosClimaticODS" loading="lazy"> </a> <strong>PatosClimaticODS</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_PatosClimaticODS/" target="_blank"><img src="img/tableros/patosclimaticods.png" alt="PatosClimaticODS" loading="lazy"></a> <strong class="tablero-name">PatosClimaticODS</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_PatosClimaticODS" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/pcaboys.png" alt="PCABoys" loading="lazy"> </a> <strong>PCABoys</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_PCABoys/" target="_blank"><img src="img/tableros/pcaboys.png" alt="PCABoys" loading="lazy"></a> <strong class="tablero-name">PCABoys</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_PCABoys" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/pumatecnicos.png" alt="Pumatécnicos" loading="lazy"> </a> <strong>Pumatécnicos</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_Pumatecnicos/" target="_blank"><img src="img/tableros/pumatecnicos.png" alt="Pumatécnicos" loading="lazy"></a> <strong class="tablero-name">Pumatécnicos</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_Pumatecnicos" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/tlamatipohua.png" alt="Tlamatipohua" loading="lazy"> </a> <strong>Tlamatipohua</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_Tlamatipohua/" target="_blank"><img src="img/tableros/tlamatipohua.png" alt="Tlamatipohua" loading="lazy"></a> <strong class="tablero-name">Tlamatipohua</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_Tlamatipohua" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/trio-tristeza.png" alt="Trío tristeza" loading="lazy"> </a> <strong>Trío tristeza</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_typers/" target="_blank"><img src="img/tableros/typers.png" alt="Typers" loading="lazy"></a> <strong class="tablero-name">Typers</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_typers" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/typers.png" alt="Typers" loading="lazy"> </a> <strong>Typers</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_UPIITMachine/" target="_blank"><img src="img/tableros/upiit-machine.png" alt="UPIIT Machine" loading="lazy"></a> <strong class="tablero-name">UPIIT Machine</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_UPIITMachine" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/upiit-machine.png" alt="UPIIT Machine" loading="lazy"> </a> <strong>UPIIT Machine</strong></p>
-</div>
-<div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
-<p><a class="tablero-thumb" href="https://jjallaire.github.io/gapminder-dashboard/" target="_blank"> <img src="img/tableros/voces-ods-2030.png" alt="Voces ODS 2030" loading="lazy"> </a> <strong>Voces ODS 2030</strong></p>
+<p><a class="tablero-thumb" href="https://hackods.github.io/HackODS2026_VocesODS2030/" target="_blank"><img src="img/tableros/voces-ods-2030.png" alt="Voces ODS 2030" loading="lazy"></a> <strong class="tablero-name">Voces ODS 2030</strong> <a class="repo-link" href="https://github.com/hackods/HackODS2026_VocesODS2030" target="_blank" rel="noopener"><i class="bi bi-github"></i> repositorio</a></p>
 </div>
 </div>
+<div class="listing-no-matching d-none">No hay resultados</div>
+</div>
+
 
 
 </section>
