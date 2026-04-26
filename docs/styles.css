@@ -12,6 +12,20 @@
   --ink: #212529;
   --ink-muted: #6c757d;
   --rule: #e9ecef;
+  --thumb-bg: #f8f9fa;
+  --thumb-border: #dee2e6;
+}
+
+/* Dark theme: Quarto alterna las clases .quarto-light / .quarto-dark en <body>
+   (no usa data-bs-theme en <html>). Redefinimos las variables ahí para que
+   el texto y los bordes contrasten contra el fondo oscuro del tema superhero. */
+body.quarto-dark {
+  --accent: #d04267; /* guinda más luminoso para contrastar con fondo oscuro */
+  --ink: #e9ecef;
+  --ink-muted: #adb5bd;
+  --rule: #3a4856;
+  --thumb-bg: #1a2733;
+  --thumb-border: #3a4856;
 }
 
 body {
@@ -106,7 +120,7 @@ h3 a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f8f9fa;
+  background: var(--thumb-bg);
 }
 #listing-podio .tablero-thumb img {
   max-width: 100%;
@@ -126,7 +140,7 @@ h3 a:hover {
 /* Miniaturas estáticas para las menciones. */
 .tablero-thumb {
   display: block;
-  border: 1px solid #dee2e6;
+  border: 1px solid var(--thumb-border);
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
